@@ -1,0 +1,23 @@
+{
+  "name": "Aurum",
+  "root": "aurum-fixture",
+  "kind": "specification-package",
+  "date": "2026-09-30",
+  "implementation_status": "NOT_IMPLEMENTED",
+  "rule_counts": {
+    "BR": 111,
+    "FR": 12
+  },
+  "scenario_counts": {
+    "contract": 284,
+    "full_flows": 12,
+    "total": 296
+  },
+  "feature_files": 15,
+  "adrs": 8,
+  "backlog_items": 16,
+  "notes": [
+    "No C application or Joern results included.",
+    "All policies and monetary rates are synthetic."
+  ]
+}
