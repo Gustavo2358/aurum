@@ -91,6 +91,7 @@ def main() -> int:
     if Counter(tags)!=Counter(case_ids): errors.append('Tags não reconciliam com o JSON')
     links=0
     for p in ROOT.rglob('*.md'):
+        if any(part in {'.venv', 'dist', 'build', '.git'} for part in p.relative_to(ROOT).parts): continue
         text=p.read_text(encoding='utf-8')
         if text.count('```')%2: errors.append(f'Cerca Markdown desbalanceada: {p.relative_to(ROOT)}')
         for target in re.findall(r'\[[^\]]+\]\(([^)]+)\)',text):
@@ -122,7 +123,7 @@ def main() -> int:
             gherkin='PASS' if not errors else 'FAIL'
     result={'editorial_status':'FAIL' if editorial_errors else 'PASS','BR':br,'FR':fr,
             'scenarios':len(all_cases),'features':len(features),'internal_links_checked':links,
-            'gherkin_parser':gherkin,'C_execution':'NOT_IMPLEMENTED','Joern':'NOT_RUN','errors':errors}
+            'gherkin_parser':gherkin,'C_execution':'NOT_EVALUATED_BY_EDITORIAL_CHECK','Joern':'NOT_EVALUATED_BY_EDITORIAL_CHECK','errors':errors}
     print(json.dumps(result,ensure_ascii=False,indent=2))
     return 2 if gherkin=='NOT_RUN' else (1 if errors else 0)
 

@@ -1,0 +1,2326 @@
+[
+  {
+    "rule": "BR-PRC-002",
+    "symbols": [
+      "quote",
+      "money_fx"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 42,
+        "end_line": 52,
+        "start_byte": 3400,
+        "end_byte": 4055,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "1b87d59398c05fde2fdcd1efbab923b3c08ba31b683810521637db9e82a30220",
+        "symbol": "quote"
+      },
+      {
+        "file": "subject/src/money.c",
+        "start_line": 32,
+        "end_line": 39,
+        "start_byte": 1042,
+        "end_byte": 1371,
+        "file_sha256": "ee5f6edfc2abb618d5161b7307d6dc9e8e61e019895ceb3278b69a4772db7680",
+        "text_sha256": "70acdf042057809c1de9dfde5c21de1172e0a00530295eaa9ab51c55db48573e",
+        "symbol": "money_fx"
+      }
+    ],
+    "reason": "The currency branch selects the rate; money_fx performs the bounded conversion and rounding.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "quote",
+        "callee": "money_fx",
+        "line": 49,
+        "file": "subject/src/policy.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-PRC-004",
+    "symbols": [
+      "price_components",
+      "floor_rate"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 31,
+        "end_line": 41,
+        "start_byte": 2626,
+        "end_byte": 3399,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "44403ddd9a1b597f6c4704c1cc218ec0e81a030c28d3330bf7b55bfb511c44a3",
+        "symbol": "price_components"
+      },
+      {
+        "file": "subject/src/money.c",
+        "start_line": 20,
+        "end_line": 25,
+        "start_byte": 580,
+        "end_byte": 798,
+        "file_sha256": "ee5f6edfc2abb618d5161b7307d6dc9e8e61e019895ceb3278b69a4772db7680",
+        "text_sha256": "e679bd2cb2e18573ecf25f16b451298dc50d9a6c4fa2ce914a1319b8391fdbb0",
+        "symbol": "floor_rate"
+      }
+    ],
+    "reason": "Currency/tier admission and integer percentage computation reside in different functions.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "price_components",
+        "callee": "floor_rate",
+        "line": 35,
+        "file": "subject/src/policy.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-LIM-001",
+    "symbols": [
+      "project_account",
+      "authorization_hold",
+      "lot_principal",
+      "lot_fee",
+      "available_credit"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/state.c",
+        "start_line": 153,
+        "end_line": 172,
+        "start_byte": 6856,
+        "end_byte": 8000,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "bf37bdcbd714b4adf897a451c213415f3c8abb08799501ad5ffaabb55ec7f2ef",
+        "symbol": "project_account"
+      },
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 19,
+        "end_line": 27,
+        "start_byte": 395,
+        "end_byte": 735,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "23cfe44cca3146779fdf6bf2e901112f66c2e2e9fa482e65268311e69c3aa28d",
+        "symbol": "authorization_hold"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 146,
+        "end_line": 146,
+        "start_byte": 6414,
+        "end_byte": 6513,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "b76e334fd3602765a3159593b624f00ff088df765a3158225ccf342957a11a6d",
+        "symbol": "lot_principal"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 147,
+        "end_line": 147,
+        "start_byte": 6514,
+        "end_byte": 6589,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "e173a0804df137e2211f4a4362a636874e52c287a6f3bef8da7c259ff4ed3be1",
+        "symbol": "lot_fee"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 53,
+        "end_line": 56,
+        "start_byte": 4056,
+        "end_byte": 4202,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "ef6d448f0490845203dabadac7751c20e4c47f29fc3009e9060a161faae4e432",
+        "symbol": "available_credit"
+      }
+    ],
+    "reason": "Credit availability requires state aggregation and the zero floor calculation.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "project_account",
+        "callee": "authorization_hold",
+        "line": 155,
+        "file": "subject/src/state.c"
+      },
+      {
+        "caller": "project_account",
+        "callee": "lot_principal",
+        "line": 159,
+        "file": "subject/src/state.c"
+      },
+      {
+        "caller": "project_account",
+        "callee": "lot_fee",
+        "line": 159,
+        "file": "subject/src/state.c"
+      },
+      {
+        "caller": "project_account",
+        "callee": "available_credit",
+        "line": 170,
+        "file": "subject/src/state.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-LIM-002",
+    "symbols": [
+      "authorize_apply",
+      "credit_admission",
+      "money_add"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 56,
+        "end_line": 132,
+        "start_byte": 1689,
+        "end_byte": 4721,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "d085050d94b1d587308ba556042b1b1f0935cbc79cb19d91868d00f61433a311",
+        "symbol": "authorize_apply"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 57,
+        "end_line": 61,
+        "start_byte": 4203,
+        "end_byte": 4389,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "ea3b09c06f04d3fd47e39bedb0434fb78f7ac29027b9de16bf44255a333c01af",
+        "symbol": "credit_admission"
+      },
+      {
+        "file": "subject/src/money.c",
+        "start_line": 10,
+        "end_line": 14,
+        "start_byte": 266,
+        "end_byte": 428,
+        "file_sha256": "ee5f6edfc2abb618d5161b7307d6dc9e8e61e019895ceb3278b69a4772db7680",
+        "text_sha256": "30e8537ec1ed9fa5836d9238b2ac46167b95de1d6f97bbe7d635564a7c76a2a2",
+        "symbol": "money_add"
+      }
+    ],
+    "reason": "Authorization sends principal and fee to the checked total comparison before reserving.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "authorize_apply",
+        "callee": "credit_admission",
+        "line": 86,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "authorize_apply",
+        "callee": "money_add",
+        "line": 120,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "credit_admission",
+        "callee": "money_add",
+        "line": 59,
+        "file": "subject/src/policy.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-LIM-003",
+    "symbols": [
+      "authorize_apply",
+      "quote",
+      "operation_admission"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 56,
+        "end_line": 132,
+        "start_byte": 1689,
+        "end_byte": 4721,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "d085050d94b1d587308ba556042b1b1f0935cbc79cb19d91868d00f61433a311",
+        "symbol": "authorize_apply"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 42,
+        "end_line": 52,
+        "start_byte": 3400,
+        "end_byte": 4055,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "1b87d59398c05fde2fdcd1efbab923b3c08ba31b683810521637db9e82a30220",
+        "symbol": "quote"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 62,
+        "end_line": 62,
+        "start_byte": 4390,
+        "end_byte": 4486,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "ff0c218865d98d3dc64eaf7a49644939b5141d88cd61de0f8cb844d537b8e37e",
+        "symbol": "operation_admission"
+      }
+    ],
+    "reason": "The per-operation gate consumes converted principal, not nominal input.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "authorize_apply",
+        "callee": "quote",
+        "line": 73,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "authorize_apply",
+        "callee": "operation_admission",
+        "line": 84,
+        "file": "subject/src/lifecycle.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-LIM-004",
+    "symbols": [
+      "authorize_apply",
+      "project_account",
+      "daily_totals",
+      "daily_admission"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 56,
+        "end_line": 132,
+        "start_byte": 1689,
+        "end_byte": 4721,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "d085050d94b1d587308ba556042b1b1f0935cbc79cb19d91868d00f61433a311",
+        "symbol": "authorize_apply"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 153,
+        "end_line": 172,
+        "start_byte": 6856,
+        "end_byte": 8000,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "bf37bdcbd714b4adf897a451c213415f3c8abb08799501ad5ffaabb55ec7f2ef",
+        "symbol": "project_account"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 89,
+        "end_line": 97,
+        "start_byte": 5602,
+        "end_byte": 6033,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "f73c1beb4c475d0260886ec77d272fac4cb52d7eaae9abd8191b226ddb7b9529",
+        "symbol": "daily_totals"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 63,
+        "end_line": 65,
+        "start_byte": 4487,
+        "end_byte": 4614,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "fb4a1cda04f1c400bc95d3a1b8669e3ac26ef33812c22d39a8f25d7752c79636",
+        "symbol": "daily_admission"
+      }
+    ],
+    "reason": "The comparison consumes historical gross principal for this account/day.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "authorize_apply",
+        "callee": "project_account",
+        "line": 83,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "authorize_apply",
+        "callee": "daily_admission",
+        "line": 91,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "project_account",
+        "callee": "daily_totals",
+        "line": 169,
+        "file": "subject/src/state.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-LIM-005",
+    "symbols": [
+      "authorize_apply",
+      "project_account",
+      "daily_totals",
+      "count_admission"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 56,
+        "end_line": 132,
+        "start_byte": 1689,
+        "end_byte": 4721,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "d085050d94b1d587308ba556042b1b1f0935cbc79cb19d91868d00f61433a311",
+        "symbol": "authorize_apply"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 153,
+        "end_line": 172,
+        "start_byte": 6856,
+        "end_byte": 8000,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "bf37bdcbd714b4adf897a451c213415f3c8abb08799501ad5ffaabb55ec7f2ef",
+        "symbol": "project_account"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 89,
+        "end_line": 97,
+        "start_byte": 5602,
+        "end_byte": 6033,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "f73c1beb4c475d0260886ec77d272fac4cb52d7eaae9abd8191b226ddb7b9529",
+        "symbol": "daily_totals"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 66,
+        "end_line": 66,
+        "start_byte": 4615,
+        "end_byte": 4714,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "0b4f8b21af2fd824cc9432be254dd6ef23c356c533782251e9003520af5cea86",
+        "symbol": "count_admission"
+      }
+    ],
+    "reason": "The daily count gate consumes the aggregation of prior decisions.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "authorize_apply",
+        "callee": "project_account",
+        "line": 83,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "authorize_apply",
+        "callee": "count_admission",
+        "line": 93,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "project_account",
+        "callee": "daily_totals",
+        "line": 169,
+        "file": "subject/src/state.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-RSK-005",
+    "symbols": [
+      "authorize_apply",
+      "recent_count",
+      "risk_score"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 56,
+        "end_line": 132,
+        "start_byte": 1689,
+        "end_byte": 4721,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "d085050d94b1d587308ba556042b1b1f0935cbc79cb19d91868d00f61433a311",
+        "symbol": "authorize_apply"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 80,
+        "end_line": 88,
+        "start_byte": 5194,
+        "end_byte": 5601,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "44481e34d654714b66a4ae667ff7d3e4ac24101bfb74d839ff9eb4d6886d80ff",
+        "symbol": "recent_count"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 67,
+        "end_line": 74,
+        "start_byte": 4715,
+        "end_byte": 5012,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "d2f751542ffa46200a1144f0e93b9a892e3339e2e665b01152894fc52f768c36",
+        "symbol": "risk_score"
+      }
+    ],
+    "reason": "Window filtering supplies the velocity component before the current decision is recorded.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "authorize_apply",
+        "callee": "risk_score",
+        "line": 96,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "authorize_apply",
+        "callee": "recent_count",
+        "line": 97,
+        "file": "subject/src/lifecycle.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-AUT-001",
+    "symbols": [
+      "execute",
+      "authorize_apply",
+      "eligibility",
+      "quote",
+      "credit_admission",
+      "risk_classify"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/engine.c",
+        "start_line": 15,
+        "end_line": 64,
+        "start_byte": 559,
+        "end_byte": 3148,
+        "file_sha256": "924f5785ac2c0f444b78cc228ec3b5dd9c7abaf44c0ddd3ea09367f1dc526f3a",
+        "text_sha256": "e331e1f9c263f1f9dd80724e1328f6f13b3fe08cc01958a1f64c7106e30dd237",
+        "symbol": "execute"
+      },
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 56,
+        "end_line": 132,
+        "start_byte": 1689,
+        "end_byte": 4721,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "d085050d94b1d587308ba556042b1b1f0935cbc79cb19d91868d00f61433a311",
+        "symbol": "authorize_apply"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 98,
+        "end_line": 112,
+        "start_byte": 6034,
+        "end_byte": 6933,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "0f4a6e96a79584e92a36f7ba936497a4a6c32eb49e5e513565220af708dc3ecf",
+        "symbol": "eligibility"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 42,
+        "end_line": 52,
+        "start_byte": 3400,
+        "end_byte": 4055,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "1b87d59398c05fde2fdcd1efbab923b3c08ba31b683810521637db9e82a30220",
+        "symbol": "quote"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 57,
+        "end_line": 61,
+        "start_byte": 4203,
+        "end_byte": 4389,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "ea3b09c06f04d3fd47e39bedb0434fb78f7ac29027b9de16bf44255a333c01af",
+        "symbol": "credit_admission"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 75,
+        "end_line": 79,
+        "start_byte": 5013,
+        "end_byte": 5193,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "94480a0ae729188eb529698b5566ad0dc93686b46453d13c7ef64e0ac69311a8",
+        "symbol": "risk_classify"
+      }
+    ],
+    "reason": "Envelope/idempotency precede the ordered business gates and final risk decision.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "execute",
+        "callee": "quote",
+        "line": 19,
+        "file": "subject/src/engine.c"
+      },
+      {
+        "caller": "execute",
+        "callee": "authorize_apply",
+        "line": 46,
+        "file": "subject/src/engine.c"
+      },
+      {
+        "caller": "authorize_apply",
+        "callee": "eligibility",
+        "line": 68,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "authorize_apply",
+        "callee": "quote",
+        "line": 73,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "authorize_apply",
+        "callee": "credit_admission",
+        "line": 86,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "authorize_apply",
+        "callee": "risk_classify",
+        "line": 98,
+        "file": "subject/src/lifecycle.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-AUT-002",
+    "symbols": [
+      "authorize_apply",
+      "ledger_pair",
+      "project_account",
+      "authorization_hold"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 56,
+        "end_line": 132,
+        "start_byte": 1689,
+        "end_byte": 4721,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "d085050d94b1d587308ba556042b1b1f0935cbc79cb19d91868d00f61433a311",
+        "symbol": "authorize_apply"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 189,
+        "end_line": 192,
+        "start_byte": 8889,
+        "end_byte": 9167,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "92ce601d1c7840f561f9ba913012c23eb79d3892a5c09e946021db65da52107e",
+        "symbol": "ledger_pair"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 153,
+        "end_line": 172,
+        "start_byte": 6856,
+        "end_byte": 8000,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "bf37bdcbd714b4adf897a451c213415f3c8abb08799501ad5ffaabb55ec7f2ef",
+        "symbol": "project_account"
+      },
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 19,
+        "end_line": 27,
+        "start_byte": 395,
+        "end_byte": 735,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "23cfe44cca3146779fdf6bf2e901112f66c2e2e9fa482e65268311e69c3aa28d",
+        "symbol": "authorization_hold"
+      }
+    ],
+    "reason": "The created authorization determines held balance and paired reservation entries.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "authorize_apply",
+        "callee": "project_account",
+        "line": 83,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "authorize_apply",
+        "callee": "ledger_pair",
+        "line": 126,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "project_account",
+        "callee": "authorization_hold",
+        "line": 155,
+        "file": "subject/src/state.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-AUT-005",
+    "symbols": [
+      "authorize_apply",
+      "record_decision",
+      "daily_totals",
+      "recent_count"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 56,
+        "end_line": 132,
+        "start_byte": 1689,
+        "end_byte": 4721,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "d085050d94b1d587308ba556042b1b1f0935cbc79cb19d91868d00f61433a311",
+        "symbol": "authorize_apply"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 127,
+        "end_line": 133,
+        "start_byte": 7593,
+        "end_byte": 8104,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "76b0a2eac01e4f7a6b16f5d2667de52e5a7c31467d0bc95d9985aa6a7fe592bb",
+        "symbol": "record_decision"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 89,
+        "end_line": 97,
+        "start_byte": 5602,
+        "end_byte": 6033,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "f73c1beb4c475d0260886ec77d272fac4cb52d7eaae9abd8191b226ddb7b9529",
+        "symbol": "daily_totals"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 80,
+        "end_line": 88,
+        "start_byte": 5194,
+        "end_byte": 5601,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "44481e34d654714b66a4ae667ff7d3e4ac24101bfb74d839ff9eb4d6886d80ff",
+        "symbol": "recent_count"
+      }
+    ],
+    "reason": "Review writes history consumed by both counters but returns before authorization creation.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "authorize_apply",
+        "callee": "recent_count",
+        "line": 97,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "authorize_apply",
+        "callee": "record_decision",
+        "line": 102,
+        "file": "subject/src/lifecycle.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-AUT-008",
+    "symbols": [
+      "execute",
+      "engine_clone",
+      "authorize_apply",
+      "array_append"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/engine.c",
+        "start_line": 15,
+        "end_line": 64,
+        "start_byte": 559,
+        "end_byte": 3148,
+        "file_sha256": "924f5785ac2c0f444b78cc228ec3b5dd9c7abaf44c0ddd3ea09367f1dc526f3a",
+        "text_sha256": "e331e1f9c263f1f9dd80724e1328f6f13b3fe08cc01958a1f64c7106e30dd237",
+        "symbol": "execute"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 39,
+        "end_line": 121,
+        "start_byte": 1024,
+        "end_byte": 5337,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "e605f264b5b516843c4664da39c23128203913a51c9b53ac59cd90a482fd4367",
+        "symbol": "engine_clone"
+      },
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 56,
+        "end_line": 132,
+        "start_byte": 1689,
+        "end_byte": 4721,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "d085050d94b1d587308ba556042b1b1f0935cbc79cb19d91868d00f61433a311",
+        "symbol": "authorize_apply"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 9,
+        "end_line": 22,
+        "start_byte": 151,
+        "end_byte": 683,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "a0debabcc5c9dbaca88bd063f4b6d70c8797f73b2651dc3750019962f632fe3e",
+        "symbol": "array_append"
+      }
+    ],
+    "reason": "A capacity failure in a prepared transition discards the clone including prior staged changes.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "execute",
+        "callee": "engine_clone",
+        "line": 44,
+        "file": "subject/src/engine.c"
+      },
+      {
+        "caller": "execute",
+        "callee": "authorize_apply",
+        "line": 46,
+        "file": "subject/src/engine.c"
+      },
+      {
+        "caller": "execute",
+        "callee": "array_append",
+        "line": 58,
+        "file": "subject/src/engine.c"
+      },
+      {
+        "caller": "authorize_apply",
+        "callee": "array_append",
+        "line": 121,
+        "file": "subject/src/lifecycle.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-IDM-001",
+    "symbols": [
+      "execute",
+      "command_same_key",
+      "command_equal"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/engine.c",
+        "start_line": 15,
+        "end_line": 64,
+        "start_byte": 559,
+        "end_byte": 3148,
+        "file_sha256": "924f5785ac2c0f444b78cc228ec3b5dd9c7abaf44c0ddd3ea09367f1dc526f3a",
+        "text_sha256": "e331e1f9c263f1f9dd80724e1328f6f13b3fe08cc01958a1f64c7106e30dd237",
+        "symbol": "execute"
+      },
+      {
+        "file": "subject/src/engine.c",
+        "start_line": 9,
+        "end_line": 11,
+        "start_byte": 249,
+        "end_byte": 377,
+        "file_sha256": "924f5785ac2c0f444b78cc228ec3b5dd9c7abaf44c0ddd3ea09367f1dc526f3a",
+        "text_sha256": "85e7a3ff55aafa285be07308cdd843bc1d582ff300f5ea628dfcccd17871cb10",
+        "symbol": "command_same_key"
+      },
+      {
+        "file": "subject/src/protocol.c",
+        "start_line": 73,
+        "end_line": 94,
+        "start_byte": 3134,
+        "end_byte": 4616,
+        "file_sha256": "4841a44f610ba41ade682a2058f65ad8e72c32f16929c0df25f892a4f8099983",
+        "text_sha256": "2249d6d98b6b342976fe7f1105b20983cffb53f76f3357fd618cec4962182a49",
+        "symbol": "command_equal"
+      }
+    ],
+    "reason": "Typed key lookup and canonical semantic payload comparison select the stored result before mutation.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "execute",
+        "callee": "command_same_key",
+        "line": 39,
+        "file": "subject/src/engine.c"
+      },
+      {
+        "caller": "execute",
+        "callee": "command_equal",
+        "line": 40,
+        "file": "subject/src/engine.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-IDM-003",
+    "symbols": [
+      "parse_command",
+      "decimal_parse",
+      "command_default",
+      "command_equal"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/protocol.c",
+        "start_line": 247,
+        "end_line": 264,
+        "start_byte": 11034,
+        "end_byte": 11859,
+        "file_sha256": "4841a44f610ba41ade682a2058f65ad8e72c32f16929c0df25f892a4f8099983",
+        "text_sha256": "f63109a98b378871ff94d736ce3c40f4456a112246b10c76efa590427eb9c25b",
+        "symbol": "parse_command"
+      },
+      {
+        "file": "subject/src/protocol.c",
+        "start_line": 23,
+        "end_line": 34,
+        "start_byte": 750,
+        "end_byte": 1067,
+        "file_sha256": "4841a44f610ba41ade682a2058f65ad8e72c32f16929c0df25f892a4f8099983",
+        "text_sha256": "db854a82bfcfce323f67560cdb9791c1ba7ed25fe9c2adb07c7b58dcaf5ba80c",
+        "symbol": "decimal_parse"
+      },
+      {
+        "file": "subject/src/protocol.c",
+        "start_line": 35,
+        "end_line": 45,
+        "start_byte": 1068,
+        "end_byte": 1325,
+        "file_sha256": "4841a44f610ba41ade682a2058f65ad8e72c32f16929c0df25f892a4f8099983",
+        "text_sha256": "deb18fe16ae37690fa58277f090fad1858be3f0cb923521b901a0743c5035fb8",
+        "symbol": "command_default"
+      },
+      {
+        "file": "subject/src/protocol.c",
+        "start_line": 73,
+        "end_line": 94,
+        "start_byte": 3134,
+        "end_byte": 4616,
+        "file_sha256": "4841a44f610ba41ade682a2058f65ad8e72c32f16929c0df25f892a4f8099983",
+        "text_sha256": "2249d6d98b6b342976fe7f1105b20983cffb53f76f3357fd618cec4962182a49",
+        "symbol": "command_equal"
+      }
+    ],
+    "reason": "Parsing normalizes numbers and defaults before semantic equality.",
+    "cross_file": false,
+    "call_edges": [
+      {
+        "caller": "parse_command",
+        "callee": "command_default",
+        "line": 249,
+        "file": "subject/src/protocol.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-CAP-003",
+    "symbols": [
+      "capture_apply",
+      "cumulative_delta",
+      "proportional"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 134,
+        "end_line": 204,
+        "start_byte": 4723,
+        "end_byte": 7988,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "32e0ca9fba57ef34d4a366079c61c18a89839433e6a4fcfd914f78b4ea734d60",
+        "symbol": "capture_apply"
+      },
+      {
+        "file": "subject/src/money.c",
+        "start_line": 51,
+        "end_line": 57,
+        "start_byte": 1850,
+        "end_byte": 2189,
+        "file_sha256": "ee5f6edfc2abb618d5161b7307d6dc9e8e61e019895ceb3278b69a4772db7680",
+        "text_sha256": "8078c466482850cc02d23b2e44fb6a3fd94d757e1185e7bb45696111d49a2595",
+        "symbol": "cumulative_delta"
+      },
+      {
+        "file": "subject/src/money.c",
+        "start_line": 40,
+        "end_line": 50,
+        "start_byte": 1372,
+        "end_byte": 1849,
+        "file_sha256": "ee5f6edfc2abb618d5161b7307d6dc9e8e61e019895ceb3278b69a4772db7680",
+        "text_sha256": "a2f77246970260df1214829ee469166a5b7ab02c99bcfc3744e7074043a555c7",
+        "symbol": "proportional"
+      }
+    ],
+    "reason": "The capture fee is the difference of two cumulative allocations.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "capture_apply",
+        "callee": "cumulative_delta",
+        "line": 145,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "cumulative_delta",
+        "callee": "proportional",
+        "line": 53,
+        "file": "subject/src/money.c"
+      },
+      {
+        "caller": "cumulative_delta",
+        "callee": "proportional",
+        "line": 54,
+        "file": "subject/src/money.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-CAP-004",
+    "symbols": [
+      "capture_apply",
+      "capture_state",
+      "authorization_hold"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 134,
+        "end_line": 204,
+        "start_byte": 4723,
+        "end_byte": 7988,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "32e0ca9fba57ef34d4a366079c61c18a89839433e6a4fcfd914f78b4ea734d60",
+        "symbol": "capture_apply"
+      },
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 50,
+        "end_line": 54,
+        "start_byte": 1542,
+        "end_byte": 1687,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "497456eed30c7a505843012103600da469dd8467427b8a15cf40585975600096",
+        "symbol": "capture_state"
+      },
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 19,
+        "end_line": 27,
+        "start_byte": 395,
+        "end_byte": 735,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "23cfe44cca3146779fdf6bf2e901112f66c2e2e9fa482e65268311e69c3aa28d",
+        "symbol": "authorization_hold"
+      }
+    ],
+    "reason": "Captured principal determines the authorization state and remaining hold projection.",
+    "cross_file": false,
+    "call_edges": [
+      {
+        "caller": "capture_apply",
+        "callee": "capture_state",
+        "line": 194,
+        "file": "subject/src/lifecycle.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-CAP-005",
+    "symbols": [
+      "capture_apply",
+      "project_account",
+      "authorization_hold",
+      "lot_principal",
+      "lot_fee"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 134,
+        "end_line": 204,
+        "start_byte": 4723,
+        "end_byte": 7988,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "32e0ca9fba57ef34d4a366079c61c18a89839433e6a4fcfd914f78b4ea734d60",
+        "symbol": "capture_apply"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 153,
+        "end_line": 172,
+        "start_byte": 6856,
+        "end_byte": 8000,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "bf37bdcbd714b4adf897a451c213415f3c8abb08799501ad5ffaabb55ec7f2ef",
+        "symbol": "project_account"
+      },
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 19,
+        "end_line": 27,
+        "start_byte": 395,
+        "end_byte": 735,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "23cfe44cca3146779fdf6bf2e901112f66c2e2e9fa482e65268311e69c3aa28d",
+        "symbol": "authorization_hold"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 146,
+        "end_line": 146,
+        "start_byte": 6414,
+        "end_byte": 6513,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "b76e334fd3602765a3159593b624f00ff088df765a3158225ccf342957a11a6d",
+        "symbol": "lot_principal"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 147,
+        "end_line": 147,
+        "start_byte": 6514,
+        "end_byte": 6589,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "e173a0804df137e2211f4a4362a636874e52c287a6f3bef8da7c259ff4ed3be1",
+        "symbol": "lot_fee"
+      }
+    ],
+    "reason": "One transition replaces part of the held authorization with receivable lots.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "project_account",
+        "callee": "authorization_hold",
+        "line": 155,
+        "file": "subject/src/state.c"
+      },
+      {
+        "caller": "project_account",
+        "callee": "lot_principal",
+        "line": 159,
+        "file": "subject/src/state.c"
+      },
+      {
+        "caller": "project_account",
+        "callee": "lot_fee",
+        "line": 159,
+        "file": "subject/src/state.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-CAP-006",
+    "symbols": [
+      "capture_apply",
+      "ledger_pair",
+      "ledger_post"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 134,
+        "end_line": 204,
+        "start_byte": 4723,
+        "end_byte": 7988,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "32e0ca9fba57ef34d4a366079c61c18a89839433e6a4fcfd914f78b4ea734d60",
+        "symbol": "capture_apply"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 189,
+        "end_line": 192,
+        "start_byte": 8889,
+        "end_byte": 9167,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "92ce601d1c7840f561f9ba913012c23eb79d3892a5c09e946021db65da52107e",
+        "symbol": "ledger_pair"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 182,
+        "end_line": 188,
+        "start_byte": 8353,
+        "end_byte": 8888,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "3b4f77b3bc71146bf6f06fa97f6132711b14846ce0e1e7a9cfca3648b9cfcd77",
+        "symbol": "ledger_post"
+      }
+    ],
+    "reason": "The capture posts principal, fee and reserve release as balanced entry pairs.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "capture_apply",
+        "callee": "ledger_pair",
+        "line": 187,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "capture_apply",
+        "callee": "ledger_pair",
+        "line": 188,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "capture_apply",
+        "callee": "ledger_pair",
+        "line": 189,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "ledger_pair",
+        "callee": "ledger_post",
+        "line": 191,
+        "file": "subject/src/state.c"
+      },
+      {
+        "caller": "ledger_pair",
+        "callee": "ledger_post",
+        "line": 191,
+        "file": "subject/src/state.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-CAP-007",
+    "symbols": [
+      "execute",
+      "engine_clone",
+      "capture_apply",
+      "array_append"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/engine.c",
+        "start_line": 15,
+        "end_line": 64,
+        "start_byte": 559,
+        "end_byte": 3148,
+        "file_sha256": "924f5785ac2c0f444b78cc228ec3b5dd9c7abaf44c0ddd3ea09367f1dc526f3a",
+        "text_sha256": "e331e1f9c263f1f9dd80724e1328f6f13b3fe08cc01958a1f64c7106e30dd237",
+        "symbol": "execute"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 39,
+        "end_line": 121,
+        "start_byte": 1024,
+        "end_byte": 5337,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "e605f264b5b516843c4664da39c23128203913a51c9b53ac59cd90a482fd4367",
+        "symbol": "engine_clone"
+      },
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 134,
+        "end_line": 204,
+        "start_byte": 4723,
+        "end_byte": 7988,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "32e0ca9fba57ef34d4a366079c61c18a89839433e6a4fcfd914f78b4ea734d60",
+        "symbol": "capture_apply"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 9,
+        "end_line": 22,
+        "start_byte": 151,
+        "end_byte": 683,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "a0debabcc5c9dbaca88bd063f4b6d70c8797f73b2651dc3750019962f632fe3e",
+        "symbol": "array_append"
+      }
+    ],
+    "reason": "Failures during staged lot/entry growth preserve the original state.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "execute",
+        "callee": "engine_clone",
+        "line": 44,
+        "file": "subject/src/engine.c"
+      },
+      {
+        "caller": "execute",
+        "callee": "capture_apply",
+        "line": 47,
+        "file": "subject/src/engine.c"
+      },
+      {
+        "caller": "execute",
+        "callee": "array_append",
+        "line": 58,
+        "file": "subject/src/engine.c"
+      },
+      {
+        "caller": "capture_apply",
+        "callee": "array_append",
+        "line": 159,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "capture_apply",
+        "callee": "array_append",
+        "line": 171,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "capture_apply",
+        "callee": "array_append",
+        "line": 181,
+        "file": "subject/src/lifecycle.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-REV-001",
+    "symbols": [
+      "cancel_apply",
+      "authorization_hold",
+      "ledger_pair"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 206,
+        "end_line": 226,
+        "start_byte": 7990,
+        "end_byte": 8694,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "274e80923964c066a379df0b769430b6c4dea71343820f03459c2282d97eaf63",
+        "symbol": "cancel_apply"
+      },
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 19,
+        "end_line": 27,
+        "start_byte": 395,
+        "end_byte": 735,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "23cfe44cca3146779fdf6bf2e901112f66c2e2e9fa482e65268311e69c3aa28d",
+        "symbol": "authorization_hold"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 189,
+        "end_line": 192,
+        "start_byte": 8889,
+        "end_byte": 9167,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "92ce601d1c7840f561f9ba913012c23eb79d3892a5c09e946021db65da52107e",
+        "symbol": "ledger_pair"
+      }
+    ],
+    "reason": "Remaining reserve is derived before the paired release and terminal state change.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "cancel_apply",
+        "callee": "authorization_hold",
+        "line": 216,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "cancel_apply",
+        "callee": "ledger_pair",
+        "line": 220,
+        "file": "subject/src/lifecycle.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-REV-004",
+    "symbols": [
+      "tick_apply",
+      "authorization_hold",
+      "ledger_pair"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 235,
+        "end_line": 277,
+        "start_byte": 8935,
+        "end_byte": 10567,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "a59bb69f22576a8445a52a22bbaaeb0954e3877590a5c33aae5d7a199e2c97c4",
+        "symbol": "tick_apply"
+      },
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 19,
+        "end_line": 27,
+        "start_byte": 395,
+        "end_byte": 735,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "23cfe44cca3146779fdf6bf2e901112f66c2e2e9fa482e65268311e69c3aa28d",
+        "symbol": "authorization_hold"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 189,
+        "end_line": 192,
+        "start_byte": 8889,
+        "end_byte": 9167,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "92ce601d1c7840f561f9ba913012c23eb79d3892a5c09e946021db65da52107e",
+        "symbol": "ledger_pair"
+      }
+    ],
+    "reason": "Expiry selection precedes reserve derivation and release entries for each selected authorization.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "tick_apply",
+        "callee": "authorization_hold",
+        "line": 260,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "tick_apply",
+        "callee": "ledger_pair",
+        "line": 268,
+        "file": "subject/src/lifecycle.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-REV-006",
+    "symbols": [
+      "refund_apply",
+      "cumulative_delta",
+      "proportional"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 298,
+        "end_line": 375,
+        "start_byte": 11292,
+        "end_byte": 14921,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "97efa0176d95f22175d1d8983158c01c6a970e38621b5095c3c40b5db6a3882a",
+        "symbol": "refund_apply"
+      },
+      {
+        "file": "subject/src/money.c",
+        "start_line": 51,
+        "end_line": 57,
+        "start_byte": 1850,
+        "end_byte": 2189,
+        "file_sha256": "ee5f6edfc2abb618d5161b7307d6dc9e8e61e019895ceb3278b69a4772db7680",
+        "text_sha256": "8078c466482850cc02d23b2e44fb6a3fd94d757e1185e7bb45696111d49a2595",
+        "symbol": "cumulative_delta"
+      },
+      {
+        "file": "subject/src/money.c",
+        "start_line": 40,
+        "end_line": 50,
+        "start_byte": 1372,
+        "end_byte": 1849,
+        "file_sha256": "ee5f6edfc2abb618d5161b7307d6dc9e8e61e019895ceb3278b69a4772db7680",
+        "text_sha256": "a2f77246970260df1214829ee469166a5b7ab02c99bcfc3744e7074043a555c7",
+        "symbol": "proportional"
+      }
+    ],
+    "reason": "Capture-specific fee refunds use cumulative differences and exact integer proportional allocation.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "refund_apply",
+        "callee": "cumulative_delta",
+        "line": 306,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "refund_apply",
+        "callee": "cumulative_delta",
+        "line": 308,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "cumulative_delta",
+        "callee": "proportional",
+        "line": 53,
+        "file": "subject/src/money.c"
+      },
+      {
+        "caller": "cumulative_delta",
+        "callee": "proportional",
+        "line": 54,
+        "file": "subject/src/money.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-REV-007",
+    "symbols": [
+      "refund_apply",
+      "refund_lot_order",
+      "lot_principal",
+      "lot_fee"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 298,
+        "end_line": 375,
+        "start_byte": 11292,
+        "end_byte": 14921,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "97efa0176d95f22175d1d8983158c01c6a970e38621b5095c3c40b5db6a3882a",
+        "symbol": "refund_apply"
+      },
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 279,
+        "end_line": 286,
+        "start_byte": 10569,
+        "end_byte": 10878,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "7fbcdc8b507c81ae3f5ce370de02e9452ffa2da3c73b77f38574af985c7ee71b",
+        "symbol": "refund_lot_order"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 146,
+        "end_line": 146,
+        "start_byte": 6414,
+        "end_byte": 6513,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "b76e334fd3602765a3159593b624f00ff088df765a3158225ccf342957a11a6d",
+        "symbol": "lot_principal"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 147,
+        "end_line": 147,
+        "start_byte": 6514,
+        "end_byte": 6589,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "e173a0804df137e2211f4a4362a636874e52c287a6f3bef8da7c259ff4ed3be1",
+        "symbol": "lot_fee"
+      }
+    ],
+    "reason": "Sorted capture lots and unpaid component projections control reverse allocation.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "refund_apply",
+        "callee": "lot_principal",
+        "line": 329,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "refund_apply",
+        "callee": "lot_fee",
+        "line": 330,
+        "file": "subject/src/lifecycle.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-REV-008",
+    "symbols": [
+      "refund_apply",
+      "refund_post",
+      "ledger_pair",
+      "project_account"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 298,
+        "end_line": 375,
+        "start_byte": 11292,
+        "end_byte": 14921,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "97efa0176d95f22175d1d8983158c01c6a970e38621b5095c3c40b5db6a3882a",
+        "symbol": "refund_apply"
+      },
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 288,
+        "end_line": 296,
+        "start_byte": 10880,
+        "end_byte": 11290,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "3d15ed22da23bdcc99f5bfebe635e5d6665fdd9a143e8b9d57999e19d1dd284c",
+        "symbol": "refund_post"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 189,
+        "end_line": 192,
+        "start_byte": 8889,
+        "end_byte": 9167,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "92ce601d1c7840f561f9ba913012c23eb79d3892a5c09e946021db65da52107e",
+        "symbol": "ledger_pair"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 153,
+        "end_line": 172,
+        "start_byte": 6856,
+        "end_byte": 8000,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "bf37bdcbd714b4adf897a451c213415f3c8abb08799501ad5ffaabb55ec7f2ef",
+        "symbol": "project_account"
+      }
+    ],
+    "reason": "Unpaid cancellation and paid cash portions feed different ledger postings and the account projection.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "refund_post",
+        "callee": "ledger_pair",
+        "line": 294,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "refund_post",
+        "callee": "ledger_pair",
+        "line": 295,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "refund_apply",
+        "callee": "refund_post",
+        "line": 362,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "refund_apply",
+        "callee": "refund_post",
+        "line": 364,
+        "file": "subject/src/lifecycle.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-INS-005",
+    "symbols": [
+      "capture_apply",
+      "split_part"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 134,
+        "end_line": 204,
+        "start_byte": 4723,
+        "end_byte": 7988,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "32e0ca9fba57ef34d4a366079c61c18a89839433e6a4fcfd914f78b4ea734d60",
+        "symbol": "capture_apply"
+      },
+      {
+        "file": "subject/src/money.c",
+        "start_line": 58,
+        "end_line": 61,
+        "start_byte": 2190,
+        "end_byte": 2379,
+        "file_sha256": "ee5f6edfc2abb618d5161b7307d6dc9e8e61e019895ceb3278b69a4772db7680",
+        "text_sha256": "f9589979c523dc26cd865073d5275daa615c23b74117c620810c85e74a259400",
+        "symbol": "split_part"
+      }
+    ],
+    "reason": "Separate calls divide principal and fee, preserving independent remainders.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "capture_apply",
+        "callee": "split_part",
+        "line": 169,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "capture_apply",
+        "callee": "split_part",
+        "line": 170,
+        "file": "subject/src/lifecycle.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-INS-006",
+    "symbols": [
+      "capture_apply",
+      "invoice_due_day"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 134,
+        "end_line": 204,
+        "start_byte": 4723,
+        "end_byte": 7988,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "32e0ca9fba57ef34d4a366079c61c18a89839433e6a4fcfd914f78b4ea734d60",
+        "symbol": "capture_apply"
+      },
+      {
+        "file": "subject/src/billing.c",
+        "start_line": 7,
+        "end_line": 10,
+        "start_byte": 102,
+        "end_byte": 302,
+        "file_sha256": "06cdac8f888df3aad77e629b60c81c7bacb232ccfbc2fbaef5caa7fe7d2dfe9f",
+        "text_sha256": "b23f5ea9a5f218fd1d1fe44c4c0b5dea02ca91c0aad4d491a38245037df8f4e9",
+        "symbol": "invoice_due_day"
+      }
+    ],
+    "reason": "Capture-time lot cycles determine invoice due dates through the shared calendar computation.",
+    "cross_file": true,
+    "call_edges": []
+  },
+  {
+    "rule": "BR-BIL-004",
+    "symbols": [
+      "close_apply",
+      "invoice_minimum"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/billing.c",
+        "start_line": 27,
+        "end_line": 53,
+        "start_byte": 1032,
+        "end_byte": 2946,
+        "file_sha256": "06cdac8f888df3aad77e629b60c81c7bacb232ccfbc2fbaef5caa7fe7d2dfe9f",
+        "text_sha256": "c8f3a666a15283dbb02749c23921e5c26cd7b34115e1b5db2e00c42a8bc142f2",
+        "symbol": "close_apply"
+      },
+      {
+        "file": "subject/src/billing.c",
+        "start_line": 11,
+        "end_line": 16,
+        "start_byte": 303,
+        "end_byte": 559,
+        "file_sha256": "06cdac8f888df3aad77e629b60c81c7bacb232ccfbc2fbaef5caa7fe7d2dfe9f",
+        "text_sha256": "6e0833207f327e4bd572cdb0fb6bdc6b04c88e642b365227162a836f61e34016",
+        "symbol": "invoice_minimum"
+      }
+    ],
+    "reason": "The issued snapshot feeds the minimum-payment computation without future lots.",
+    "cross_file": false,
+    "call_edges": [
+      {
+        "caller": "close_apply",
+        "callee": "invoice_minimum",
+        "line": 46,
+        "file": "subject/src/billing.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-BIL-006",
+    "symbols": [
+      "invoice_minimum",
+      "ceil_rate"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/billing.c",
+        "start_line": 11,
+        "end_line": 16,
+        "start_byte": 303,
+        "end_byte": 559,
+        "file_sha256": "06cdac8f888df3aad77e629b60c81c7bacb232ccfbc2fbaef5caa7fe7d2dfe9f",
+        "text_sha256": "6e0833207f327e4bd572cdb0fb6bdc6b04c88e642b365227162a836f61e34016",
+        "symbol": "invoice_minimum"
+      },
+      {
+        "file": "subject/src/money.c",
+        "start_line": 26,
+        "end_line": 31,
+        "start_byte": 799,
+        "end_byte": 1041,
+        "file_sha256": "ee5f6edfc2abb618d5161b7307d6dc9e8e61e019895ceb3278b69a4772db7680",
+        "text_sha256": "18a73db9babc220fcfccc4ba184b9705dbcff1255b46fda0d23149327646d4f7",
+        "symbol": "ceil_rate"
+      }
+    ],
+    "reason": "Ceiling percentage calculation composes with the floor and total cap.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "invoice_minimum",
+        "callee": "ceil_rate",
+        "line": 13,
+        "file": "subject/src/billing.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-BIL-007",
+    "symbols": [
+      "pay_apply",
+      "allocate_late",
+      "allocate_lots",
+      "invoice_order",
+      "lot_order"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/billing.c",
+        "start_line": 107,
+        "end_line": 122,
+        "start_byte": 5449,
+        "end_byte": 6492,
+        "file_sha256": "06cdac8f888df3aad77e629b60c81c7bacb232ccfbc2fbaef5caa7fe7d2dfe9f",
+        "text_sha256": "5c89543eac84ad683c704273d43545f9c6c887fc4cf1f0b0f346b652aba3e16b",
+        "symbol": "pay_apply"
+      },
+      {
+        "file": "subject/src/billing.c",
+        "start_line": 67,
+        "end_line": 83,
+        "start_byte": 3602,
+        "end_byte": 4381,
+        "file_sha256": "06cdac8f888df3aad77e629b60c81c7bacb232ccfbc2fbaef5caa7fe7d2dfe9f",
+        "text_sha256": "c2aef0919f1d97627c25fcfa99e743af5c3a2330866e3985c2c839fc840264f6",
+        "symbol": "allocate_late"
+      },
+      {
+        "file": "subject/src/billing.c",
+        "start_line": 84,
+        "end_line": 106,
+        "start_byte": 4382,
+        "end_byte": 5448,
+        "file_sha256": "06cdac8f888df3aad77e629b60c81c7bacb232ccfbc2fbaef5caa7fe7d2dfe9f",
+        "text_sha256": "7002e410a1daa16fd25d5e0e87104d1acbdb29fca12802978536661366a61e39",
+        "symbol": "allocate_lots"
+      },
+      {
+        "file": "subject/src/billing.c",
+        "start_line": 54,
+        "end_line": 59,
+        "start_byte": 2947,
+        "end_byte": 3266,
+        "file_sha256": "06cdac8f888df3aad77e629b60c81c7bacb232ccfbc2fbaef5caa7fe7d2dfe9f",
+        "text_sha256": "32ec987f2e5c73519cb7b282c69bb530fb337de080bcb72eb316a9f60dd7ad43",
+        "symbol": "invoice_order"
+      },
+      {
+        "file": "subject/src/billing.c",
+        "start_line": 60,
+        "end_line": 66,
+        "start_byte": 3267,
+        "end_byte": 3601,
+        "file_sha256": "06cdac8f888df3aad77e629b60c81c7bacb232ccfbc2fbaef5caa7fe7d2dfe9f",
+        "text_sha256": "56c3d7e74bcb54c67d6dae40ec56101f73a2345b4dc67935e7176495eb198564",
+        "symbol": "lot_order"
+      }
+    ],
+    "reason": "Class priority and sorted within-class allocation require distinct procedures.",
+    "cross_file": false,
+    "call_edges": [
+      {
+        "caller": "pay_apply",
+        "callee": "allocate_late",
+        "line": 116,
+        "file": "subject/src/billing.c"
+      },
+      {
+        "caller": "pay_apply",
+        "callee": "allocate_lots",
+        "line": 116,
+        "file": "subject/src/billing.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-BIL-008",
+    "symbols": [
+      "pay_apply",
+      "allocate_lots",
+      "project_account"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/billing.c",
+        "start_line": 107,
+        "end_line": 122,
+        "start_byte": 5449,
+        "end_byte": 6492,
+        "file_sha256": "06cdac8f888df3aad77e629b60c81c7bacb232ccfbc2fbaef5caa7fe7d2dfe9f",
+        "text_sha256": "5c89543eac84ad683c704273d43545f9c6c887fc4cf1f0b0f346b652aba3e16b",
+        "symbol": "pay_apply"
+      },
+      {
+        "file": "subject/src/billing.c",
+        "start_line": 84,
+        "end_line": 106,
+        "start_byte": 4382,
+        "end_byte": 5448,
+        "file_sha256": "06cdac8f888df3aad77e629b60c81c7bacb232ccfbc2fbaef5caa7fe7d2dfe9f",
+        "text_sha256": "7002e410a1daa16fd25d5e0e87104d1acbdb29fca12802978536661366a61e39",
+        "symbol": "allocate_lots"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 153,
+        "end_line": 172,
+        "start_byte": 6856,
+        "end_byte": 8000,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "bf37bdcbd714b4adf897a451c213415f3c8abb08799501ad5ffaabb55ec7f2ef",
+        "symbol": "project_account"
+      }
+    ],
+    "reason": "Only invoiced lots are allocated while account debt includes future lots.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "pay_apply",
+        "callee": "project_account",
+        "line": 111,
+        "file": "subject/src/billing.c"
+      },
+      {
+        "caller": "pay_apply",
+        "callee": "allocate_lots",
+        "line": 116,
+        "file": "subject/src/billing.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-BIL-011",
+    "symbols": [
+      "assess_apply",
+      "invoice_outstanding",
+      "ledger_pair"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/billing.c",
+        "start_line": 123,
+        "end_line": 133,
+        "start_byte": 6493,
+        "end_byte": 7178,
+        "file_sha256": "06cdac8f888df3aad77e629b60c81c7bacb232ccfbc2fbaef5caa7fe7d2dfe9f",
+        "text_sha256": "9c975d0dc2a0564c3d3d53da79376f709e858452c23fd3b60e676a8b85136f9f",
+        "symbol": "assess_apply"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 148,
+        "end_line": 152,
+        "start_byte": 6590,
+        "end_byte": 6855,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "2ba151a5234a7822fb150af348c0322ba6236663fcc86d97e20b920b344c2335",
+        "symbol": "invoice_outstanding"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 189,
+        "end_line": 192,
+        "start_byte": 8889,
+        "end_byte": 9167,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "92ce601d1c7840f561f9ba913012c23eb79d3892a5c09e946021db65da52107e",
+        "symbol": "ledger_pair"
+      }
+    ],
+    "reason": "Overdue unpaid balance guards the single fine and its paired entries.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "assess_apply",
+        "callee": "invoice_outstanding",
+        "line": 128,
+        "file": "subject/src/billing.c"
+      },
+      {
+        "caller": "assess_apply",
+        "callee": "ledger_pair",
+        "line": 130,
+        "file": "subject/src/billing.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-REW-004",
+    "symbols": [
+      "capture_apply",
+      "reward_raw",
+      "reward_gross",
+      "reward_grant"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 134,
+        "end_line": 204,
+        "start_byte": 4723,
+        "end_byte": 7988,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "32e0ca9fba57ef34d4a366079c61c18a89839433e6a4fcfd914f78b4ea734d60",
+        "symbol": "capture_apply"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 113,
+        "end_line": 116,
+        "start_byte": 6934,
+        "end_byte": 7111,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "316e1ea78d02511434220e88f980a32e9f094c9412f678aff14182c9c62189eb",
+        "symbol": "reward_raw"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 121,
+        "end_line": 125,
+        "start_byte": 7312,
+        "end_byte": 7591,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "219935042abdaa3bcafd40055e7d41153b6e68137bd518366924b84c183ee411",
+        "symbol": "reward_gross"
+      },
+      {
+        "file": "subject/src/policy.c",
+        "start_line": 117,
+        "end_line": 120,
+        "start_byte": 7112,
+        "end_byte": 7311,
+        "file_sha256": "a3030bc0ed170139f19cb269a2c661c3d0504ad9c4d73a099c880edab0c5b019",
+        "text_sha256": "d1cff41c89598b5efc223e97f96977a8ff66be8f0d414e02021f008b82a32df3",
+        "symbol": "reward_grant"
+      }
+    ],
+    "reason": "Raw points and gross cycle history jointly determine the granted amount.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "capture_apply",
+        "callee": "reward_grant",
+        "line": 156,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "capture_apply",
+        "callee": "reward_raw",
+        "line": 157,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "capture_apply",
+        "callee": "reward_gross",
+        "line": 158,
+        "file": "subject/src/lifecycle.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-REW-006",
+    "symbols": [
+      "refund_apply",
+      "cumulative_delta",
+      "proportional"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 298,
+        "end_line": 375,
+        "start_byte": 11292,
+        "end_byte": 14921,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "97efa0176d95f22175d1d8983158c01c6a970e38621b5095c3c40b5db6a3882a",
+        "symbol": "refund_apply"
+      },
+      {
+        "file": "subject/src/money.c",
+        "start_line": 51,
+        "end_line": 57,
+        "start_byte": 1850,
+        "end_byte": 2189,
+        "file_sha256": "ee5f6edfc2abb618d5161b7307d6dc9e8e61e019895ceb3278b69a4772db7680",
+        "text_sha256": "8078c466482850cc02d23b2e44fb6a3fd94d757e1185e7bb45696111d49a2595",
+        "symbol": "cumulative_delta"
+      },
+      {
+        "file": "subject/src/money.c",
+        "start_line": 40,
+        "end_line": 50,
+        "start_byte": 1372,
+        "end_byte": 1849,
+        "file_sha256": "ee5f6edfc2abb618d5161b7307d6dc9e8e61e019895ceb3278b69a4772db7680",
+        "text_sha256": "a2f77246970260df1214829ee469166a5b7ab02c99bcfc3744e7074043a555c7",
+        "symbol": "proportional"
+      }
+    ],
+    "reason": "Refund points use the same exact cumulative allocation algorithm on actual granted points.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "refund_apply",
+        "callee": "cumulative_delta",
+        "line": 306,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "refund_apply",
+        "callee": "cumulative_delta",
+        "line": 308,
+        "file": "subject/src/lifecycle.c"
+      },
+      {
+        "caller": "cumulative_delta",
+        "callee": "proportional",
+        "line": 53,
+        "file": "subject/src/money.c"
+      },
+      {
+        "caller": "cumulative_delta",
+        "callee": "proportional",
+        "line": 54,
+        "file": "subject/src/money.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-BAT-005",
+    "symbols": [
+      "reconcile",
+      "project_account",
+      "authorization_hold",
+      "lot_principal",
+      "lot_fee"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/state.c",
+        "start_line": 215,
+        "end_line": 239,
+        "start_byte": 10047,
+        "end_byte": 11299,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "456cc4c6ab7600513b2e4a525e4b99679e84dcd986d58312e16e0df076dceeff",
+        "symbol": "reconcile"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 153,
+        "end_line": 172,
+        "start_byte": 6856,
+        "end_byte": 8000,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "bf37bdcbd714b4adf897a451c213415f3c8abb08799501ad5ffaabb55ec7f2ef",
+        "symbol": "project_account"
+      },
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 19,
+        "end_line": 27,
+        "start_byte": 395,
+        "end_byte": 735,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "23cfe44cca3146779fdf6bf2e901112f66c2e2e9fa482e65268311e69c3aa28d",
+        "symbol": "authorization_hold"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 146,
+        "end_line": 146,
+        "start_byte": 6414,
+        "end_byte": 6513,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "b76e334fd3602765a3159593b624f00ff088df765a3158225ccf342957a11a6d",
+        "symbol": "lot_principal"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 147,
+        "end_line": 147,
+        "start_byte": 6514,
+        "end_byte": 6589,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "e173a0804df137e2211f4a4362a636874e52c287a6f3bef8da7c259ff4ed3be1",
+        "symbol": "lot_fee"
+      }
+    ],
+    "reason": "Reconciliation compares recomputed state components and cached projections.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "project_account",
+        "callee": "authorization_hold",
+        "line": 155,
+        "file": "subject/src/state.c"
+      },
+      {
+        "caller": "project_account",
+        "callee": "lot_principal",
+        "line": 159,
+        "file": "subject/src/state.c"
+      },
+      {
+        "caller": "project_account",
+        "callee": "lot_fee",
+        "line": 159,
+        "file": "subject/src/state.c"
+      },
+      {
+        "caller": "reconcile",
+        "callee": "project_account",
+        "line": 221,
+        "file": "subject/src/state.c"
+      },
+      {
+        "caller": "reconcile",
+        "callee": "lot_principal",
+        "line": 236,
+        "file": "subject/src/state.c"
+      },
+      {
+        "caller": "reconcile",
+        "callee": "lot_fee",
+        "line": 236,
+        "file": "subject/src/state.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-BAT-006",
+    "symbols": [
+      "ledger_pair",
+      "ledger_post",
+      "ledger_balanced"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/state.c",
+        "start_line": 189,
+        "end_line": 192,
+        "start_byte": 8889,
+        "end_byte": 9167,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "92ce601d1c7840f561f9ba913012c23eb79d3892a5c09e946021db65da52107e",
+        "symbol": "ledger_pair"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 182,
+        "end_line": 188,
+        "start_byte": 8353,
+        "end_byte": 8888,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "3b4f77b3bc71146bf6f06fa97f6132711b14846ce0e1e7a9cfca3648b9cfcd77",
+        "symbol": "ledger_post"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 197,
+        "end_line": 214,
+        "start_byte": 9333,
+        "end_byte": 10046,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "9677b1e6efa6350eb76e6c003adb70be5b1937f6305feea2c7163a26c5dfb596",
+        "symbol": "ledger_balanced"
+      }
+    ],
+    "reason": "Posting creates paired rows while reconciliation checks each event independently.",
+    "cross_file": false,
+    "call_edges": [
+      {
+        "caller": "ledger_pair",
+        "callee": "ledger_post",
+        "line": 191,
+        "file": "subject/src/state.c"
+      },
+      {
+        "caller": "ledger_pair",
+        "callee": "ledger_post",
+        "line": 191,
+        "file": "subject/src/state.c"
+      }
+    ]
+  },
+  {
+    "rule": "BR-BAT-008",
+    "symbols": [
+      "execute",
+      "engine_clone",
+      "tick_apply"
+    ],
+    "anchors": [
+      {
+        "file": "subject/src/engine.c",
+        "start_line": 15,
+        "end_line": 64,
+        "start_byte": 559,
+        "end_byte": 3148,
+        "file_sha256": "924f5785ac2c0f444b78cc228ec3b5dd9c7abaf44c0ddd3ea09367f1dc526f3a",
+        "text_sha256": "e331e1f9c263f1f9dd80724e1328f6f13b3fe08cc01958a1f64c7106e30dd237",
+        "symbol": "execute"
+      },
+      {
+        "file": "subject/src/state.c",
+        "start_line": 39,
+        "end_line": 121,
+        "start_byte": 1024,
+        "end_byte": 5337,
+        "file_sha256": "b8ad26fa680b9a56b24b5fa5d9312f024a074cabbbdc099bc60c679c65dd2539",
+        "text_sha256": "e605f264b5b516843c4664da39c23128203913a51c9b53ac59cd90a482fd4367",
+        "symbol": "engine_clone"
+      },
+      {
+        "file": "subject/src/lifecycle.c",
+        "start_line": 235,
+        "end_line": 277,
+        "start_byte": 8935,
+        "end_byte": 10567,
+        "file_sha256": "df29c5e330aff1f650ea9e0bc5929b9a1534d3cced0657c735cdec2cd7b94098",
+        "text_sha256": "a59bb69f22576a8445a52a22bbaaeb0954e3877590a5c33aae5d7a199e2c97c4",
+        "symbol": "tick_apply"
+      }
+    ],
+    "reason": "Time advancement and the full expiry batch commit together through the prepared engine.",
+    "cross_file": true,
+    "call_edges": [
+      {
+        "caller": "execute",
+        "callee": "engine_clone",
+        "line": 44,
+        "file": "subject/src/engine.c"
+      },
+      {
+        "caller": "execute",
+        "callee": "tick_apply",
+        "line": 53,
+        "file": "subject/src/engine.c"
+      }
+    ]
+  }
+]

@@ -1,11 +1,16 @@
 #include "aurum.h"
 #include <string.h>
+#include <signal.h>
 
 static int invocation_error(void) {
  fputs("usage: aurum --seed seed.txt --commands commands.txt|-\n",stderr);
  return 2;
 }
 int main(int argc, char **argv) {
+#ifdef SIGPIPE
+ /* Convert a closed output pipe into the same checked I/O failure as a full file. */
+ if (signal(SIGPIPE,SIG_IGN) == SIG_ERR) { fputs("cannot configure output errors\n",stderr); return 2; }
+#endif
  const char *seed_path = NULL, *commands_path = NULL;
  if (argc != 5) return invocation_error();
  for (int i = 1; i < argc; i += 2) {

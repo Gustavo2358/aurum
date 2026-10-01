@@ -19,3 +19,5 @@ test-fast: all
 	$(PYTHON) tools/trace.py
 clean:
 	rm -rf build
+test-full: all
+	$(PYTHON) tools/full.py

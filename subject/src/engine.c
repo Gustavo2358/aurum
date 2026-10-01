@@ -2,8 +2,8 @@
 #include <string.h>
 
 Result result_default(const Command *c) {
-    Result r={.op=c->op,.decision=OK,.reason=NONE};
-    memcpy(r.request_id,c->request_id,sizeof r.request_id);
+    Result r={.op=c ? c->op : INVALID_OP,.decision=OK,.reason=NONE};
+    if (c && identifier_valid(c->request_id)) strcpy(r.request_id,c->request_id);
     return r;
 }
 bool command_same_key(const Command *a, const Command *b) {

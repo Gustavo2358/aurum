@@ -1,0 +1,6677 @@
+[
+  {
+    "ids": [
+      "SC-BR-AUT-001-01"
+    ],
+    "file": "docs/oracle/features/aut.feature",
+    "line": 11,
+    "rules": [
+      "BR-AUT-001"
+    ],
+    "operation": "auth.decide",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "quote",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-AUT-001-02"
+    ],
+    "file": "docs/oracle/features/aut.feature",
+    "line": 23,
+    "rules": [
+      "BR-AUT-001"
+    ],
+    "operation": "auth.decide",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "quote",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-AUT-002-01"
+    ],
+    "file": "docs/oracle/features/aut.feature",
+    "line": 39,
+    "rules": [
+      "BR-AUT-002"
+    ],
+    "operation": "auth.approve",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "quote",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-AUT-002-02"
+    ],
+    "file": "docs/oracle/features/aut.feature",
+    "line": 53,
+    "rules": [
+      "BR-AUT-002"
+    ],
+    "operation": "auth.approve",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "quote",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-AUT-003-01"
+    ],
+    "file": "docs/oracle/features/aut.feature",
+    "line": 71,
+    "rules": [
+      "BR-AUT-003"
+    ],
+    "operation": "auth.approve",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "quote",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-AUT-003-02"
+    ],
+    "file": "docs/oracle/features/aut.feature",
+    "line": 83,
+    "rules": [
+      "BR-AUT-003"
+    ],
+    "operation": "auth.approve",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "quote",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-AUT-004-01"
+    ],
+    "file": "docs/oracle/features/aut.feature",
+    "line": 99,
+    "rules": [
+      "BR-AUT-004"
+    ],
+    "operation": "auth.decide",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "quote",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-AUT-004-02"
+    ],
+    "file": "docs/oracle/features/aut.feature",
+    "line": 112,
+    "rules": [
+      "BR-AUT-004"
+    ],
+    "operation": "auth.decide",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "quote",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-AUT-005-01"
+    ],
+    "file": "docs/oracle/features/aut.feature",
+    "line": 129,
+    "rules": [
+      "BR-AUT-005"
+    ],
+    "operation": "auth.decide",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "quote",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-AUT-005-02"
+    ],
+    "file": "docs/oracle/features/aut.feature",
+    "line": 145,
+    "rules": [
+      "BR-AUT-005"
+    ],
+    "operation": "auth.decide",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "quote",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-AUT-006-01"
+    ],
+    "file": "docs/oracle/features/aut.feature",
+    "line": 162,
+    "rules": [
+      "BR-AUT-006"
+    ],
+    "operation": "auth.approve",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "quote",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-AUT-006-02"
+    ],
+    "file": "docs/oracle/features/aut.feature",
+    "line": 173,
+    "rules": [
+      "BR-AUT-006"
+    ],
+    "operation": "auth.approve",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "quote",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-AUT-007-01"
+    ],
+    "file": "docs/oracle/features/aut.feature",
+    "line": 187,
+    "rules": [
+      "BR-AUT-007"
+    ],
+    "operation": "auth.quote_consistency",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "quote",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-AUT-007-02"
+    ],
+    "file": "docs/oracle/features/aut.feature",
+    "line": 201,
+    "rules": [
+      "BR-AUT-007"
+    ],
+    "operation": "auth.quote_consistency",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "quote",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-AUT-008-01"
+    ],
+    "file": "docs/oracle/features/aut.feature",
+    "line": 220,
+    "rules": [
+      "BR-AUT-008"
+    ],
+    "operation": "auth.capacity",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-AUT-008-02"
+    ],
+    "file": "docs/oracle/features/aut.feature",
+    "line": 232,
+    "rules": [
+      "BR-AUT-008"
+    ],
+    "operation": "auth.capacity",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BAT-001-01"
+    ],
+    "file": "docs/oracle/features/bat.feature",
+    "line": 11,
+    "rules": [
+      "BR-BAT-001"
+    ],
+    "operation": "batch.order",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BAT-001-02"
+    ],
+    "file": "docs/oracle/features/bat.feature",
+    "line": 23,
+    "rules": [
+      "BR-BAT-001"
+    ],
+    "operation": "batch.order",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BAT-002-01"
+    ],
+    "file": "docs/oracle/features/bat.feature",
+    "line": 39,
+    "rules": [
+      "BR-BAT-002"
+    ],
+    "operation": "batch.continue",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BAT-002-02"
+    ],
+    "file": "docs/oracle/features/bat.feature",
+    "line": 51,
+    "rules": [
+      "BR-BAT-002"
+    ],
+    "operation": "batch.continue",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BAT-003-01"
+    ],
+    "file": "docs/oracle/features/bat.feature",
+    "line": 67,
+    "rules": [
+      "BR-BAT-003"
+    ],
+    "operation": "batch.replay",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BAT-003-02"
+    ],
+    "file": "docs/oracle/features/bat.feature",
+    "line": 79,
+    "rules": [
+      "BR-BAT-003"
+    ],
+    "operation": "batch.replay",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BAT-004-01"
+    ],
+    "file": "docs/oracle/features/bat.feature",
+    "line": 95,
+    "rules": [
+      "BR-BAT-004"
+    ],
+    "operation": "batch.account_isolation",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BAT-004-02"
+    ],
+    "file": "docs/oracle/features/bat.feature",
+    "line": 107,
+    "rules": [
+      "BR-BAT-004"
+    ],
+    "operation": "batch.account_isolation",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BAT-005-01"
+    ],
+    "file": "docs/oracle/features/bat.feature",
+    "line": 123,
+    "rules": [
+      "BR-BAT-005"
+    ],
+    "operation": "batch.reconcile",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "project_account",
+        "reconcile",
+        "ledger_balanced"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BAT-005-02"
+    ],
+    "file": "docs/oracle/features/bat.feature",
+    "line": 140,
+    "rules": [
+      "BR-BAT-005"
+    ],
+    "operation": "batch.reconcile",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "project_account",
+        "reconcile",
+        "ledger_balanced"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BAT-006-01"
+    ],
+    "file": "docs/oracle/features/bat.feature",
+    "line": 160,
+    "rules": [
+      "BR-BAT-006"
+    ],
+    "operation": "batch.balance_check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "ledger_post",
+        "ledger_balanced"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BAT-006-02"
+    ],
+    "file": "docs/oracle/features/bat.feature",
+    "line": 170,
+    "rules": [
+      "BR-BAT-006"
+    ],
+    "operation": "batch.balance_check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "ledger_post",
+        "ledger_balanced"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BAT-007-01"
+    ],
+    "file": "docs/oracle/features/bat.feature",
+    "line": 184,
+    "rules": [
+      "BR-BAT-007"
+    ],
+    "operation": "batch.report_order",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BAT-007-02"
+    ],
+    "file": "docs/oracle/features/bat.feature",
+    "line": 194,
+    "rules": [
+      "BR-BAT-007"
+    ],
+    "operation": "batch.report_order",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BAT-008-01"
+    ],
+    "file": "docs/oracle/features/bat.feature",
+    "line": 208,
+    "rules": [
+      "BR-BAT-008"
+    ],
+    "operation": "batch.tick",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "tick_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BAT-008-02"
+    ],
+    "file": "docs/oracle/features/bat.feature",
+    "line": 221,
+    "rules": [
+      "BR-BAT-008"
+    ],
+    "operation": "batch.tick",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "tick_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BAT-008-03"
+    ],
+    "file": "docs/oracle/features/bat.feature",
+    "line": 234,
+    "rules": [
+      "BR-BAT-008"
+    ],
+    "operation": "batch.tick",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "tick_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-001-01"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 11,
+    "rules": [
+      "BR-BIL-001"
+    ],
+    "operation": "billing.close_time",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "close_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-001-02"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 23,
+    "rules": [
+      "BR-BIL-001"
+    ],
+    "operation": "billing.close_time",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "close_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-002-01"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 38,
+    "rules": [
+      "BR-BIL-002"
+    ],
+    "operation": "billing.close_order",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "close_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-002-02"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 49,
+    "rules": [
+      "BR-BIL-002"
+    ],
+    "operation": "billing.close_order",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "close_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-002-03"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 61,
+    "rules": [
+      "BR-BIL-002"
+    ],
+    "operation": "billing.close_order",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "close_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-003-01"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 77,
+    "rules": [
+      "BR-BIL-003"
+    ],
+    "operation": "billing.issue",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "close_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-003-02"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 90,
+    "rules": [
+      "BR-BIL-003"
+    ],
+    "operation": "billing.issue",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "close_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-004-01"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 107,
+    "rules": [
+      "BR-BIL-004"
+    ],
+    "operation": "billing.empty",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "close_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-004-02"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 121,
+    "rules": [
+      "BR-BIL-004"
+    ],
+    "operation": "billing.empty",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "close_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-005-01"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 139,
+    "rules": [
+      "BR-BIL-005"
+    ],
+    "operation": "billing.due_day",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "invoice_due_day"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-005-02"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 150,
+    "rules": [
+      "BR-BIL-005"
+    ],
+    "operation": "billing.due_day",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "invoice_due_day"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-006-01"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 165,
+    "rules": [
+      "BR-BIL-006"
+    ],
+    "operation": "billing.minimum_due",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "invoice_minimum"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-006-02"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 175,
+    "rules": [
+      "BR-BIL-006"
+    ],
+    "operation": "billing.minimum_due",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "invoice_minimum"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-006-03"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 185,
+    "rules": [
+      "BR-BIL-006"
+    ],
+    "operation": "billing.minimum_due",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "invoice_minimum"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-006-04"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 195,
+    "rules": [
+      "BR-BIL-006"
+    ],
+    "operation": "billing.minimum_due",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "invoice_minimum"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-007-01"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 209,
+    "rules": [
+      "BR-BIL-007"
+    ],
+    "operation": "billing.allocate_payment",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "pay_apply",
+        "invoice_outstanding",
+        "eligibility"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-007-02"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 224,
+    "rules": [
+      "BR-BIL-007"
+    ],
+    "operation": "billing.allocate_payment",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "pay_apply",
+        "invoice_outstanding",
+        "eligibility"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-008-01"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 243,
+    "rules": [
+      "BR-BIL-008"
+    ],
+    "operation": "billing.pay_invoiced",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "pay_apply",
+        "invoice_outstanding",
+        "eligibility"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-008-02"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 257,
+    "rules": [
+      "BR-BIL-008"
+    ],
+    "operation": "billing.pay_invoiced",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "pay_apply",
+        "invoice_outstanding",
+        "eligibility"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-009-01"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 275,
+    "rules": [
+      "BR-BIL-009"
+    ],
+    "operation": "billing.payment_admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "payment_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-009-02"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 286,
+    "rules": [
+      "BR-BIL-009"
+    ],
+    "operation": "billing.payment_admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "payment_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-009-03"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 298,
+    "rules": [
+      "BR-BIL-009"
+    ],
+    "operation": "billing.payment_admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "payment_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-010-01"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 314,
+    "rules": [
+      "BR-BIL-010"
+    ],
+    "operation": "billing.partial_payment",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "pay_apply",
+        "invoice_outstanding",
+        "eligibility"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-010-02"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 331,
+    "rules": [
+      "BR-BIL-010"
+    ],
+    "operation": "billing.partial_payment",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "pay_apply",
+        "invoice_outstanding",
+        "eligibility"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-011-01"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 351,
+    "rules": [
+      "BR-BIL-011"
+    ],
+    "operation": "billing.assess_late_fee",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "assess_apply",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-011-02"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 367,
+    "rules": [
+      "BR-BIL-011"
+    ],
+    "operation": "billing.assess_late_fee",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "assess_apply",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-012-01"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 386,
+    "rules": [
+      "BR-BIL-012"
+    ],
+    "operation": "billing.assess_late_fee",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "assess_apply",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-BIL-012-02"
+    ],
+    "file": "docs/oracle/features/bil.feature",
+    "line": 401,
+    "rules": [
+      "BR-BIL-012"
+    ],
+    "operation": "billing.assess_late_fee",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "assess_apply",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-001-01"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 11,
+    "rules": [
+      "BR-CAP-001"
+    ],
+    "operation": "capture.admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "capture_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-001-02"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 23,
+    "rules": [
+      "BR-CAP-001"
+    ],
+    "operation": "capture.admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "capture_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-001-03"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 36,
+    "rules": [
+      "BR-CAP-001"
+    ],
+    "operation": "capture.admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "capture_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-002-01"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 53,
+    "rules": [
+      "BR-CAP-002"
+    ],
+    "operation": "capture.amount",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "capture_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-002-02"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 65,
+    "rules": [
+      "BR-CAP-002"
+    ],
+    "operation": "capture.amount",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "capture_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-002-03"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 78,
+    "rules": [
+      "BR-CAP-002"
+    ],
+    "operation": "capture.amount",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "capture_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-003-01"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 95,
+    "rules": [
+      "BR-CAP-003"
+    ],
+    "operation": "capture.fee_delta",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "cumulative_delta"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-003-02"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 108,
+    "rules": [
+      "BR-CAP-003"
+    ],
+    "operation": "capture.fee_delta",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "cumulative_delta"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-003-03"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 121,
+    "rules": [
+      "BR-CAP-003"
+    ],
+    "operation": "capture.fee_delta",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "cumulative_delta"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-004-01"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 138,
+    "rules": [
+      "BR-CAP-004"
+    ],
+    "operation": "capture.next_state",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "capture_state"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-004-02"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 149,
+    "rules": [
+      "BR-CAP-004"
+    ],
+    "operation": "capture.next_state",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "capture_state"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-005-01"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 164,
+    "rules": [
+      "BR-CAP-005"
+    ],
+    "operation": "capture.transition",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "capture_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-005-02"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 179,
+    "rules": [
+      "BR-CAP-005"
+    ],
+    "operation": "capture.transition",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "capture_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-006-01"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 198,
+    "rules": [
+      "BR-CAP-006"
+    ],
+    "operation": "capture.ledger",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "capture_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-006-02"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 214,
+    "rules": [
+      "BR-CAP-006"
+    ],
+    "operation": "capture.ledger",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "capture_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-007-01"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 232,
+    "rules": [
+      "BR-CAP-007"
+    ],
+    "operation": "capture.capacity",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "capture_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-007-02"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 244,
+    "rules": [
+      "BR-CAP-007"
+    ],
+    "operation": "capture.capacity",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "capture_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-008-01"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 260,
+    "rules": [
+      "BR-CAP-008"
+    ],
+    "operation": "capture.no_reauthorization",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "capture_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-CAP-008-02"
+    ],
+    "file": "docs/oracle/features/cap.feature",
+    "line": 274,
+    "rules": [
+      "BR-CAP-008"
+    ],
+    "operation": "capture.no_reauthorization",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "capture_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-001-01"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 11,
+    "rules": [
+      "BR-ELG-001"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-001-02"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 22,
+    "rules": [
+      "BR-ELG-001"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-002-01"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 37,
+    "rules": [
+      "BR-ELG-002"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-002-02"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 48,
+    "rules": [
+      "BR-ELG-002"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-003-01"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 63,
+    "rules": [
+      "BR-ELG-003"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-003-02"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 74,
+    "rules": [
+      "BR-ELG-003"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-004-01"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 90,
+    "rules": [
+      "BR-ELG-004"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-004-02"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 101,
+    "rules": [
+      "BR-ELG-004"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-005-01"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 116,
+    "rules": [
+      "BR-ELG-005"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-005-02"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 127,
+    "rules": [
+      "BR-ELG-005"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-006-01"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 142,
+    "rules": [
+      "BR-ELG-006"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-006-02"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 154,
+    "rules": [
+      "BR-ELG-006"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-007-01"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 170,
+    "rules": [
+      "BR-ELG-007"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-007-02"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 182,
+    "rules": [
+      "BR-ELG-007"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-008-01"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 197,
+    "rules": [
+      "BR-ELG-008"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-008-02"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 208,
+    "rules": [
+      "BR-ELG-008"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-008-03"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 220,
+    "rules": [
+      "BR-ELG-008"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-009-01"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 236,
+    "rules": [
+      "BR-ELG-009"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-009-02"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 247,
+    "rules": [
+      "BR-ELG-009"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-ELG-009-03"
+    ],
+    "file": "docs/oracle/features/elg.feature",
+    "line": 259,
+    "rules": [
+      "BR-ELG-009"
+    ],
+    "operation": "eligibility.check",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "eligibility",
+        "invoice_outstanding"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FLOW-001"
+    ],
+    "file": "docs/oracle/features/flows.feature",
+    "line": 7,
+    "rules": [
+      "BR-AUT-002",
+      "BR-BIL-007",
+      "BR-CAP-003",
+      "BR-REW-008"
+    ],
+    "operation": "flow.run",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result",
+        "project_account",
+        "invoice_outstanding",
+        "ledger_balanced"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FLOW-002"
+    ],
+    "file": "docs/oracle/features/flows.feature",
+    "line": 23,
+    "rules": [
+      "BR-LIM-007",
+      "BR-REV-002",
+      "BR-REV-009"
+    ],
+    "operation": "flow.run",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result",
+        "project_account",
+        "invoice_outstanding",
+        "ledger_balanced"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FLOW-003"
+    ],
+    "file": "docs/oracle/features/flows.feature",
+    "line": 38,
+    "rules": [
+      "BR-CAP-001",
+      "BR-REV-004"
+    ],
+    "operation": "flow.run",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result",
+        "project_account",
+        "invoice_outstanding",
+        "ledger_balanced"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FLOW-004"
+    ],
+    "file": "docs/oracle/features/flows.feature",
+    "line": 53,
+    "rules": [
+      "BR-BIL-010",
+      "BR-REV-008",
+      "BR-REW-006"
+    ],
+    "operation": "flow.run",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result",
+        "project_account",
+        "invoice_outstanding",
+        "ledger_balanced"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FLOW-005"
+    ],
+    "file": "docs/oracle/features/flows.feature",
+    "line": 69,
+    "rules": [
+      "BR-BIL-008",
+      "BR-INS-004",
+      "BR-INS-005",
+      "BR-REV-007"
+    ],
+    "operation": "flow.run",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result",
+        "project_account",
+        "invoice_outstanding",
+        "ledger_balanced"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FLOW-006"
+    ],
+    "file": "docs/oracle/features/flows.feature",
+    "line": 87,
+    "rules": [
+      "BR-IDM-001",
+      "BR-IDM-002",
+      "BR-IDM-004"
+    ],
+    "operation": "flow.run",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result",
+        "project_account",
+        "invoice_outstanding",
+        "ledger_balanced"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FLOW-007"
+    ],
+    "file": "docs/oracle/features/flows.feature",
+    "line": 103,
+    "rules": [
+      "BR-AUT-005",
+      "BR-LIM-008",
+      "BR-RSK-008"
+    ],
+    "operation": "flow.run",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result",
+        "project_account",
+        "invoice_outstanding",
+        "ledger_balanced"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FLOW-008"
+    ],
+    "file": "docs/oracle/features/flows.feature",
+    "line": 118,
+    "rules": [
+      "BR-AUT-006",
+      "BR-BAT-008",
+      "BR-LIM-006"
+    ],
+    "operation": "flow.run",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result",
+        "project_account",
+        "invoice_outstanding",
+        "ledger_balanced"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FLOW-009"
+    ],
+    "file": "docs/oracle/features/flows.feature",
+    "line": 133,
+    "rules": [
+      "BR-BIL-010",
+      "BR-ELG-009",
+      "BR-IDM-006"
+    ],
+    "operation": "flow.run",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result",
+        "project_account",
+        "invoice_outstanding",
+        "ledger_balanced"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FLOW-010"
+    ],
+    "file": "docs/oracle/features/flows.feature",
+    "line": 149,
+    "rules": [
+      "BR-REW-004",
+      "BR-REW-005",
+      "BR-REW-006",
+      "BR-REW-007"
+    ],
+    "operation": "flow.run",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result",
+        "project_account",
+        "invoice_outstanding",
+        "ledger_balanced"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FLOW-011"
+    ],
+    "file": "docs/oracle/features/flows.feature",
+    "line": 167,
+    "rules": [
+      "BR-AUT-008",
+      "BR-CAP-007",
+      "FR-IO-011"
+    ],
+    "operation": "flow.run",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result",
+        "project_account",
+        "invoice_outstanding",
+        "ledger_balanced"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FLOW-012"
+    ],
+    "file": "docs/oracle/features/flows.feature",
+    "line": 184,
+    "rules": [
+      "BR-BAT-001",
+      "BR-BAT-002"
+    ],
+    "operation": "flow.run",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result",
+        "project_account",
+        "invoice_outstanding",
+        "ledger_balanced"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-IDM-001-01"
+    ],
+    "file": "docs/oracle/features/idm.feature",
+    "line": 11,
+    "rules": [
+      "BR-IDM-001"
+    ],
+    "operation": "idempotency.replay",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "command_same_key",
+        "command_equal"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-IDM-001-02"
+    ],
+    "file": "docs/oracle/features/idm.feature",
+    "line": 25,
+    "rules": [
+      "BR-IDM-001"
+    ],
+    "operation": "idempotency.replay",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "command_same_key",
+        "command_equal"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-IDM-002-01"
+    ],
+    "file": "docs/oracle/features/idm.feature",
+    "line": 43,
+    "rules": [
+      "BR-IDM-002"
+    ],
+    "operation": "idempotency.conflict",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "command_same_key",
+        "command_equal"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-IDM-002-02"
+    ],
+    "file": "docs/oracle/features/idm.feature",
+    "line": 56,
+    "rules": [
+      "BR-IDM-002"
+    ],
+    "operation": "idempotency.conflict",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "command_same_key",
+        "command_equal"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-IDM-003-01"
+    ],
+    "file": "docs/oracle/features/idm.feature",
+    "line": 74,
+    "rules": [
+      "BR-IDM-003"
+    ],
+    "operation": "idempotency.canonical",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "parse_command",
+        "command_equal"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-IDM-003-02"
+    ],
+    "file": "docs/oracle/features/idm.feature",
+    "line": 85,
+    "rules": [
+      "BR-IDM-003"
+    ],
+    "operation": "idempotency.canonical",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "parse_command",
+        "command_equal"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-IDM-004-01"
+    ],
+    "file": "docs/oracle/features/idm.feature",
+    "line": 100,
+    "rules": [
+      "BR-IDM-004"
+    ],
+    "operation": "idempotency.namespace",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "command_same_key"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-IDM-004-02"
+    ],
+    "file": "docs/oracle/features/idm.feature",
+    "line": 112,
+    "rules": [
+      "BR-IDM-004"
+    ],
+    "operation": "idempotency.namespace",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "command_same_key"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-IDM-005-01"
+    ],
+    "file": "docs/oracle/features/idm.feature",
+    "line": 128,
+    "rules": [
+      "BR-IDM-005"
+    ],
+    "operation": "idempotency.error_policy",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "cacheable"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-IDM-005-02"
+    ],
+    "file": "docs/oracle/features/idm.feature",
+    "line": 138,
+    "rules": [
+      "BR-IDM-005"
+    ],
+    "operation": "idempotency.error_policy",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "cacheable"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-IDM-005-03"
+    ],
+    "file": "docs/oracle/features/idm.feature",
+    "line": 148,
+    "rules": [
+      "BR-IDM-005"
+    ],
+    "operation": "idempotency.error_policy",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "cacheable"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-IDM-006-01"
+    ],
+    "file": "docs/oracle/features/idm.feature",
+    "line": 162,
+    "rules": [
+      "BR-IDM-006"
+    ],
+    "operation": "idempotency.declined_replay",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "command_same_key",
+        "command_equal"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-IDM-006-02"
+    ],
+    "file": "docs/oracle/features/idm.feature",
+    "line": 176,
+    "rules": [
+      "BR-IDM-006"
+    ],
+    "operation": "idempotency.declined_replay",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "command_same_key",
+        "command_equal"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-IDM-007-01"
+    ],
+    "file": "docs/oracle/features/idm.feature",
+    "line": 193,
+    "rules": [
+      "BR-IDM-007"
+    ],
+    "operation": "idempotency.capture_replay",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "capture_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-IDM-007-02"
+    ],
+    "file": "docs/oracle/features/idm.feature",
+    "line": 207,
+    "rules": [
+      "BR-IDM-007"
+    ],
+    "operation": "idempotency.capture_replay",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "capture_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-IDM-008-01"
+    ],
+    "file": "docs/oracle/features/idm.feature",
+    "line": 225,
+    "rules": [
+      "BR-IDM-008"
+    ],
+    "operation": "idempotency.query",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "quote",
+        "reconcile"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-IDM-008-02"
+    ],
+    "file": "docs/oracle/features/idm.feature",
+    "line": 237,
+    "rules": [
+      "BR-IDM-008"
+    ],
+    "operation": "idempotency.query",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "quote",
+        "reconcile"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-001-01"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 11,
+    "rules": [
+      "BR-INS-001"
+    ],
+    "operation": "installment.admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "installment_allowed"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-001-02"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 22,
+    "rules": [
+      "BR-INS-001"
+    ],
+    "operation": "installment.admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "installment_allowed"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-001-03"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 33,
+    "rules": [
+      "BR-INS-001"
+    ],
+    "operation": "installment.admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "installment_allowed"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-001-04"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 45,
+    "rules": [
+      "BR-INS-001"
+    ],
+    "operation": "installment.admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "installment_allowed"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-002-01"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 61,
+    "rules": [
+      "BR-INS-002"
+    ],
+    "operation": "installment.admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "installment_allowed"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-002-02"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 73,
+    "rules": [
+      "BR-INS-002"
+    ],
+    "operation": "installment.admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "installment_allowed"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-002-03"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 86,
+    "rules": [
+      "BR-INS-002"
+    ],
+    "operation": "installment.admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "installment_allowed"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-003-01"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 102,
+    "rules": [
+      "BR-INS-003"
+    ],
+    "operation": "installment.admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "installment_allowed"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-003-02"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 113,
+    "rules": [
+      "BR-INS-003"
+    ],
+    "operation": "installment.admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "installment_allowed"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-003-03"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 126,
+    "rules": [
+      "BR-INS-003"
+    ],
+    "operation": "installment.admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "installment_allowed"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-004-01"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 141,
+    "rules": [
+      "BR-INS-004"
+    ],
+    "operation": "installment.split",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "split_part"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-004-02"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 152,
+    "rules": [
+      "BR-INS-004"
+    ],
+    "operation": "installment.split",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "split_part"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-005-01"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 167,
+    "rules": [
+      "BR-INS-005"
+    ],
+    "operation": "installment.split_components",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "split_part"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-005-02"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 180,
+    "rules": [
+      "BR-INS-005"
+    ],
+    "operation": "installment.split_components",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "split_part"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-006-01"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 196,
+    "rules": [
+      "BR-INS-006"
+    ],
+    "operation": "installment.schedule",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "capture_apply",
+        "invoice_due_day"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-006-02"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 208,
+    "rules": [
+      "BR-INS-006"
+    ],
+    "operation": "installment.schedule",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "capture_apply",
+        "invoice_due_day"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-007-01"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 224,
+    "rules": [
+      "BR-INS-007"
+    ],
+    "operation": "installment.conservation",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "split_part"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-007-02"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 237,
+    "rules": [
+      "BR-INS-007"
+    ],
+    "operation": "installment.conservation",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "split_part"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-008-01"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 254,
+    "rules": [
+      "BR-INS-008"
+    ],
+    "operation": "installment.capture_admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "capture_installment_allowed"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-INS-008-02"
+    ],
+    "file": "docs/oracle/features/ins.feature",
+    "line": 266,
+    "rules": [
+      "BR-INS-008"
+    ],
+    "operation": "installment.capture_admission",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "capture_installment_allowed"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-001-01"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 11,
+    "rules": [
+      "FR-IO-001"
+    ],
+    "operation": "io.parse",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-001-02"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 22,
+    "rules": [
+      "FR-IO-001"
+    ],
+    "operation": "io.parse",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-002-01"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 37,
+    "rules": [
+      "FR-IO-002"
+    ],
+    "operation": "io.parse",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-002-02"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 48,
+    "rules": [
+      "FR-IO-002"
+    ],
+    "operation": "io.parse",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-003-01"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 63,
+    "rules": [
+      "FR-IO-003"
+    ],
+    "operation": "io.parse",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-003-02"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 74,
+    "rules": [
+      "FR-IO-003"
+    ],
+    "operation": "io.parse",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-004-01"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 89,
+    "rules": [
+      "FR-IO-004"
+    ],
+    "operation": "io.identifier",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "identifier_valid"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-004-02"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 99,
+    "rules": [
+      "FR-IO-004"
+    ],
+    "operation": "io.identifier",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "identifier_valid"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-004-03"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 109,
+    "rules": [
+      "FR-IO-004"
+    ],
+    "operation": "io.identifier",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "identifier_valid"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-004-04"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 119,
+    "rules": [
+      "FR-IO-004"
+    ],
+    "operation": "io.identifier",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "identifier_valid"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-005-01"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 133,
+    "rules": [
+      "FR-IO-005"
+    ],
+    "operation": "io.money_parse",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "decimal_parse"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-005-02"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 144,
+    "rules": [
+      "FR-IO-005"
+    ],
+    "operation": "io.money_parse",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "decimal_parse"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-005-03"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 154,
+    "rules": [
+      "FR-IO-005"
+    ],
+    "operation": "io.money_parse",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "decimal_parse"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-005-04"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 164,
+    "rules": [
+      "FR-IO-005"
+    ],
+    "operation": "io.money_parse",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "decimal_parse"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-005-05"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 174,
+    "rules": [
+      "FR-IO-005"
+    ],
+    "operation": "io.money_parse",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "decimal_parse"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-006-01"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 188,
+    "rules": [
+      "FR-IO-006"
+    ],
+    "operation": "io.line_limit",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-006-02"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 198,
+    "rules": [
+      "FR-IO-006"
+    ],
+    "operation": "io.line_limit",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-007-01"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 214,
+    "rules": [
+      "FR-IO-007"
+    ],
+    "operation": "io.ignored_lines",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-007-02"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 224,
+    "rules": [
+      "FR-IO-007"
+    ],
+    "operation": "io.ignored_lines",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-008-01"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 239,
+    "rules": [
+      "FR-IO-008"
+    ],
+    "operation": "io.output",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-008-02"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 252,
+    "rules": [
+      "FR-IO-008"
+    ],
+    "operation": "io.output",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-009-01"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 268,
+    "rules": [
+      "FR-IO-009"
+    ],
+    "operation": "io.exit",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-009-02"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 278,
+    "rules": [
+      "FR-IO-009"
+    ],
+    "operation": "io.exit",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-010-01"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 292,
+    "rules": [
+      "FR-IO-010"
+    ],
+    "operation": "io.seed",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-010-02"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 303,
+    "rules": [
+      "FR-IO-010"
+    ],
+    "operation": "io.seed",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-010-03"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 314,
+    "rules": [
+      "FR-IO-010"
+    ],
+    "operation": "io.seed",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-011-01"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 329,
+    "rules": [
+      "FR-IO-011"
+    ],
+    "operation": "io.capacity",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-011-02"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 342,
+    "rules": [
+      "FR-IO-011"
+    ],
+    "operation": "io.capacity",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-012-01"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 359,
+    "rules": [
+      "FR-IO-012"
+    ],
+    "operation": "io.environment",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-FR-IO-012-02"
+    ],
+    "file": "docs/oracle/features/io.feature",
+    "line": 369,
+    "rules": [
+      "FR-IO-012"
+    ],
+    "operation": "io.environment",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "E2E",
+      "production_symbols": [
+        "main",
+        "read_line",
+        "seed_load",
+        "parse_command",
+        "execute",
+        "write_result"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-LIM-001-01"
+    ],
+    "file": "docs/oracle/features/lim.feature",
+    "line": 11,
+    "rules": [
+      "BR-LIM-001"
+    ],
+    "operation": "limits.available",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "available_credit"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-LIM-001-02"
+    ],
+    "file": "docs/oracle/features/lim.feature",
+    "line": 23,
+    "rules": [
+      "BR-LIM-001"
+    ],
+    "operation": "limits.available",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "available_credit"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-LIM-002-01"
+    ],
+    "file": "docs/oracle/features/lim.feature",
+    "line": 39,
+    "rules": [
+      "BR-LIM-002"
+    ],
+    "operation": "limits.credit",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "credit_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-LIM-002-02"
+    ],
+    "file": "docs/oracle/features/lim.feature",
+    "line": 51,
+    "rules": [
+      "BR-LIM-002"
+    ],
+    "operation": "limits.credit",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "credit_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-LIM-003-01"
+    ],
+    "file": "docs/oracle/features/lim.feature",
+    "line": 68,
+    "rules": [
+      "BR-LIM-003"
+    ],
+    "operation": "limits.operation",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "operation_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-LIM-003-02"
+    ],
+    "file": "docs/oracle/features/lim.feature",
+    "line": 80,
+    "rules": [
+      "BR-LIM-003"
+    ],
+    "operation": "limits.operation",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "operation_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-LIM-004-01"
+    ],
+    "file": "docs/oracle/features/lim.feature",
+    "line": 97,
+    "rules": [
+      "BR-LIM-004"
+    ],
+    "operation": "limits.daily_amount",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "daily_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-LIM-004-02"
+    ],
+    "file": "docs/oracle/features/lim.feature",
+    "line": 110,
+    "rules": [
+      "BR-LIM-004"
+    ],
+    "operation": "limits.daily_amount",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "daily_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-LIM-005-01"
+    ],
+    "file": "docs/oracle/features/lim.feature",
+    "line": 128,
+    "rules": [
+      "BR-LIM-005"
+    ],
+    "operation": "limits.daily_count",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "daily_totals",
+        "count_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-LIM-005-02"
+    ],
+    "file": "docs/oracle/features/lim.feature",
+    "line": 140,
+    "rules": [
+      "BR-LIM-005"
+    ],
+    "operation": "limits.daily_count",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "daily_totals",
+        "count_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-LIM-006-01"
+    ],
+    "file": "docs/oracle/features/lim.feature",
+    "line": 157,
+    "rules": [
+      "BR-LIM-006"
+    ],
+    "operation": "limits.day_projection",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "daily_totals"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-LIM-006-02"
+    ],
+    "file": "docs/oracle/features/lim.feature",
+    "line": 169,
+    "rules": [
+      "BR-LIM-006"
+    ],
+    "operation": "limits.day_projection",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "daily_totals"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-LIM-007-01"
+    ],
+    "file": "docs/oracle/features/lim.feature",
+    "line": 185,
+    "rules": [
+      "BR-LIM-007"
+    ],
+    "operation": "limits.after_reversal",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "capture_apply",
+        "cancel_apply",
+        "refund_apply",
+        "daily_totals"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-LIM-007-02"
+    ],
+    "file": "docs/oracle/features/lim.feature",
+    "line": 196,
+    "rules": [
+      "BR-LIM-007"
+    ],
+    "operation": "limits.after_reversal",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "capture_apply",
+        "cancel_apply",
+        "refund_apply",
+        "daily_totals"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-LIM-008-01"
+    ],
+    "file": "docs/oracle/features/lim.feature",
+    "line": 211,
+    "rules": [
+      "BR-LIM-008"
+    ],
+    "operation": "limits.record_decision",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "record_decision",
+        "daily_totals"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-LIM-008-02"
+    ],
+    "file": "docs/oracle/features/lim.feature",
+    "line": 223,
+    "rules": [
+      "BR-LIM-008"
+    ],
+    "operation": "limits.record_decision",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "record_decision",
+        "daily_totals"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-LIM-008-03"
+    ],
+    "file": "docs/oracle/features/lim.feature",
+    "line": 235,
+    "rules": [
+      "BR-LIM-008"
+    ],
+    "operation": "limits.record_decision",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "record_decision",
+        "daily_totals"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-001-01"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 11,
+    "rules": [
+      "BR-MNY-001"
+    ],
+    "operation": "money.validate",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "money_valid"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-001-02"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 21,
+    "rules": [
+      "BR-MNY-001"
+    ],
+    "operation": "money.validate",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "money_valid"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-001-03"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 31,
+    "rules": [
+      "BR-MNY-001"
+    ],
+    "operation": "money.validate",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "money_valid"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-001-04"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 42,
+    "rules": [
+      "BR-MNY-001"
+    ],
+    "operation": "money.validate",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "money_valid"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-002-01"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 57,
+    "rules": [
+      "BR-MNY-002"
+    ],
+    "operation": "money.add",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "money_add"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-002-02"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 69,
+    "rules": [
+      "BR-MNY-002"
+    ],
+    "operation": "money.add",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "money_add"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-003-01"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 85,
+    "rules": [
+      "BR-MNY-003"
+    ],
+    "operation": "money.subtract",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "money_sub"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-003-02"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 97,
+    "rules": [
+      "BR-MNY-003"
+    ],
+    "operation": "money.subtract",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "money_sub"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-003-03"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 109,
+    "rules": [
+      "BR-MNY-003"
+    ],
+    "operation": "money.subtract",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "money_sub"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-004-01"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 125,
+    "rules": [
+      "BR-MNY-004"
+    ],
+    "operation": "money.floor_rate",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "floor_rate"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-004-02"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 136,
+    "rules": [
+      "BR-MNY-004"
+    ],
+    "operation": "money.floor_rate",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "floor_rate"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-004-03"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 147,
+    "rules": [
+      "BR-MNY-004"
+    ],
+    "operation": "money.floor_rate",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "floor_rate"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-005-01"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 162,
+    "rules": [
+      "BR-MNY-005"
+    ],
+    "operation": "money.ceil_rate",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "ceil_rate"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-005-02"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 173,
+    "rules": [
+      "BR-MNY-005"
+    ],
+    "operation": "money.ceil_rate",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "ceil_rate"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-005-03"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 184,
+    "rules": [
+      "BR-MNY-005"
+    ],
+    "operation": "money.ceil_rate",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "ceil_rate"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-006-01"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 199,
+    "rules": [
+      "BR-MNY-006"
+    ],
+    "operation": "money.fx",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "money_fx"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-006-02"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 210,
+    "rules": [
+      "BR-MNY-006"
+    ],
+    "operation": "money.fx",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "money_fx"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-006-03"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 221,
+    "rules": [
+      "BR-MNY-006"
+    ],
+    "operation": "money.fx",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "money_fx"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-007-01"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 236,
+    "rules": [
+      "BR-MNY-007"
+    ],
+    "operation": "money.validate_rates",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "config_valid"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-007-02"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 247,
+    "rules": [
+      "BR-MNY-007"
+    ],
+    "operation": "money.validate_rates",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "config_valid"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-007-03"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 258,
+    "rules": [
+      "BR-MNY-007"
+    ],
+    "operation": "money.validate_rates",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "config_valid"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-007-04"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 269,
+    "rules": [
+      "BR-MNY-007"
+    ],
+    "operation": "money.validate_rates",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "config_valid"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-008-01"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 284,
+    "rules": [
+      "BR-MNY-008"
+    ],
+    "operation": "money.checked_mul",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "checked_mul"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-MNY-008-02"
+    ],
+    "file": "docs/oracle/features/mny.feature",
+    "line": 296,
+    "rules": [
+      "BR-MNY-008"
+    ],
+    "operation": "money.checked_mul",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "checked_mul"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-PRC-001-01"
+    ],
+    "file": "docs/oracle/features/prc.feature",
+    "line": 11,
+    "rules": [
+      "BR-PRC-001"
+    ],
+    "operation": "pricing.quote",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "quote"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-PRC-001-02"
+    ],
+    "file": "docs/oracle/features/prc.feature",
+    "line": 22,
+    "rules": [
+      "BR-PRC-001"
+    ],
+    "operation": "pricing.quote",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "quote"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-PRC-002-01"
+    ],
+    "file": "docs/oracle/features/prc.feature",
+    "line": 37,
+    "rules": [
+      "BR-PRC-002"
+    ],
+    "operation": "pricing.quote",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "quote"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-PRC-002-02"
+    ],
+    "file": "docs/oracle/features/prc.feature",
+    "line": 48,
+    "rules": [
+      "BR-PRC-002"
+    ],
+    "operation": "pricing.quote",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "quote"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-PRC-003-01"
+    ],
+    "file": "docs/oracle/features/prc.feature",
+    "line": 63,
+    "rules": [
+      "BR-PRC-003"
+    ],
+    "operation": "pricing.quote",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "quote"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-PRC-003-02"
+    ],
+    "file": "docs/oracle/features/prc.feature",
+    "line": 75,
+    "rules": [
+      "BR-PRC-003"
+    ],
+    "operation": "pricing.quote",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "quote"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-PRC-004-01"
+    ],
+    "file": "docs/oracle/features/prc.feature",
+    "line": 91,
+    "rules": [
+      "BR-PRC-004"
+    ],
+    "operation": "pricing.components",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "price_components"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-PRC-004-02"
+    ],
+    "file": "docs/oracle/features/prc.feature",
+    "line": 103,
+    "rules": [
+      "BR-PRC-004"
+    ],
+    "operation": "pricing.components",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "price_components"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-PRC-005-01"
+    ],
+    "file": "docs/oracle/features/prc.feature",
+    "line": 120,
+    "rules": [
+      "BR-PRC-005"
+    ],
+    "operation": "pricing.components",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "price_components"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-PRC-005-02"
+    ],
+    "file": "docs/oracle/features/prc.feature",
+    "line": 135,
+    "rules": [
+      "BR-PRC-005"
+    ],
+    "operation": "pricing.components",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "price_components"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-PRC-006-01"
+    ],
+    "file": "docs/oracle/features/prc.feature",
+    "line": 154,
+    "rules": [
+      "BR-PRC-006"
+    ],
+    "operation": "pricing.components",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "price_components"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-PRC-006-02"
+    ],
+    "file": "docs/oracle/features/prc.feature",
+    "line": 165,
+    "rules": [
+      "BR-PRC-006"
+    ],
+    "operation": "pricing.components",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "price_components"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-PRC-006-03"
+    ],
+    "file": "docs/oracle/features/prc.feature",
+    "line": 176,
+    "rules": [
+      "BR-PRC-006"
+    ],
+    "operation": "pricing.components",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "price_components"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-PRC-007-01"
+    ],
+    "file": "docs/oracle/features/prc.feature",
+    "line": 191,
+    "rules": [
+      "BR-PRC-007"
+    ],
+    "operation": "pricing.components",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "price_components"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-PRC-007-02"
+    ],
+    "file": "docs/oracle/features/prc.feature",
+    "line": 206,
+    "rules": [
+      "BR-PRC-007"
+    ],
+    "operation": "pricing.components",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "price_components"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-PRC-008-01"
+    ],
+    "file": "docs/oracle/features/prc.feature",
+    "line": 222,
+    "rules": [
+      "BR-PRC-008"
+    ],
+    "operation": "pricing.purity",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "quote"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-PRC-008-02"
+    ],
+    "file": "docs/oracle/features/prc.feature",
+    "line": 236,
+    "rules": [
+      "BR-PRC-008"
+    ],
+    "operation": "pricing.purity",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "quote"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-001-01"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 11,
+    "rules": [
+      "BR-REV-001"
+    ],
+    "operation": "reversal.cancel",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "cancel_apply",
+        "tick_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-001-02"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 26,
+    "rules": [
+      "BR-REV-001"
+    ],
+    "operation": "reversal.cancel",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "cancel_apply",
+        "tick_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-002-01"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 44,
+    "rules": [
+      "BR-REV-002"
+    ],
+    "operation": "reversal.cancel",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "cancel_apply",
+        "tick_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-002-02"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 59,
+    "rules": [
+      "BR-REV-002"
+    ],
+    "operation": "reversal.cancel",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "cancel_apply",
+        "tick_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-003-01"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 77,
+    "rules": [
+      "BR-REV-003"
+    ],
+    "operation": "reversal.cancel_terminal",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "cancel_apply",
+        "tick_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-003-02"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 88,
+    "rules": [
+      "BR-REV-003"
+    ],
+    "operation": "reversal.cancel_terminal",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "cancel_apply",
+        "tick_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-003-03"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 99,
+    "rules": [
+      "BR-REV-003"
+    ],
+    "operation": "reversal.cancel_terminal",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "cancel_apply",
+        "tick_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-004-01"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 114,
+    "rules": [
+      "BR-REV-004"
+    ],
+    "operation": "reversal.expire",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "cancel_apply",
+        "tick_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-004-02"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 128,
+    "rules": [
+      "BR-REV-004"
+    ],
+    "operation": "reversal.expire",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "cancel_apply",
+        "tick_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-004-03"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 144,
+    "rules": [
+      "BR-REV-004"
+    ],
+    "operation": "reversal.expire",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "cancel_apply",
+        "tick_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-005-01"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 164,
+    "rules": [
+      "BR-REV-005"
+    ],
+    "operation": "reversal.refund_amount",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "refund_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-005-02"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 176,
+    "rules": [
+      "BR-REV-005"
+    ],
+    "operation": "reversal.refund_amount",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "refund_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-005-03"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 189,
+    "rules": [
+      "BR-REV-005"
+    ],
+    "operation": "reversal.refund_amount",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "refund_admission"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-006-01"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 206,
+    "rules": [
+      "BR-REV-006"
+    ],
+    "operation": "reversal.refund_fee",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "cumulative_delta"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-006-02"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 219,
+    "rules": [
+      "BR-REV-006"
+    ],
+    "operation": "reversal.refund_fee",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "cumulative_delta"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-007-01"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 236,
+    "rules": [
+      "BR-REV-007"
+    ],
+    "operation": "reversal.refund_allocation",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "refund_apply",
+        "lot_principal",
+        "lot_fee"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-007-02"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 248,
+    "rules": [
+      "BR-REV-007"
+    ],
+    "operation": "reversal.refund_allocation",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "refund_apply",
+        "lot_principal",
+        "lot_fee"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-008-01"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 264,
+    "rules": [
+      "BR-REV-008"
+    ],
+    "operation": "reversal.refund_paid",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "refund_apply",
+        "lot_principal",
+        "lot_fee"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-008-02"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 279,
+    "rules": [
+      "BR-REV-008"
+    ],
+    "operation": "reversal.refund_paid",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "refund_apply",
+        "lot_principal",
+        "lot_fee"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-009-01"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 298,
+    "rules": [
+      "BR-REV-009"
+    ],
+    "operation": "reversal.refund_closed_auth",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "capture_apply",
+        "cancel_apply",
+        "tick_apply",
+        "refund_apply",
+        "daily_totals"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-009-02"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 314,
+    "rules": [
+      "BR-REV-009"
+    ],
+    "operation": "reversal.refund_closed_auth",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "authorize_apply",
+        "capture_apply",
+        "cancel_apply",
+        "tick_apply",
+        "refund_apply",
+        "daily_totals"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-010-01"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 334,
+    "rules": [
+      "BR-REV-010"
+    ],
+    "operation": "reversal.refund_with_late_fee",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "refund_apply",
+        "lot_principal",
+        "lot_fee"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REV-010-02"
+    ],
+    "file": "docs/oracle/features/rev.feature",
+    "line": 350,
+    "rules": [
+      "BR-REV-010"
+    ],
+    "operation": "reversal.refund_with_late_fee",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "refund_apply",
+        "lot_principal",
+        "lot_fee"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-001-01"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 11,
+    "rules": [
+      "BR-REW-001"
+    ],
+    "operation": "rewards.raw",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "reward_raw"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-001-02"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 24,
+    "rules": [
+      "BR-REW-001"
+    ],
+    "operation": "rewards.raw",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "reward_raw"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-002-01"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 41,
+    "rules": [
+      "BR-REW-002"
+    ],
+    "operation": "rewards.raw",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "reward_raw"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-002-02"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 53,
+    "rules": [
+      "BR-REW-002"
+    ],
+    "operation": "rewards.raw",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "reward_raw"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-003-01"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 69,
+    "rules": [
+      "BR-REW-003"
+    ],
+    "operation": "rewards.raw",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "reward_raw"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-003-02"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 81,
+    "rules": [
+      "BR-REW-003"
+    ],
+    "operation": "rewards.raw",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "reward_raw"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-004-01"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 97,
+    "rules": [
+      "BR-REW-004"
+    ],
+    "operation": "rewards.cap",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "reward_grant"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-004-02"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 108,
+    "rules": [
+      "BR-REW-004"
+    ],
+    "operation": "rewards.cap",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "reward_grant"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-004-03"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 119,
+    "rules": [
+      "BR-REW-004"
+    ],
+    "operation": "rewards.cap",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "reward_grant"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-005-01"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 134,
+    "rules": [
+      "BR-REW-005"
+    ],
+    "operation": "rewards.cycle_cap",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "reward_gross",
+        "reward_grant"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-005-02"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 146,
+    "rules": [
+      "BR-REW-005"
+    ],
+    "operation": "rewards.cycle_cap",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "reward_gross",
+        "reward_grant"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-006-01"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 162,
+    "rules": [
+      "BR-REW-006"
+    ],
+    "operation": "rewards.refund",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "cumulative_delta"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-006-02"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 175,
+    "rules": [
+      "BR-REW-006"
+    ],
+    "operation": "rewards.refund",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "cumulative_delta"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-006-03"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 188,
+    "rules": [
+      "BR-REW-006"
+    ],
+    "operation": "rewards.refund",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "cumulative_delta"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-007-01"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 205,
+    "rules": [
+      "BR-REW-007"
+    ],
+    "operation": "rewards.after_refund",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "reward_gross",
+        "reward_grant"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-007-02"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 218,
+    "rules": [
+      "BR-REW-007"
+    ],
+    "operation": "rewards.after_refund",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "reward_gross",
+        "reward_grant"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-008-01"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 234,
+    "rules": [
+      "BR-REW-008"
+    ],
+    "operation": "rewards.capture_partition",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "capture_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-REW-008-02"
+    ],
+    "file": "docs/oracle/features/rew.feature",
+    "line": 245,
+    "rules": [
+      "BR-REW-008"
+    ],
+    "operation": "rewards.capture_partition",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "execute",
+        "capture_apply",
+        "project_account"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-001-01"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 11,
+    "rules": [
+      "BR-RSK-001"
+    ],
+    "operation": "risk.score",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "risk_score"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-001-02"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 25,
+    "rules": [
+      "BR-RSK-001"
+    ],
+    "operation": "risk.score",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "risk_score"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-002-01"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 43,
+    "rules": [
+      "BR-RSK-002"
+    ],
+    "operation": "risk.score",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "risk_score"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-002-02"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 56,
+    "rules": [
+      "BR-RSK-002"
+    ],
+    "operation": "risk.score",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "risk_score"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-003-01"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 73,
+    "rules": [
+      "BR-RSK-003"
+    ],
+    "operation": "risk.score",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "risk_score"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-003-02"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 85,
+    "rules": [
+      "BR-RSK-003"
+    ],
+    "operation": "risk.score",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "risk_score"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-004-01"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 101,
+    "rules": [
+      "BR-RSK-004"
+    ],
+    "operation": "risk.score",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "risk_score"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-004-02"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 112,
+    "rules": [
+      "BR-RSK-004"
+    ],
+    "operation": "risk.score",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "risk_score"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-005-01"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 127,
+    "rules": [
+      "BR-RSK-005"
+    ],
+    "operation": "risk.velocity",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "recent_count",
+        "risk_score"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-005-02"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 139,
+    "rules": [
+      "BR-RSK-005"
+    ],
+    "operation": "risk.velocity",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "COMPONENT",
+      "production_symbols": [
+        "recent_count",
+        "risk_score"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-006-01"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 155,
+    "rules": [
+      "BR-RSK-006"
+    ],
+    "operation": "risk.classify",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "risk_classify"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-006-02"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 165,
+    "rules": [
+      "BR-RSK-006"
+    ],
+    "operation": "risk.classify",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "risk_classify"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-006-03"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 175,
+    "rules": [
+      "BR-RSK-006"
+    ],
+    "operation": "risk.classify",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "risk_classify"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-006-04"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 185,
+    "rules": [
+      "BR-RSK-006"
+    ],
+    "operation": "risk.classify",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "risk_classify"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-007-01"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 199,
+    "rules": [
+      "BR-RSK-007"
+    ],
+    "operation": "risk.score",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "risk_score"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-007-02"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 213,
+    "rules": [
+      "BR-RSK-007"
+    ],
+    "operation": "risk.score",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "risk_score"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-008-01"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 231,
+    "rules": [
+      "BR-RSK-008"
+    ],
+    "operation": "risk.score",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "risk_score"
+      ]
+    },
+    "runner": "harness/run.py"
+  },
+  {
+    "ids": [
+      "SC-BR-RSK-008-02"
+    ],
+    "file": "docs/oracle/features/rsk.feature",
+    "line": 245,
+    "rules": [
+      "BR-RSK-008"
+    ],
+    "operation": "risk.score",
+    "binding": {
+      "file": "harness/probes.py",
+      "symbol": "probe",
+      "map": "harness/probe-map.json",
+      "kind": "UNIT",
+      "production_symbols": [
+        "risk_score"
+      ]
+    },
+    "runner": "harness/run.py"
+  }
+]

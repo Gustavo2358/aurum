@@ -7,7 +7,7 @@ Build the C17 `aurum` binary using the repository Makefile, then run:
 ./build/aurum --seed seed.txt --commands -
 ```
 
-`--commands -` reads stdin. Both flags are required, may appear in either order, and may appear only once. Seed must be a file. Exit 0 means the complete stream was processed, including local rejected commands. Invocation, seed, or blocking I/O failure produces a diagnostic on stderr and exit 2. Stdout contains only JSON result lines.
+`--commands -` reads stdin. Both flags are required, may appear in either order, and may appear only once. Seed must be a file. Exit 0 means the complete stream was processed, including local rejected commands. Invocation, seed, or blocking I/O failure produces a diagnostic on stderr and exit 2. Stdout contains only JSON result lines. A closed output pipe is reported as an I/O failure with exit 2 on platforms exposing SIGPIPE.
 
 ## Grammar
 
