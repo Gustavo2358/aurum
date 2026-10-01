@@ -15,7 +15,7 @@ PGC_FIXTURE_QUALIFIED, no escopo de qualificação definido em docs/ACCEPTANCE.m
 `build/aurum`; `dist/analysis-subject/`; `dist/evaluation-oracle/`; `dist/criteria-public.json`; mapas em `evaluation/`. Uso em README.md. Resultados resumidos em artifacts/REPORT.md, comandos/versões em artifacts/full.json e detalhes de Joern em artifacts/joern-smoke/REPORT.md.
 
 ## Limitações verdadeiras
-- Joern produziu slice de profundidade 4 com 302 nós e 435 arestas. É parcial; não comprova slicing completo nem correção de extração. A tentativa exploratória de profundidade 20 foi interrompida após minutos sem saída.
+- O smoke Joern produziu slice de profundidade 4 com 302 nós e 435 arestas. No experimento posterior, profundidade 8 concluiu em 31,267 s com 353 nós e 521 arestas; profundidade 20 atingiu timeout de 30 minutos sem resultado. Nenhum desses testes comprova slicing completo ou extração correta de regras. Evidência: artifacts/joern-depth8/REPORT.md.
 - O frontend relatou fallback de ordem em CFG para for/break/continue. Sentinelas e locations foram verificadas; não foi provada a correção de todas as arestas do CFG.
 - Transações copiam o estado, com tempo e memória proporcionais às coleções. Não há objetivo de throughput de produção.
 - Probes UNIT/COMPONENT incluem estado histórico preparado e fórmulas isoladas; sua alcançabilidade por comandos não é presumida. Os fluxos E2E usam apenas seed e comandos públicos.

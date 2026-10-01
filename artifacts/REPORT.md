@@ -45,3 +45,7 @@ O build normal usa `-std=c17 -O2 -g -Wall -Wextra -Wpedantic -Werror`. ASan e UB
 A ingestão CPG, o mapeamento e as sentinelas passaram. O slice real tem 302 nós e 435 arestas, limitado à profundidade 4. A tentativa exploratória com profundidade 20 foi interrompida sem resultado. O frontend registrou fallbacks de CFG; ver `joern-smoke/REPORT.md`. Não há alegação de slicing completo ou de extração correta de todas as regras.
 
 As transações copiam o estado e não oferecem garantia de throughput. Componentes históricos preparados são distinguidos de fluxos públicos. Não foi feita extração por LLM no contexto autoral, nem prova formal ou inferência de generalização para software real.
+
+## Experimento posterior solicitado
+
+Profundidade 8 concluiu em 31,267 segundos (353 nós, 521 arestas). Profundidade 20 atingiu timeout de 30 minutos sem gerar slice. O smoke de profundidade 4 acima permanece como evidência da execução FULL original. [Comparação e limites](joern-depth8/REPORT.md).
