@@ -48,4 +48,4 @@ As transações copiam o estado e não oferecem garantia de throughput. Componen
 
 ## Experimento posterior solicitado
 
-Profundidade 8 concluiu em 31,267 segundos (353 nós, 521 arestas). Profundidade 20 atingiu timeout de 30 minutos sem gerar slice. O smoke de profundidade 4 acima permanece como evidência da execução FULL original. [Comparação e limites](joern-depth8/REPORT.md).
+Profundidade 8 concluiu em 31,267 segundos (353 nós, 521 arestas); profundidade 12 concluiu em 176,365 segundos (370 nós, 541 arestas), preservando todos os elementos do resultado 8. Profundidade 20 atingiu timeout de 30 minutos sem gerar slice. FAST foi reexecutado com PASS após a tentativa 12. O smoke de profundidade 4 acima permanece como evidência da execução FULL original. [Comparação e limites](joern-depth12/REPORT.md).

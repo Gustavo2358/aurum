@@ -1,0 +1,6758 @@
+{
+  "$type": "DataFlowSlice",
+  "edges": [
+    {
+      "dst": 30064772262,
+      "label": "REACHING_DEF",
+      "src": 30064772270
+    },
+    {
+      "dst": 30064772089,
+      "label": "REACHING_DEF",
+      "src": 68719477608
+    },
+    {
+      "dst": 30064771403,
+      "label": "REACHING_DEF",
+      "src": 68719476972
+    },
+    {
+      "dst": 30064772363,
+      "label": "REACHING_DEF",
+      "src": 68719477857
+    },
+    {
+      "dst": 68719477025,
+      "label": "REACHING_DEF",
+      "src": 30064771473
+    },
+    {
+      "dst": 30064771562,
+      "label": "REACHING_DEF",
+      "src": 68719477124
+    },
+    {
+      "dst": 68719477888,
+      "label": "REACHING_DEF",
+      "src": 68719477887
+    },
+    {
+      "dst": 68719477903,
+      "label": "REACHING_DEF",
+      "src": 120259084305
+    },
+    {
+      "dst": 30064772388,
+      "label": "REACHING_DEF",
+      "src": 68719477880
+    },
+    {
+      "dst": 68719477140,
+      "label": "REACHING_DEF",
+      "src": 68719477128
+    },
+    {
+      "dst": 68719477833,
+      "label": "REACHING_DEF",
+      "src": 68719477820
+    },
+    {
+      "dst": 30064772110,
+      "label": "REACHING_DEF",
+      "src": 68719477628
+    },
+    {
+      "dst": 68719477440,
+      "label": "REACHING_DEF",
+      "src": 30064771905
+    },
+    {
+      "dst": 30064771390,
+      "label": "REACHING_DEF",
+      "src": 90194313246
+    },
+    {
+      "dst": 30064772326,
+      "label": "REACHING_DEF",
+      "src": 68719477803
+    },
+    {
+      "dst": 30064771586,
+      "label": "REACHING_DEF",
+      "src": 90194313265
+    },
+    {
+      "dst": 30064772197,
+      "label": "REACHING_DEF",
+      "src": 30064772173
+    },
+    {
+      "dst": 68719476998,
+      "label": "REACHING_DEF",
+      "src": 111669149718
+    },
+    {
+      "dst": 30064772262,
+      "label": "REACHING_DEF",
+      "src": 30064772263
+    },
+    {
+      "dst": 30064771589,
+      "label": "REACHING_DEF",
+      "src": 68719477140
+    },
+    {
+      "dst": 30064772439,
+      "label": "REACHING_DEF",
+      "src": 90194313292
+    },
+    {
+      "dst": 30064772048,
+      "label": "REACHING_DEF",
+      "src": 68719477554
+    },
+    {
+      "dst": 30064772272,
+      "label": "REACHING_DEF",
+      "src": 30064772265
+    },
+    {
+      "dst": 68719477928,
+      "label": "REACHING_DEF",
+      "src": 68719477920
+    },
+    {
+      "dst": 68719477903,
+      "label": "REACHING_DEF",
+      "src": 30064772412
+    },
+    {
+      "dst": 68719477607,
+      "label": "REACHING_DEF",
+      "src": 30064772089
+    },
+    {
+      "dst": 30064771475,
+      "label": "REACHING_DEF",
+      "src": 68719477025
+    },
+    {
+      "dst": 30064772326,
+      "label": "REACHING_DEF",
+      "src": 68719477814
+    },
+    {
+      "dst": 68719477124,
+      "label": "REACHING_DEF",
+      "src": 111669149723
+    },
+    {
+      "dst": 68719477879,
+      "label": "REACHING_DEF",
+      "src": 30064772387
+    },
+    {
+      "dst": 30064772446,
+      "label": "REACHING_DEF",
+      "src": 68719477918
+    },
+    {
+      "dst": 30064772482,
+      "label": "REACHING_DEF",
+      "src": 68719477975
+    },
+    {
+      "dst": 30064771561,
+      "label": "REACHING_DEF",
+      "src": 68719477126
+    },
+    {
+      "dst": 30064772210,
+      "label": "REACHING_DEF",
+      "src": 111669149746
+    },
+    {
+      "dst": 30064772035,
+      "label": "REACHING_DEF",
+      "src": 68719477505
+    },
+    {
+      "dst": 30064772405,
+      "label": "REACHING_DEF",
+      "src": 68719477895
+    },
+    {
+      "dst": 68719477907,
+      "label": "REACHING_DEF",
+      "src": 30064772357
+    },
+    {
+      "dst": 30064772432,
+      "label": "REACHING_DEF",
+      "src": 68719477920
+    },
+    {
+      "dst": 68719477149,
+      "label": "REACHING_DEF",
+      "src": 68719477126
+    },
+    {
+      "dst": 30064772339,
+      "label": "REACHING_DEF",
+      "src": 68719477819
+    },
+    {
+      "dst": 30064772410,
+      "label": "REACHING_DEF",
+      "src": 30064772377
+    },
+    {
+      "dst": 68719477974,
+      "label": "REACHING_DEF",
+      "src": 68719477968
+    },
+    {
+      "dst": 30064772157,
+      "label": "REACHING_DEF",
+      "src": 30064772159
+    },
+    {
+      "dst": 68719477903,
+      "label": "REACHING_DEF",
+      "src": 68719477882
+    },
+    {
+      "dst": 30064771586,
+      "label": "REACHING_DEF",
+      "src": 68719477146
+    },
+    {
+      "dst": 68719477031,
+      "label": "REACHING_DEF",
+      "src": 30064771466
+    },
+    {
+      "dst": 68719477040,
+      "label": "REACHING_DEF",
+      "src": 68719477026
+    },
+    {
+      "dst": 68719476991,
+      "label": "REACHING_DEF",
+      "src": 90194313248
+    },
+    {
+      "dst": 30064772269,
+      "label": "REACHING_DEF",
+      "src": 68719477749
+    },
+    {
+      "dst": 30064772259,
+      "label": "REACHING_DEF",
+      "src": 68719477747
+    },
+    {
+      "dst": 30064772050,
+      "label": "REACHING_DEF",
+      "src": 68719477578
+    },
+    {
+      "dst": 30064772405,
+      "label": "REACHING_DEF",
+      "src": 30064772374
+    },
+    {
+      "dst": 68719477928,
+      "label": "REACHING_DEF",
+      "src": 68719477919
+    },
+    {
+      "dst": 30064772266,
+      "label": "REACHING_DEF",
+      "src": 30064772263
+    },
+    {
+      "dst": 68719477750,
+      "label": "REACHING_DEF",
+      "src": 30064772158
+    },
+    {
+      "dst": 68719477504,
+      "label": "REACHING_DEF",
+      "src": 68719477471
+    },
+    {
+      "dst": 68719476941,
+      "label": "REACHING_DEF",
+      "src": 30064771369
+    },
+    {
+      "dst": 30064772092,
+      "label": "REACHING_DEF",
+      "src": 68719477611
+    },
+    {
+      "dst": 30064772443,
+      "label": "REACHING_DEF",
+      "src": 90194313293
+    },
+    {
+      "dst": 68719477755,
+      "label": "REACHING_DEF",
+      "src": 30064772136
+    },
+    {
+      "dst": 30064772320,
+      "label": "REACHING_DEF",
+      "src": 68719477807
+    },
+    {
+      "dst": 30064772266,
+      "label": "REACHING_DEF",
+      "src": 30064772267
+    },
+    {
+      "dst": 30064772396,
+      "label": "REACHING_DEF",
+      "src": 68719477888
+    },
+    {
+      "dst": 68719477616,
+      "label": "REACHING_DEF",
+      "src": 30064772072
+    },
+    {
+      "dst": 68719477888,
+      "label": "REACHING_DEF",
+      "src": 30064772396
+    },
+    {
+      "dst": 68719477972,
+      "label": "REACHING_DEF",
+      "src": 68719477966
+    },
+    {
+      "dst": 30064772374,
+      "label": "REACHING_DEF",
+      "src": 68719477860
+    },
+    {
+      "dst": 30064772267,
+      "label": "REACHING_DEF",
+      "src": 68719477757
+    },
+    {
+      "dst": 68719477904,
+      "label": "REACHING_DEF",
+      "src": 120259084305
+    },
+    {
+      "dst": 30064771403,
+      "label": "REACHING_DEF",
+      "src": 68719476976
+    },
+    {
+      "dst": 30064772432,
+      "label": "REACHING_DEF",
+      "src": 30064772433
+    },
+    {
+      "dst": 68719477045,
+      "label": "REACHING_DEF",
+      "src": 68719477040
+    },
+    {
+      "dst": 30064772313,
+      "label": "REACHING_DEF",
+      "src": 30064772314
+    },
+    {
+      "dst": 30064772272,
+      "label": "REACHING_DEF",
+      "src": 68719477635
+    },
+    {
+      "dst": 68719477005,
+      "label": "REACHING_DEF",
+      "src": 68719476989
+    },
+    {
+      "dst": 68719477005,
+      "label": "REACHING_DEF",
+      "src": 68719477006
+    },
+    {
+      "dst": 30064772147,
+      "label": "REACHING_DEF",
+      "src": 68719477665
+    },
+    {
+      "dst": 30064771569,
+      "label": "REACHING_DEF",
+      "src": 30064771570
+    },
+    {
+      "dst": 68719477873,
+      "label": "REACHING_DEF",
+      "src": 68719477872
+    },
+    {
+      "dst": 68719477819,
+      "label": "REACHING_DEF",
+      "src": 68719477803
+    },
+    {
+      "dst": 68719477757,
+      "label": "REACHING_DEF",
+      "src": 68719477751
+    },
+    {
+      "dst": 30064771422,
+      "label": "REACHING_DEF",
+      "src": 111669149716
+    },
+    {
+      "dst": 30064771569,
+      "label": "REACHING_DEF",
+      "src": 68719477123
+    },
+    {
+      "dst": 68719477887,
+      "label": "REACHING_DEF",
+      "src": 90194313290
+    },
+    {
+      "dst": 68719476995,
+      "label": "REACHING_DEF",
+      "src": 68719476993
+    },
+    {
+      "dst": 30064771452,
+      "label": "REACHING_DEF",
+      "src": 90194313255
+    },
+    {
+      "dst": 30064771575,
+      "label": "REACHING_DEF",
+      "src": 30064771576
+    },
+    {
+      "dst": 68719477855,
+      "label": "REACHING_DEF",
+      "src": 90194313286
+    },
+    {
+      "dst": 68719477972,
+      "label": "REACHING_DEF",
+      "src": 111669149756
+    },
+    {
+      "dst": 68719477716,
+      "label": "REACHING_DEF",
+      "src": 30064772132
+    },
+    {
+      "dst": 68719477969,
+      "label": "REACHING_DEF",
+      "src": 111669149759
+    },
+    {
+      "dst": 30064772167,
+      "label": "REACHING_DEF",
+      "src": 30064772120
+    },
+    {
+      "dst": 68719477027,
+      "label": "REACHING_DEF",
+      "src": 30064771463
+    },
+    {
+      "dst": 30064772338,
+      "label": "REACHING_DEF",
+      "src": 68719477828
+    },
+    {
+      "dst": 68719477128,
+      "label": "REACHING_DEF",
+      "src": 68719477125
+    },
+    {
+      "dst": 30064771588,
+      "label": "REACHING_DEF",
+      "src": 68719477150
+    },
+    {
+      "dst": 68719476976,
+      "label": "REACHING_DEF",
+      "src": 68719476966
+    },
+    {
+      "dst": 68719477917,
+      "label": "REACHING_DEF",
+      "src": 30064772427
+    },
+    {
+      "dst": 30064771583,
+      "label": "REACHING_DEF",
+      "src": 68719477145
+    },
+    {
+      "dst": 30064771586,
+      "label": "REACHING_DEF",
+      "src": 68719477124
+    },
+    {
+      "dst": 30064772231,
+      "label": "REACHING_DEF",
+      "src": 90194313283
+    },
+    {
+      "dst": 30064772234,
+      "label": "REACHING_DEF",
+      "src": 68719477635
+    },
+    {
+      "dst": 68719477918,
+      "label": "REACHING_DEF",
+      "src": 30064772443
+    },
+    {
+      "dst": 68719477966,
+      "label": "REACHING_DEF",
+      "src": 111669149756
+    },
+    {
+      "dst": 30064772142,
+      "label": "REACHING_DEF",
+      "src": 111669149746
+    },
+    {
+      "dst": 68719477800,
+      "label": "REACHING_DEF",
+      "src": 30064772313
+    },
+    {
+      "dst": 68719477931,
+      "label": "REACHING_DEF",
+      "src": 68719477929
+    },
+    {
+      "dst": 30064771574,
+      "label": "REACHING_DEF",
+      "src": 30064771573
+    },
+    {
+      "dst": 30064772111,
+      "label": "REACHING_DEF",
+      "src": 111669149746
+    },
+    {
+      "dst": 68719477635,
+      "label": "REACHING_DEF",
+      "src": 68719477630
+    },
+    {
+      "dst": 68719477902,
+      "label": "REACHING_DEF",
+      "src": 30064772376
+    },
+    {
+      "dst": 68719477762,
+      "label": "REACHING_DEF",
+      "src": 68719477750
+    },
+    {
+      "dst": 30064772363,
+      "label": "REACHING_DEF",
+      "src": 111669149751
+    },
+    {
+      "dst": 30064772197,
+      "label": "REACHING_DEF",
+      "src": 30064772196
+    },
+    {
+      "dst": 30064772320,
+      "label": "REACHING_DEF",
+      "src": 30064772321
+    },
+    {
+      "dst": 68719477819,
+      "label": "REACHING_DEF",
+      "src": 30064772326
+    },
+    {
+      "dst": 30064771922,
+      "label": "REACHING_DEF",
+      "src": 68719477443
+    },
+    {
+      "dst": 30064771406,
+      "label": "REACHING_DEF",
+      "src": 30064771395
+    },
+    {
+      "dst": 30064772007,
+      "label": "REACHING_DEF",
+      "src": 68719477505
+    },
+    {
+      "dst": 68719476941,
+      "label": "REACHING_DEF",
+      "src": 68719476943
+    },
+    {
+      "dst": 30064772321,
+      "label": "REACHING_DEF",
+      "src": 30064772320
+    },
+    {
+      "dst": 30064771573,
+      "label": "REACHING_DEF",
+      "src": 68719477128
+    },
+    {
+      "dst": 30064772034,
+      "label": "REACHING_DEF",
+      "src": 30064772035
+    },
+    {
+      "dst": 30064771469,
+      "label": "REACHING_DEF",
+      "src": 68719477038
+    },
+    {
+      "dst": 30064772377,
+      "label": "REACHING_DEF",
+      "src": 30064772357
+    },
+    {
+      "dst": 30064772267,
+      "label": "REACHING_DEF",
+      "src": 30064772269
+    },
+    {
+      "dst": 30064772271,
+      "label": "REACHING_DEF",
+      "src": 68719477762
+    },
+    {
+      "dst": 68719477918,
+      "label": "REACHING_DEF",
+      "src": 30064772446
+    },
+    {
+      "dst": 68719477873,
+      "label": "REACHING_DEF",
+      "src": 30064772382
+    },
+    {
+      "dst": 68719477931,
+      "label": "REACHING_DEF",
+      "src": 30064772443
+    },
+    {
+      "dst": 30064772049,
+      "label": "REACHING_DEF",
+      "src": 30064772050
+    },
+    {
+      "dst": 68719477963,
+      "label": "REACHING_DEF",
+      "src": 111669149761
+    },
+    {
+      "dst": 68719477749,
+      "label": "REACHING_DEF",
+      "src": 30064772210
+    },
+    {
+      "dst": 30064772437,
+      "label": "REACHING_DEF",
+      "src": 68719477906
+    },
+    {
+      "dst": 68719477036,
+      "label": "REACHING_DEF",
+      "src": 111669149717
+    },
+    {
+      "dst": 30064771469,
+      "label": "REACHING_DEF",
+      "src": 68719477035
+    },
+    {
+      "dst": 30064772407,
+      "label": "REACHING_DEF",
+      "src": 68719477897
+    },
+    {
+      "dst": 30064772135,
+      "label": "REACHING_DEF",
+      "src": 30064772130
+    },
+    {
+      "dst": 68719476941,
+      "label": "REACHING_DEF",
+      "src": 68719476940
+    },
+    {
+      "dst": 68719477767,
+      "label": "REACHING_DEF",
+      "src": 30064772132
+    },
+    {
+      "dst": 68719477870,
+      "label": "REACHING_DEF",
+      "src": 68719477871
+    },
+    {
+      "dst": 68719477024,
+      "label": "REACHING_DEF",
+      "src": 30064771473
+    },
+    {
+      "dst": 30064772338,
+      "label": "REACHING_DEF",
+      "src": 68719477829
+    },
+    {
+      "dst": 30064772167,
+      "label": "REACHING_DEF",
+      "src": 30064772164
+    },
+    {
+      "dst": 68719477035,
+      "label": "REACHING_DEF",
+      "src": 30064771422
+    },
+    {
+      "dst": 30064772382,
+      "label": "REACHING_DEF",
+      "src": 68719477874
+    },
+    {
+      "dst": 68719477665,
+      "label": "REACHING_DEF",
+      "src": 30064772139
+    },
+    {
+      "dst": 68719477918,
+      "label": "REACHING_DEF",
+      "src": 30064772372
+    },
+    {
+      "dst": 30064772330,
+      "label": "REACHING_DEF",
+      "src": 68719477819
+    },
+    {
+      "dst": 30064772173,
+      "label": "REACHING_DEF",
+      "src": 30064772148
+    },
+    {
+      "dst": 30064772445,
+      "label": "REACHING_DEF",
+      "src": 68719477937
+    },
+    {
+      "dst": 68719476986,
+      "label": "REACHING_DEF",
+      "src": 30064771412
+    },
+    {
+      "dst": 30064771403,
+      "label": "REACHING_DEF",
+      "src": 68719476971
+    },
+    {
+      "dst": 30064772263,
+      "label": "REACHING_DEF",
+      "src": 30064772266
+    },
+    {
+      "dst": 68719477934,
+      "label": "REACHING_DEF",
+      "src": 30064772363
+    },
+    {
+      "dst": 30064772265,
+      "label": "REACHING_DEF",
+      "src": 68719477635
+    },
+    {
+      "dst": 30064771475,
+      "label": "REACHING_DEF",
+      "src": 68719477024
+    },
+    {
+      "dst": 68719477749,
+      "label": "REACHING_DEF",
+      "src": 30064772142
+    },
+    {
+      "dst": 30064772271,
+      "label": "REACHING_DEF",
+      "src": 68719477763
+    },
+    {
+      "dst": 68719477828,
+      "label": "REACHING_DEF",
+      "src": 68719477801
+    },
+    {
+      "dst": 68719477902,
+      "label": "REACHING_DEF",
+      "src": 30064772409
+    },
+    {
+      "dst": 30064771469,
+      "label": "REACHING_DEF",
+      "src": 68719477036
+    },
+    {
+      "dst": 30064772130,
+      "label": "REACHING_DEF",
+      "src": 30064772122
+    },
+    {
+      "dst": 30064772409,
+      "label": "REACHING_DEF",
+      "src": 30064772410
+    },
+    {
+      "dst": 30064772147,
+      "label": "REACHING_DEF",
+      "src": 30064772148
+    },
+    {
+      "dst": 30064772122,
+      "label": "REACHING_DEF",
+      "src": 111669149746
+    },
+    {
+      "dst": 30064772313,
+      "label": "REACHING_DEF",
+      "src": 68719477801
+    },
+    {
+      "dst": 68719477756,
+      "label": "REACHING_DEF",
+      "src": 68719477750
+    },
+    {
+      "dst": 30064771454,
+      "label": "REACHING_DEF",
+      "src": 68719477005
+    },
+    {
+      "dst": 68719476940,
+      "label": "REACHING_DEF",
+      "src": 90194313243
+    },
+    {
+      "dst": 68719477971,
+      "label": "REACHING_DEF",
+      "src": 68719477965
+    },
+    {
+      "dst": 30064772157,
+      "label": "REACHING_DEF",
+      "src": 90194313280
+    },
+    {
+      "dst": 68719477819,
+      "label": "REACHING_DEF",
+      "src": 30064772324
+    },
+    {
+      "dst": 30064772267,
+      "label": "REACHING_DEF",
+      "src": 30064772268
+    },
+    {
+      "dst": 68719477609,
+      "label": "REACHING_DEF",
+      "src": 68719477607
+    },
+    {
+      "dst": 68719477756,
+      "label": "REACHING_DEF",
+      "src": 30064772158
+    },
+    {
+      "dst": 68719477505,
+      "label": "REACHING_DEF",
+      "src": 68719477472
+    },
+    {
+      "dst": 68719477808,
+      "label": "REACHING_DEF",
+      "src": 111669149748
+    },
+    {
+      "dst": 68719477814,
+      "label": "REACHING_DEF",
+      "src": 30064772326
+    },
+    {
+      "dst": 68719476983,
+      "label": "REACHING_DEF",
+      "src": 68719476981
+    },
+    {
+      "dst": 68719477047,
+      "label": "REACHING_DEF",
+      "src": 68719477040
+    },
+    {
+      "dst": 30064772437,
+      "label": "REACHING_DEF",
+      "src": 30064772433
+    },
+    {
+      "dst": 30064772321,
+      "label": "REACHING_DEF",
+      "src": 68719477803
+    },
+    {
+      "dst": 68719477006,
+      "label": "REACHING_DEF",
+      "src": 68719477002
+    },
+    {
+      "dst": 68719477750,
+      "label": "REACHING_DEF",
+      "src": 68719477685
+    },
+    {
+      "dst": 30064772433,
+      "label": "REACHING_DEF",
+      "src": 30064772437
+    },
+    {
+      "dst": 30064771369,
+      "label": "REACHING_DEF",
+      "src": 111669149712
+    },
+    {
+      "dst": 68719477627,
+      "label": "REACHING_DEF",
+      "src": 30064772104
+    },
+    {
+      "dst": 68719477749,
+      "label": "REACHING_DEF",
+      "src": 30064772105
+    },
+    {
+      "dst": 68719477967,
+      "label": "REACHING_DEF",
+      "src": 111669149757
+    },
+    {
+      "dst": 30064772479,
+      "label": "REACHING_DEF",
+      "src": 68719477963
+    },
+    {
+      "dst": 68719477767,
+      "label": "REACHING_DEF",
+      "src": 68719477716
+    },
+    {
+      "dst": 30064772269,
+      "label": "REACHING_DEF",
+      "src": 30064772169
+    },
+    {
+      "dst": 68719477869,
+      "label": "REACHING_DEF",
+      "src": 68719477855
+    },
+    {
+      "dst": 30064772445,
+      "label": "REACHING_DEF",
+      "src": 68719477935
+    },
+    {
+      "dst": 30064772478,
+      "label": "REACHING_DEF",
+      "src": 30064772482
+    },
+    {
+      "dst": 68719477126,
+      "label": "REACHING_DEF",
+      "src": 111669149722
+    },
+    {
+      "dst": 68719477919,
+      "label": "REACHING_DEF",
+      "src": 68719477917
+    },
+    {
+      "dst": 30064771561,
+      "label": "REACHING_DEF",
+      "src": 30064771562
+    },
+    {
+      "dst": 68719477857,
+      "label": "REACHING_DEF",
+      "src": 68719477856
+    },
+    {
+      "dst": 68719477019,
+      "label": "REACHING_DEF",
+      "src": 30064771454
+    },
+    {
+      "dst": 30064771573,
+      "label": "REACHING_DEF",
+      "src": 30064771574
+    },
+    {
+      "dst": 68719477006,
+      "label": "REACHING_DEF",
+      "src": 120259084289
+    },
+    {
+      "dst": 30064772271,
+      "label": "REACHING_DEF",
+      "src": 30064772272
+    },
+    {
+      "dst": 30064772141,
+      "label": "REACHING_DEF",
+      "src": 68719477665
+    },
+    {
+      "dst": 30064772437,
+      "label": "REACHING_DEF",
+      "src": 68719477928
+    },
+    {
+      "dst": 30064771463,
+      "label": "REACHING_DEF",
+      "src": 30064771452
+    },
+    {
+      "dst": 30064772264,
+      "label": "REACHING_DEF",
+      "src": 68719477755
+    },
+    {
+      "dst": 30064772482,
+      "label": "REACHING_DEF",
+      "src": 68719477974
+    },
+    {
+      "dst": 68719477026,
+      "label": "REACHING_DEF",
+      "src": 30064771461
+    },
+    {
+      "dst": 68719477820,
+      "label": "REACHING_DEF",
+      "src": 68719477818
+    },
+    {
+      "dst": 30064771588,
+      "label": "REACHING_DEF",
+      "src": 68719477153
+    },
+    {
+      "dst": 30064772358,
+      "label": "REACHING_DEF",
+      "src": 30064772357
+    },
+    {
+      "dst": 68719477630,
+      "label": "REACHING_DEF",
+      "src": 68719477627
+    },
+    {
+      "dst": 30064772335,
+      "label": "REACHING_DEF",
+      "src": 68719477825
+    },
+    {
+      "dst": 30064772022,
+      "label": "REACHING_DEF",
+      "src": 30064772007
+    },
+    {
+      "dst": 68719477025,
+      "label": "REACHING_DEF",
+      "src": 30064771475
+    },
+    {
+      "dst": 68719477005,
+      "label": "REACHING_DEF",
+      "src": 30064771435
+    },
+    {
+      "dst": 68719477965,
+      "label": "REACHING_DEF",
+      "src": 111669149755
+    },
+    {
+      "dst": 30064772092,
+      "label": "REACHING_DEF",
+      "src": 68719477614
+    },
+    {
+      "dst": 68719477685,
+      "label": "REACHING_DEF",
+      "src": 30064772158
+    },
+    {
+      "dst": 30064771473,
+      "label": "REACHING_DEF",
+      "src": 68719477045
+    },
+    {
+      "dst": 68719477762,
+      "label": "REACHING_DEF",
+      "src": 30064772158
+    },
+    {
+      "dst": 68719477751,
+      "label": "REACHING_DEF",
+      "src": 68719477748
+    },
+    {
+      "dst": 30064772479,
+      "label": "REACHING_DEF",
+      "src": 30064772480
+    },
+    {
+      "dst": 30064772262,
+      "label": "REACHING_DEF",
+      "src": 30064772266
+    },
+    {
+      "dst": 30064772265,
+      "label": "REACHING_DEF",
+      "src": 30064772234
+    },
+    {
+      "dst": 30064772271,
+      "label": "REACHING_DEF",
+      "src": 68719477765
+    },
+    {
+      "dst": 30064772377,
+      "label": "REACHING_DEF",
+      "src": 111669149752
+    },
+    {
+      "dst": 68719477441,
+      "label": "REACHING_DEF",
+      "src": 111669149743
+    },
+    {
+      "dst": 30064772412,
+      "label": "REACHING_DEF",
+      "src": 68719477902
+    },
+    {
+      "dst": 30064772158,
+      "label": "REACHING_DEF",
+      "src": 68719477628
+    },
+    {
+      "dst": 30064772159,
+      "label": "REACHING_DEF",
+      "src": 30064772157
+    },
+    {
+      "dst": 68719477856,
+      "label": "REACHING_DEF",
+      "src": 90194313287
+    },
+    {
+      "dst": 30064772022,
+      "label": "REACHING_DEF",
+      "src": 68719477505
+    },
+    {
+      "dst": 68719477971,
+      "label": "REACHING_DEF",
+      "src": 111669149755
+    },
+    {
+      "dst": 68719477005,
+      "label": "REACHING_DEF",
+      "src": 120259084289
+    },
+    {
+      "dst": 68719477897,
+      "label": "REACHING_DEF",
+      "src": 68719477866
+    },
+    {
+      "dst": 68719477976,
+      "label": "REACHING_DEF",
+      "src": 68719477963
+    },
+    {
+      "dst": 68719477918,
+      "label": "REACHING_DEF",
+      "src": 68719477914
+    },
+    {
+      "dst": 68719477808,
+      "label": "REACHING_DEF",
+      "src": 30064772314
+    },
+    {
+      "dst": 68719476943,
+      "label": "REACHING_DEF",
+      "src": 68719476941
+    },
+    {
+      "dst": 68719477902,
+      "label": "REACHING_DEF",
+      "src": 68719477891
+    },
+    {
+      "dst": 30064771588,
+      "label": "REACHING_DEF",
+      "src": 30064771590
+    },
+    {
+      "dst": 30064772105,
+      "label": "REACHING_DEF",
+      "src": 111669149746
+    },
+    {
+      "dst": 68719477443,
+      "label": "REACHING_DEF",
+      "src": 68719477440
+    },
+    {
+      "dst": 30064772049,
+      "label": "REACHING_DEF",
+      "src": 68719477578
+    },
+    {
+      "dst": 30064772324,
+      "label": "REACHING_DEF",
+      "src": 68719477812
+    },
+    {
+      "dst": 30064772194,
+      "label": "REACHING_DEF",
+      "src": 90194313282
+    },
+    {
+      "dst": 68719477448,
+      "label": "REACHING_DEF",
+      "src": 68719477441
+    },
+    {
+      "dst": 30064772268,
+      "label": "REACHING_DEF",
+      "src": 68719477635
+    },
+    {
+      "dst": 68719477660,
+      "label": "REACHING_DEF",
+      "src": 30064772132
+    },
+    {
+      "dst": 30064771583,
+      "label": "REACHING_DEF",
+      "src": 90194313264
+    },
+    {
+      "dst": 30064772318,
+      "label": "REACHING_DEF",
+      "src": 68719477808
+    },
+    {
+      "dst": 68719477002,
+      "label": "REACHING_DEF",
+      "src": 68719476991
+    },
+    {
+      "dst": 68719477024,
+      "label": "REACHING_DEF",
+      "src": 30064771475
+    },
+    {
+      "dst": 30064772374,
+      "label": "REACHING_DEF",
+      "src": 68719477866
+    },
+    {
+      "dst": 68719477973,
+      "label": "REACHING_DEF",
+      "src": 68719477967
+    },
+    {
+      "dst": 68719477907,
+      "label": "REACHING_DEF",
+      "src": 30064772377
+    },
+    {
+      "dst": 68719477904,
+      "label": "REACHING_DEF",
+      "src": 68719477903
+    },
+    {
+      "dst": 30064771575,
+      "label": "REACHING_DEF",
+      "src": 30064771577
+    },
+    {
+      "dst": 30064771473,
+      "label": "REACHING_DEF",
+      "src": 68719477025
+    },
+    {
+      "dst": 30064771575,
+      "label": "REACHING_DEF",
+      "src": 90194313262
+    },
+    {
+      "dst": 30064772264,
+      "label": "REACHING_DEF",
+      "src": 68719477754
+    },
+    {
+      "dst": 30064771475,
+      "label": "REACHING_DEF",
+      "src": 68719477047
+    },
+    {
+      "dst": 30064772481,
+      "label": "REACHING_DEF",
+      "src": 68719477969
+    },
+    {
+      "dst": 30064772372,
+      "label": "REACHING_DEF",
+      "src": 30064772374
+    },
+    {
+      "dst": 30064772481,
+      "label": "REACHING_DEF",
+      "src": 68719477967
+    },
+    {
+      "dst": 68719476967,
+      "label": "REACHING_DEF",
+      "src": 68719476961
+    },
+    {
+      "dst": 30064772271,
+      "label": "REACHING_DEF",
+      "src": 68719477767
+    },
+    {
+      "dst": 68719477049,
+      "label": "REACHING_DEF",
+      "src": 68719477045
+    },
+    {
+      "dst": 68719477968,
+      "label": "REACHING_DEF",
+      "src": 111669149758
+    },
+    {
+      "dst": 30064772049,
+      "label": "REACHING_DEF",
+      "src": 30064772048
+    },
+    {
+      "dst": 30064772104,
+      "label": "REACHING_DEF",
+      "src": 68719477628
+    },
+    {
+      "dst": 68719477746,
+      "label": "REACHING_DEF",
+      "src": 30064772259
+    },
+    {
+      "dst": 30064771403,
+      "label": "REACHING_DEF",
+      "src": 68719476974
+    },
+    {
+      "dst": 30064771559,
+      "label": "REACHING_DEF",
+      "src": 68719477124
+    },
+    {
+      "dst": 30064772196,
+      "label": "REACHING_DEF",
+      "src": 30064772197
+    },
+    {
+      "dst": 30064772267,
+      "label": "REACHING_DEF",
+      "src": 68719477756
+    },
+    {
+      "dst": 68719477024,
+      "label": "REACHING_DEF",
+      "src": 68719477019
+    },
+    {
+      "dst": 68719477872,
+      "label": "REACHING_DEF",
+      "src": 68719477869
+    },
+    {
+      "dst": 68719477123,
+      "label": "REACHING_DEF",
+      "src": 30064771559
+    },
+    {
+      "dst": 68719477904,
+      "label": "REACHING_DEF",
+      "src": 68719477880
+    },
+    {
+      "dst": 30064771577,
+      "label": "REACHING_DEF",
+      "src": 68719477128
+    },
+    {
+      "dst": 30064772410,
+      "label": "REACHING_DEF",
+      "src": 30064772357
+    },
+    {
+      "dst": 68719477628,
+      "label": "REACHING_DEF",
+      "src": 111669149745
+    },
+    {
+      "dst": 30064772338,
+      "label": "REACHING_DEF",
+      "src": 30064772339
+    },
+    {
+      "dst": 68719477146,
+      "label": "REACHING_DEF",
+      "src": 30064771586
+    },
+    {
+      "dst": 30064771576,
+      "label": "REACHING_DEF",
+      "src": 90194313262
+    },
+    {
+      "dst": 68719477037,
+      "label": "REACHING_DEF",
+      "src": 111669149718
+    },
+    {
+      "dst": 30064771400,
+      "label": "REACHING_DEF",
+      "src": 30064771390
+    },
+    {
+      "dst": 30064772409,
+      "label": "REACHING_DEF",
+      "src": 68719477891
+    },
+    {
+      "dst": 30064772481,
+      "label": "REACHING_DEF",
+      "src": 68719477965
+    },
+    {
+      "dst": 68719477022,
+      "label": "REACHING_DEF",
+      "src": 30064771456
+    },
+    {
+      "dst": 68719477920,
+      "label": "REACHING_DEF",
+      "src": 68719477919
+    },
+    {
+      "dst": 30064772409,
+      "label": "REACHING_DEF",
+      "src": 30064772376
+    },
+    {
+      "dst": 68719477918,
+      "label": "REACHING_DEF",
+      "src": 30064772409
+    },
+    {
+      "dst": 30064772007,
+      "label": "REACHING_DEF",
+      "src": 30064771922
+    },
+    {
+      "dst": 30064772445,
+      "label": "REACHING_DEF",
+      "src": 30064772446
+    },
+    {
+      "dst": 30064771905,
+      "label": "REACHING_DEF",
+      "src": 30064771906
+    },
+    {
+      "dst": 30064772357,
+      "label": "REACHING_DEF",
+      "src": 30064772358
+    },
+    {
+      "dst": 30064772358,
+      "label": "REACHING_DEF",
+      "src": 111669149751
+    },
+    {
+      "dst": 30064772092,
+      "label": "REACHING_DEF",
+      "src": 68719477615
+    },
+    {
+      "dst": 68719477872,
+      "label": "REACHING_DEF",
+      "src": 90194313288
+    },
+    {
+      "dst": 30064772271,
+      "label": "REACHING_DEF",
+      "src": 68719477766
+    },
+    {
+      "dst": 68719477140,
+      "label": "REACHING_DEF",
+      "src": 30064771570
+    },
+    {
+      "dst": 30064772396,
+      "label": "REACHING_DEF",
+      "src": 111669149751
+    },
+    {
+      "dst": 68719477049,
+      "label": "REACHING_DEF",
+      "src": 68719477047
+    },
+    {
+      "dst": 30064772157,
+      "label": "REACHING_DEF",
+      "src": 30064772158
+    },
+    {
+      "dst": 68719477921,
+      "label": "REACHING_DEF",
+      "src": 30064772433
+    },
+    {
+      "dst": 68719477903,
+      "label": "REACHING_DEF",
+      "src": 68719477904
+    },
+    {
+      "dst": 30064772425,
+      "label": "REACHING_DEF",
+      "src": 68719477870
+    },
+    {
+      "dst": 68719477564,
+      "label": "REACHING_DEF",
+      "src": 30064772029
+    },
+    {
+      "dst": 30064772314,
+      "label": "REACHING_DEF",
+      "src": 111669149748
+    },
+    {
+      "dst": 30064771393,
+      "label": "REACHING_DEF",
+      "src": 30064771395
+    },
+    {
+      "dst": 30064772478,
+      "label": "REACHING_DEF",
+      "src": 30064772479
+    },
+    {
+      "dst": 30064771406,
+      "label": "REACHING_DEF",
+      "src": 68719476981
+    },
+    {
+      "dst": 68719476967,
+      "label": "REACHING_DEF",
+      "src": 30064771400
+    },
+    {
+      "dst": 30064772173,
+      "label": "REACHING_DEF",
+      "src": 68719477635
+    },
+    {
+      "dst": 30064771588,
+      "label": "REACHING_DEF",
+      "src": 30064771589
+    },
+    {
+      "dst": 30064772034,
+      "label": "REACHING_DEF",
+      "src": 68719477564
+    },
+    {
+      "dst": 68719477471,
+      "label": "REACHING_DEF",
+      "src": 68719477455
+    },
+    {
+      "dst": 68719476973,
+      "label": "REACHING_DEF",
+      "src": 111669149714
+    },
+    {
+      "dst": 68719476961,
+      "label": "REACHING_DEF",
+      "src": 30064771392
+    },
+    {
+      "dst": 68719477902,
+      "label": "REACHING_DEF",
+      "src": 30064772407
+    },
+    {
+      "dst": 68719477882,
+      "label": "REACHING_DEF",
+      "src": 68719477879
+    },
+    {
+      "dst": 30064772197,
+      "label": "REACHING_DEF",
+      "src": 68719477635
+    },
+    {
+      "dst": 30064772445,
+      "label": "REACHING_DEF",
+      "src": 68719477939
+    },
+    {
+      "dst": 30064772234,
+      "label": "REACHING_DEF",
+      "src": 30064772233
+    },
+    {
+      "dst": 30064772268,
+      "label": "REACHING_DEF",
+      "src": 30064772265
+    },
+    {
+      "dst": 30064772259,
+      "label": "REACHING_DEF",
+      "src": 90194313284
+    },
+    {
+      "dst": 30064772481,
+      "label": "REACHING_DEF",
+      "src": 30064772479
+    },
+    {
+      "dst": 68719477150,
+      "label": "REACHING_DEF",
+      "src": 68719477146
+    },
+    {
+      "dst": 30064772377,
+      "label": "REACHING_DEF",
+      "src": 30064772376
+    },
+    {
+      "dst": 30064772048,
+      "label": "REACHING_DEF",
+      "src": 30064772049
+    },
+    {
+      "dst": 68719477934,
+      "label": "REACHING_DEF",
+      "src": 30064772396
+    },
+    {
+      "dst": 30064772169,
+      "label": "REACHING_DEF",
+      "src": 111669149746
+    },
+    {
+      "dst": 68719477472,
+      "label": "REACHING_DEF",
+      "src": 68719477443
+    },
+    {
+      "dst": 30064771588,
+      "label": "REACHING_DEF",
+      "src": 68719477149
+    },
+    {
+      "dst": 68719477906,
+      "label": "REACHING_DEF",
+      "src": 30064772418
+    },
+    {
+      "dst": 68719477920,
+      "label": "REACHING_DEF",
+      "src": 30064772432
+    },
+    {
+      "dst": 68719477807,
+      "label": "REACHING_DEF",
+      "src": 30064772318
+    },
+    {
+      "dst": 68719476971,
+      "label": "REACHING_DEF",
+      "src": 30064771369
+    },
+    {
+      "dst": 30064772433,
+      "label": "REACHING_DEF",
+      "src": 68719477906
+    },
+    {
+      "dst": 30064772196,
+      "label": "REACHING_DEF",
+      "src": 68719477701
+    },
+    {
+      "dst": 30064772267,
+      "label": "REACHING_DEF",
+      "src": 68719477760
+    },
+    {
+      "dst": 30064772092,
+      "label": "REACHING_DEF",
+      "src": 68719477616
+    },
+    {
+      "dst": 68719477880,
+      "label": "REACHING_DEF",
+      "src": 68719477873
+    },
+    {
+      "dst": 68719476966,
+      "label": "REACHING_DEF",
+      "src": 30064771398
+    },
+    {
+      "dst": 30064771589,
+      "label": "REACHING_DEF",
+      "src": 68719477128
+    },
+    {
+      "dst": 68719476981,
+      "label": "REACHING_DEF",
+      "src": 68719476976
+    },
+    {
+      "dst": 68719477144,
+      "label": "REACHING_DEF",
+      "src": 30064771583
+    },
+    {
+      "dst": 68719477866,
+      "label": "REACHING_DEF",
+      "src": 30064772374
+    },
+    {
+      "dst": 30064772139,
+      "label": "REACHING_DEF",
+      "src": 90194313279
+    },
+    {
+      "dst": 30064772425,
+      "label": "REACHING_DEF",
+      "src": 68719477903
+    },
+    {
+      "dst": 68719477860,
+      "label": "REACHING_DEF",
+      "src": 30064772366
+    },
+    {
+      "dst": 30064771435,
+      "label": "REACHING_DEF",
+      "src": 30064771437
+    },
+    {
+      "dst": 30064771906,
+      "label": "REACHING_DEF",
+      "src": 111669149744
+    },
+    {
+      "dst": 68719477962,
+      "label": "REACHING_DEF",
+      "src": 111669149760
+    },
+    {
+      "dst": 30064771469,
+      "label": "REACHING_DEF",
+      "src": 68719477037
+    },
+    {
+      "dst": 30064772264,
+      "label": "REACHING_DEF",
+      "src": 68719477750
+    },
+    {
+      "dst": 30064771570,
+      "label": "REACHING_DEF",
+      "src": 30064771569
+    },
+    {
+      "dst": 30064771588,
+      "label": "REACHING_DEF",
+      "src": 68719477152
+    },
+    {
+      "dst": 30064772405,
+      "label": "REACHING_DEF",
+      "src": 30064772372
+    },
+    {
+      "dst": 68719477140,
+      "label": "REACHING_DEF",
+      "src": 30064771577
+    },
+    {
+      "dst": 68719477918,
+      "label": "REACHING_DEF",
+      "src": 30064772376
+    },
+    {
+      "dst": 30064772093,
+      "label": "REACHING_DEF",
+      "src": 30064772035
+    },
+    {
+      "dst": 68719477918,
+      "label": "REACHING_DEF",
+      "src": 30064772374
+    },
+    {
+      "dst": 30064771422,
+      "label": "REACHING_DEF",
+      "src": 68719476993
+    },
+    {
+      "dst": 30064772439,
+      "label": "REACHING_DEF",
+      "src": 68719477930
+    },
+    {
+      "dst": 30064771473,
+      "label": "REACHING_DEF",
+      "src": 68719477024
+    },
+    {
+      "dst": 30064772443,
+      "label": "REACHING_DEF",
+      "src": 68719477918
+    },
+    {
+      "dst": 30064772481,
+      "label": "REACHING_DEF",
+      "src": 68719477970
+    },
+    {
+      "dst": 30064771395,
+      "label": "REACHING_DEF",
+      "src": 30064771393
+    },
+    {
+      "dst": 68719477829,
+      "label": "REACHING_DEF",
+      "src": 68719477826
+    },
+    {
+      "dst": 30064771400,
+      "label": "REACHING_DEF",
+      "src": 68719476967
+    },
+    {
+      "dst": 30064772234,
+      "label": "REACHING_DEF",
+      "src": 30064772197
+    },
+    {
+      "dst": 68719477864,
+      "label": "REACHING_DEF",
+      "src": 30064772372
+    },
+    {
+      "dst": 30064771469,
+      "label": "REACHING_DEF",
+      "src": 68719477040
+    },
+    {
+      "dst": 68719477939,
+      "label": "REACHING_DEF",
+      "src": 68719477928
+    },
+    {
+      "dst": 68719477918,
+      "label": "REACHING_DEF",
+      "src": 30064772450
+    },
+    {
+      "dst": 30064772264,
+      "label": "REACHING_DEF",
+      "src": 30064772265
+    },
+    {
+      "dst": 68719477578,
+      "label": "REACHING_DEF",
+      "src": 30064772050
+    },
+    {
+      "dst": 68719476971,
+      "label": "REACHING_DEF",
+      "src": 111669149712
+    },
+    {
+      "dst": 30064772335,
+      "label": "REACHING_DEF",
+      "src": 90194313285
+    },
+    {
+      "dst": 68719477819,
+      "label": "REACHING_DEF",
+      "src": 30064772321
+    },
+    {
+      "dst": 68719477935,
+      "label": "REACHING_DEF",
+      "src": 68719477931
+    },
+    {
+      "dst": 68719477149,
+      "label": "REACHING_DEF",
+      "src": 30064771576
+    },
+    {
+      "dst": 30064772092,
+      "label": "REACHING_DEF",
+      "src": 68719477612
+    },
+    {
+      "dst": 30064772158,
+      "label": "REACHING_DEF",
+      "src": 30064772110
+    },
+    {
+      "dst": 68719477857,
+      "label": "REACHING_DEF",
+      "src": 30064772363
+    },
+    {
+      "dst": 68719476992,
+      "label": "REACHING_DEF",
+      "src": 90194313249
+    },
+    {
+      "dst": 30064772450,
+      "label": "REACHING_DEF",
+      "src": 68719477945
+    },
+    {
+      "dst": 68719477472,
+      "label": "REACHING_DEF",
+      "src": 30064771922
+    },
+    {
+      "dst": 30064772158,
+      "label": "REACHING_DEF",
+      "src": 90194313280
+    },
+    {
+      "dst": 68719477139,
+      "label": "REACHING_DEF",
+      "src": 30064771576
+    },
+    {
+      "dst": 68719477146,
+      "label": "REACHING_DEF",
+      "src": 90194313265
+    },
+    {
+      "dst": 30064772482,
+      "label": "REACHING_DEF",
+      "src": 68719477973
+    },
+    {
+      "dst": 68719477749,
+      "label": "REACHING_DEF",
+      "src": 30064772169
+    },
+    {
+      "dst": 30064772372,
+      "label": "REACHING_DEF",
+      "src": 68719477860
+    },
+    {
+      "dst": 68719477612,
+      "label": "REACHING_DEF",
+      "src": 68719477609
+    },
+    {
+      "dst": 30064772410,
+      "label": "REACHING_DEF",
+      "src": 111669149752
+    },
+    {
+      "dst": 68719476993,
+      "label": "REACHING_DEF",
+      "src": 68719476995
+    },
+    {
+      "dst": 68719477762,
+      "label": "REACHING_DEF",
+      "src": 68719477756
+    },
+    {
+      "dst": 30064772396,
+      "label": "REACHING_DEF",
+      "src": 30064772363
+    },
+    {
+      "dst": 30064772148,
+      "label": "REACHING_DEF",
+      "src": 30064772147
+    },
+    {
+      "dst": 30064772418,
+      "label": "REACHING_DEF",
+      "src": 68719477907
+    },
+    {
+      "dst": 30064772270,
+      "label": "REACHING_DEF",
+      "src": 30064772262
+    },
+    {
+      "dst": 30064772407,
+      "label": "REACHING_DEF",
+      "src": 68719477891
+    },
+    {
+      "dst": 30064772445,
+      "label": "REACHING_DEF",
+      "src": 68719477934
+    },
+    {
+      "dst": 68719477872,
+      "label": "REACHING_DEF",
+      "src": 68719477855
+    },
+    {
+      "dst": 30064772482,
+      "label": "REACHING_DEF",
+      "src": 68719477971
+    },
+    {
+      "dst": 30064772387,
+      "label": "REACHING_DEF",
+      "src": 30064772388
+    },
+    {
+      "dst": 30064772432,
+      "label": "REACHING_DEF",
+      "src": 68719477921
+    },
+    {
+      "dst": 30064771452,
+      "label": "REACHING_DEF",
+      "src": 30064771477
+    },
+    {
+      "dst": 30064772481,
+      "label": "REACHING_DEF",
+      "src": 68719477966
+    },
+    {
+      "dst": 30064772234,
+      "label": "REACHING_DEF",
+      "src": 30064772173
+    },
+    {
+      "dst": 68719477929,
+      "label": "REACHING_DEF",
+      "src": 30064772439
+    },
+    {
+      "dst": 68719477728,
+      "label": "REACHING_DEF",
+      "src": 30064772231
+    },
+    {
+      "dst": 68719477025,
+      "label": "REACHING_DEF",
+      "src": 68719477019
+    },
+    {
+      "dst": 30064772326,
+      "label": "REACHING_DEF",
+      "src": 30064772324
+    },
+    {
+      "dst": 68719477895,
+      "label": "REACHING_DEF",
+      "src": 30064772405
+    },
+    {
+      "dst": 30064772479,
+      "label": "REACHING_DEF",
+      "src": 68719477962
+    },
+    {
+      "dst": 30064772482,
+      "label": "REACHING_DEF",
+      "src": 68719477976
+    },
+    {
+      "dst": 30064772093,
+      "label": "REACHING_DEF",
+      "src": 68719477505
+    },
+    {
+      "dst": 30064772035,
+      "label": "REACHING_DEF",
+      "src": 30064772034
+    },
+    {
+      "dst": 30064772263,
+      "label": "REACHING_DEF",
+      "src": 30064772264
+    },
+    {
+      "dst": 68719477974,
+      "label": "REACHING_DEF",
+      "src": 111669149758
+    },
+    {
+      "dst": 68719476973,
+      "label": "REACHING_DEF",
+      "src": 68719476946
+    },
+    {
+      "dst": 68719477888,
+      "label": "REACHING_DEF",
+      "src": 68719477890
+    },
+    {
+      "dst": 68719477918,
+      "label": "REACHING_DEF",
+      "src": 30064772407
+    },
+    {
+      "dst": 68719476946,
+      "label": "REACHING_DEF",
+      "src": 111669149714
+    },
+    {
+      "dst": 68719477027,
+      "label": "REACHING_DEF",
+      "src": 68719477022
+    },
+    {
+      "dst": 68719477818,
+      "label": "REACHING_DEF",
+      "src": 30064772330
+    },
+    {
+      "dst": 68719477803,
+      "label": "REACHING_DEF",
+      "src": 68719477800
+    },
+    {
+      "dst": 30064771390,
+      "label": "REACHING_DEF",
+      "src": 30064771409
+    },
+    {
+      "dst": 68719477039,
+      "label": "REACHING_DEF",
+      "src": 68719477031
+    },
+    {
+      "dst": 30064772482,
+      "label": "REACHING_DEF",
+      "src": 68719477972
+    },
+    {
+      "dst": 68719477146,
+      "label": "REACHING_DEF",
+      "src": 68719477144
+    },
+    {
+      "dst": 68719477149,
+      "label": "REACHING_DEF",
+      "src": 68719477139
+    },
+    {
+      "dst": 68719477685,
+      "label": "REACHING_DEF",
+      "src": 68719477628
+    },
+    {
+      "dst": 30064772433,
+      "label": "REACHING_DEF",
+      "src": 68719477921
+    },
+    {
+      "dst": 68719477931,
+      "label": "REACHING_DEF",
+      "src": 90194313293
+    },
+    {
+      "dst": 68719477554,
+      "label": "REACHING_DEF",
+      "src": 68719477541
+    },
+    {
+      "dst": 68719477748,
+      "label": "REACHING_DEF",
+      "src": 68719477746
+    },
+    {
+      "dst": 68719477891,
+      "label": "REACHING_DEF",
+      "src": 30064772399
+    },
+    {
+      "dst": 30064771574,
+      "label": "REACHING_DEF",
+      "src": 30064771575
+    },
+    {
+      "dst": 30064772142,
+      "label": "REACHING_DEF",
+      "src": 30064772141
+    },
+    {
+      "dst": 30064772029,
+      "label": "REACHING_DEF",
+      "src": 90194313277
+    },
+    {
+      "dst": 68719477541,
+      "label": "REACHING_DEF",
+      "src": 68719477504
+    },
+    {
+      "dst": 30064772427,
+      "label": "REACHING_DEF",
+      "src": 68719477918
+    },
+    {
+      "dst": 30064771409,
+      "label": "REACHING_DEF",
+      "src": 68719476983
+    },
+    {
+      "dst": 68719477934,
+      "label": "REACHING_DEF",
+      "src": 30064772358
+    },
+    {
+      "dst": 30064772233,
+      "label": "REACHING_DEF",
+      "src": 30064772234
+    },
+    {
+      "dst": 30064772270,
+      "label": "REACHING_DEF",
+      "src": 30064772271
+    },
+    {
+      "dst": 30064771570,
+      "label": "REACHING_DEF",
+      "src": 68719477128
+    },
+    {
+      "dst": 30064772405,
+      "label": "REACHING_DEF",
+      "src": 30064772407
+    },
+    {
+      "dst": 68719477902,
+      "label": "REACHING_DEF",
+      "src": 30064772405
+    },
+    {
+      "dst": 30064772407,
+      "label": "REACHING_DEF",
+      "src": 30064772405
+    },
+    {
+      "dst": 68719477826,
+      "label": "REACHING_DEF",
+      "src": 68719477824
+    },
+    {
+      "dst": 30064771463,
+      "label": "REACHING_DEF",
+      "src": 68719477027
+    },
+    {
+      "dst": 30064772264,
+      "label": "REACHING_DEF",
+      "src": 68719477751
+    },
+    {
+      "dst": 30064772148,
+      "label": "REACHING_DEF",
+      "src": 68719477635
+    },
+    {
+      "dst": 30064772479,
+      "label": "REACHING_DEF",
+      "src": 30064772481
+    },
+    {
+      "dst": 30064771403,
+      "label": "REACHING_DEF",
+      "src": 68719476973
+    },
+    {
+      "dst": 30064771469,
+      "label": "REACHING_DEF",
+      "src": 68719477039
+    },
+    {
+      "dst": 68719477140,
+      "label": "REACHING_DEF",
+      "src": 30064771573
+    },
+    {
+      "dst": 68719477934,
+      "label": "REACHING_DEF",
+      "src": 111669149751
+    },
+    {
+      "dst": 30064772122,
+      "label": "REACHING_DEF",
+      "src": 30064772111
+    },
+    {
+      "dst": 30064772481,
+      "label": "REACHING_DEF",
+      "src": 68719477968
+    },
+    {
+      "dst": 30064772482,
+      "label": "REACHING_DEF",
+      "src": 30064772478
+    },
+    {
+      "dst": 68719477859,
+      "label": "REACHING_DEF",
+      "src": 68719477857
+    },
+    {
+      "dst": 68719476989,
+      "label": "REACHING_DEF",
+      "src": 68719476986
+    },
+    {
+      "dst": 30064772372,
+      "label": "REACHING_DEF",
+      "src": 68719477864
+    },
+    {
+      "dst": 30064772135,
+      "label": "REACHING_DEF",
+      "src": 111669149746
+    },
+    {
+      "dst": 30064771392,
+      "label": "REACHING_DEF",
+      "src": 30064771395
+    },
+    {
+      "dst": 68719477801,
+      "label": "REACHING_DEF",
+      "src": 111669149747
+    },
+    {
+      "dst": 30064771392,
+      "label": "REACHING_DEF",
+      "src": 30064771393
+    },
+    {
+      "dst": 30064771369,
+      "label": "REACHING_DEF",
+      "src": 68719476941
+    },
+    {
+      "dst": 68719477907,
+      "label": "REACHING_DEF",
+      "src": 30064772410
+    },
+    {
+      "dst": 30064772264,
+      "label": "REACHING_DEF",
+      "src": 68719477753
+    },
+    {
+      "dst": 68719477973,
+      "label": "REACHING_DEF",
+      "src": 111669149757
+    },
+    {
+      "dst": 30064772267,
+      "label": "REACHING_DEF",
+      "src": 68719477759
+    },
+    {
+      "dst": 68719477701,
+      "label": "REACHING_DEF",
+      "src": 30064772194
+    },
+    {
+      "dst": 30064772233,
+      "label": "REACHING_DEF",
+      "src": 68719477728
+    },
+    {
+      "dst": 68719477895,
+      "label": "REACHING_DEF",
+      "src": 68719477864
+    },
+    {
+      "dst": 30064772443,
+      "label": "REACHING_DEF",
+      "src": 68719477931
+    },
+    {
+      "dst": 30064772357,
+      "label": "REACHING_DEF",
+      "src": 111669149752
+    },
+    {
+      "dst": 30064772338,
+      "label": "REACHING_DEF",
+      "src": 68719477831
+    },
+    {
+      "dst": 30064771395,
+      "label": "REACHING_DEF",
+      "src": 30064771406
+    },
+    {
+      "dst": 30064771905,
+      "label": "REACHING_DEF",
+      "src": 68719477441
+    },
+    {
+      "dst": 30064772092,
+      "label": "REACHING_DEF",
+      "src": 30064772093
+    },
+    {
+      "dst": 68719477006,
+      "label": "REACHING_DEF",
+      "src": 68719477005
+    },
+    {
+      "dst": 30064772104,
+      "label": "REACHING_DEF",
+      "src": 30064772105
+    },
+    {
+      "dst": 30064772141,
+      "label": "REACHING_DEF",
+      "src": 30064772142
+    },
+    {
+      "dst": 68719477139,
+      "label": "REACHING_DEF",
+      "src": 68719477126
+    },
+    {
+      "dst": 30064772405,
+      "label": "REACHING_DEF",
+      "src": 68719477891
+    },
+    {
+      "dst": 30064772382,
+      "label": "REACHING_DEF",
+      "src": 68719477873
+    },
+    {
+      "dst": 30064772164,
+      "label": "REACHING_DEF",
+      "src": 30064772167
+    },
+    {
+      "dst": 30064772338,
+      "label": "REACHING_DEF",
+      "src": 68719477832
+    },
+    {
+      "dst": 68719477890,
+      "label": "REACHING_DEF",
+      "src": 68719477888
+    },
+    {
+      "dst": 68719477505,
+      "label": "REACHING_DEF",
+      "src": 30064771922
+    },
+    {
+      "dst": 30064772374,
+      "label": "REACHING_DEF",
+      "src": 30064772372
+    },
+    {
+      "dst": 30064771477,
+      "label": "REACHING_DEF",
+      "src": 68719477049
+    },
+    {
+      "dst": 68719477006,
+      "label": "REACHING_DEF",
+      "src": 68719476991
+    },
+    {
+      "dst": 30064772130,
+      "label": "REACHING_DEF",
+      "src": 111669149746
+    },
+    {
+      "dst": 30064772324,
+      "label": "REACHING_DEF",
+      "src": 68719477803
+    },
+    {
+      "dst": 30064771576,
+      "label": "REACHING_DEF",
+      "src": 68719477126
+    },
+    {
+      "dst": 30064772445,
+      "label": "REACHING_DEF",
+      "src": 68719477938
+    },
+    {
+      "dst": 68719477035,
+      "label": "REACHING_DEF",
+      "src": 111669149716
+    },
+    {
+      "dst": 30064772210,
+      "label": "REACHING_DEF",
+      "src": 30064772169
+    },
+    {
+      "dst": 30064771577,
+      "label": "REACHING_DEF",
+      "src": 30064771575
+    },
+    {
+      "dst": 68719477749,
+      "label": "REACHING_DEF",
+      "src": 111669149746
+    },
+    {
+      "dst": 30064772376,
+      "label": "REACHING_DEF",
+      "src": 68719477860
+    },
+    {
+      "dst": 30064771403,
+      "label": "REACHING_DEF",
+      "src": 68719476975
+    },
+    {
+      "dst": 30064771574,
+      "label": "REACHING_DEF",
+      "src": 30064771577
+    },
+    {
+      "dst": 68719477763,
+      "label": "REACHING_DEF",
+      "src": 68719477751
+    },
+    {
+      "dst": 68719477970,
+      "label": "REACHING_DEF",
+      "src": 30064772480
+    },
+    {
+      "dst": 68719477611,
+      "label": "REACHING_DEF",
+      "src": 68719477554
+    },
+    {
+      "dst": 30064772478,
+      "label": "REACHING_DEF",
+      "src": 30064772481
+    },
+    {
+      "dst": 68719477763,
+      "label": "REACHING_DEF",
+      "src": 68719477757
+    },
+    {
+      "dst": 68719477897,
+      "label": "REACHING_DEF",
+      "src": 30064772407
+    },
+    {
+      "dst": 30064772269,
+      "label": "REACHING_DEF",
+      "src": 30064772210
+    },
+    {
+      "dst": 30064772035,
+      "label": "REACHING_DEF",
+      "src": 30064772022
+    },
+    {
+      "dst": 30064772376,
+      "label": "REACHING_DEF",
+      "src": 30064772377
+    },
+    {
+      "dst": 68719477037,
+      "label": "REACHING_DEF",
+      "src": 68719476998
+    },
+    {
+      "dst": 68719476972,
+      "label": "REACHING_DEF",
+      "src": 111669149713
+    },
+    {
+      "dst": 68719477125,
+      "label": "REACHING_DEF",
+      "src": 30064771561
+    },
+    {
+      "dst": 30064772089,
+      "label": "REACHING_DEF",
+      "src": 90194313278
+    },
+    {
+      "dst": 68719477907,
+      "label": "REACHING_DEF",
+      "src": 111669149752
+    },
+    {
+      "dst": 68719477857,
+      "label": "REACHING_DEF",
+      "src": 68719477859
+    },
+    {
+      "dst": 68719477812,
+      "label": "REACHING_DEF",
+      "src": 30064772324
+    },
+    {
+      "dst": 68719476993,
+      "label": "REACHING_DEF",
+      "src": 30064771422
+    },
+    {
+      "dst": 68719477455,
+      "label": "REACHING_DEF",
+      "src": 68719477448
+    },
+    {
+      "dst": 68719477918,
+      "label": "REACHING_DEF",
+      "src": 30064772405
+    },
+    {
+      "dst": 68719476993,
+      "label": "REACHING_DEF",
+      "src": 68719476992
+    },
+    {
+      "dst": 68719477914,
+      "label": "REACHING_DEF",
+      "src": 30064772425
+    },
+    {
+      "dst": 30064772338,
+      "label": "REACHING_DEF",
+      "src": 68719477833
+    },
+    {
+      "dst": 30064772410,
+      "label": "REACHING_DEF",
+      "src": 30064772409
+    },
+    {
+      "dst": 68719477824,
+      "label": "REACHING_DEF",
+      "src": 30064772335
+    },
+    {
+      "dst": 30064772272,
+      "label": "REACHING_DEF",
+      "src": 30064772268
+    }
+  ],
+  "nodes": [
+    {
+      "code": "auth->account_id",
+      "columnNumber": 32,
+      "id": 30064772148,
+      "label": "CALL",
+      "lineNumber": 152,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "r.auth_id",
+      "columnNumber": 12,
+      "id": 30064772320,
+      "label": "CALL",
+      "lineNumber": 211,
+      "name": "<operator>.fieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "event",
+      "columnNumber": 24,
+      "id": 68719477150,
+      "label": "IDENTIFIER",
+      "lineNumber": 130,
+      "name": "event",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "HOLD_OFFSET",
+      "columnNumber": 51,
+      "id": 68719477937,
+      "label": "IDENTIFIER",
+      "lineNumber": 268,
+      "name": "HOLD_OFFSET",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "Engine *e",
+      "columnNumber": 22,
+      "id": 111669149745,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 134,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "\"EXPIRE:%s\"",
+      "columnNumber": 45,
+      "id": 90194313293,
+      "label": "LITERAL",
+      "lineNumber": 267,
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "e",
+      "columnNumber": 22,
+      "id": 68719477149,
+      "label": "IDENTIFIER",
+      "lineNumber": 130,
+      "name": "e",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "RECEIVABLE_LATE",
+      "columnNumber": 45,
+      "id": 68719477152,
+      "label": "IDENTIFIER",
+      "lineNumber": 130,
+      "name": "RECEIVABLE_LATE",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "receivable",
+      "columnNumber": 54,
+      "id": 68719477039,
+      "label": "IDENTIFIER",
+      "lineNumber": 98,
+      "name": "receivable",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "LedgerAccount"
+    },
+    {
+      "code": "Engine *e",
+      "columnNumber": 24,
+      "id": 111669149743,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 56,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "*remaining",
+      "columnNumber": 13,
+      "id": 30064771390,
+      "label": "CALL",
+      "lineNumber": 75,
+      "name": "<operator>.indirection",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "128",
+      "columnNumber": 16,
+      "id": 90194313264,
+      "label": "LITERAL",
+      "lineNumber": 129,
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "int"
+    },
+    {
+      "code": "total",
+      "columnNumber": 75,
+      "id": 68719477755,
+      "label": "IDENTIFIER",
+      "lineNumber": 187,
+      "name": "total",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "char[128]",
+      "columnNumber": 10,
+      "id": 68719477145,
+      "label": "IDENTIFIER",
+      "lineNumber": 129,
+      "name": "char[128]",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "a->id",
+      "columnNumber": 34,
+      "id": 30064771922,
+      "label": "CALL",
+      "lineNumber": 64,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "component",
+      "columnNumber": 22,
+      "id": 68719477962,
+      "label": "IDENTIFIER",
+      "lineNumber": 293,
+      "name": "component",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "char[128]",
+      "columnNumber": 10,
+      "id": 68719477747,
+      "label": "IDENTIFIER",
+      "lineNumber": 185,
+      "name": "char[128]",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "r.released",
+      "columnNumber": 9,
+      "id": 30064772437,
+      "label": "CALL",
+      "lineNumber": 265,
+      "name": "<operator>.fieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "expiring[i]",
+      "columnNumber": 28,
+      "id": 30064772425,
+      "label": "CALL",
+      "lineNumber": 259,
+      "name": "<operator>.indirectIndexAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "paid",
+      "columnNumber": 44,
+      "id": 68719477045,
+      "label": "IDENTIFIER",
+      "lineNumber": 99,
+      "name": "paid",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "a->id",
+      "columnNumber": 29,
+      "id": 30064772035,
+      "label": "CALL",
+      "lineNumber": 108,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "0",
+      "columnNumber": 27,
+      "id": 90194313277,
+      "label": "LITERAL",
+      "lineNumber": 106,
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "int"
+    },
+    {
+      "code": "r",
+      "columnNumber": 12,
+      "id": 68719477807,
+      "label": "IDENTIFIER",
+      "lineNumber": 210,
+      "name": "r",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "Result"
+    },
+    {
+      "code": "auth->account_id",
+      "columnNumber": 32,
+      "id": 30064772265,
+      "label": "CALL",
+      "lineNumber": 187,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "ledger_pair(e, event, auth->account_id, RECEIVABLE_PRINCIPAL, MERCHANT_CLEARING, c->principal)",
+      "columnNumber": 10,
+      "id": 30064772267,
+      "label": "CALL",
+      "lineNumber": 188,
+      "name": "ledger_pair",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "LATE_REVENUE",
+      "columnNumber": 61,
+      "id": 68719477153,
+      "label": "IDENTIFIER",
+      "lineNumber": 130,
+      "name": "LATE_REVENUE",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "auth.account_id",
+      "columnNumber": 12,
+      "id": 30064772034,
+      "label": "CALL",
+      "lineNumber": 108,
+      "name": "<operator>.fieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "find_invoice(e,c->invoice_id)",
+      "columnNumber": 17,
+      "id": 30064771561,
+      "label": "CALL",
+      "lineNumber": 125,
+      "name": "find_invoice",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "&e->auths[i]",
+      "columnNumber": 32,
+      "id": 30064772399,
+      "label": "CALL",
+      "lineNumber": 250,
+      "name": "<operator>.addressOf",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "event",
+      "columnNumber": 25,
+      "id": 68719477612,
+      "label": "IDENTIFIER",
+      "lineNumber": 126,
+      "name": "event",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "const char *account_id",
+      "columnNumber": 57,
+      "id": 111669149714,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 67,
+      "name": "account_id",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "<unknown> INT64_MAX",
+      "columnNumber": 18,
+      "id": 68719477578,
+      "label": "IDENTIFIER",
+      "lineNumber": 113,
+      "name": "INT64_MAX",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "order",
+      "columnNumber": 10,
+      "id": 68719476989,
+      "label": "IDENTIFIER",
+      "lineNumber": 86,
+      "name": "order",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "Lot**"
+    },
+    {
+      "code": "event",
+      "columnNumber": 25,
+      "id": 68719477757,
+      "label": "IDENTIFIER",
+      "lineNumber": 188,
+      "name": "event",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "event",
+      "columnNumber": 14,
+      "id": 68719477929,
+      "label": "IDENTIFIER",
+      "lineNumber": 266,
+      "name": "event",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "e",
+      "columnNumber": 22,
+      "id": 68719477762,
+      "label": "IDENTIFIER",
+      "lineNumber": 189,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "*remaining",
+      "columnNumber": 13,
+      "id": 30064771477,
+      "label": "CALL",
+      "lineNumber": 101,
+      "name": "<operator>.indirection",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "result_default(c)",
+      "columnNumber": 16,
+      "id": 30064772318,
+      "label": "CALL",
+      "lineNumber": 210,
+      "name": "result_default",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "order[count++]",
+      "columnNumber": 119,
+      "id": 30064771435,
+      "label": "CALL",
+      "lineNumber": 88,
+      "name": "<operator>.indirectIndexAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "hold",
+      "columnNumber": 26,
+      "id": 68719477919,
+      "label": "IDENTIFIER",
+      "lineNumber": 261,
+      "name": "hold",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "money_sub(component, cash, &unpaid)",
+      "columnNumber": 12,
+      "id": 30064772479,
+      "label": "CALL",
+      "lineNumber": 293,
+      "name": "money_sub",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "e->now / 1440",
+      "columnNumber": 22,
+      "id": 30064772157,
+      "label": "CALL",
+      "lineNumber": 155,
+      "name": "<operator>.division",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "e",
+      "columnNumber": 21,
+      "id": 68719477965,
+      "label": "IDENTIFIER",
+      "lineNumber": 294,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "event",
+      "columnNumber": 16,
+      "id": 68719477609,
+      "label": "IDENTIFIER",
+      "lineNumber": 125,
+      "name": "event",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "due",
+      "columnNumber": 24,
+      "id": 68719477027,
+      "label": "IDENTIFIER",
+      "lineNumber": 96,
+      "name": "due",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "count",
+      "columnNumber": 27,
+      "id": 68719477880,
+      "label": "IDENTIFIER",
+      "lineNumber": 246,
+      "name": "count",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "auth->account_id",
+      "columnNumber": 32,
+      "id": 30064772339,
+      "label": "CALL",
+      "lineNumber": 220,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "!ledger_pair(e, event, auth->account_id, HOLD_OFFSET, HOLD_ASSET, total)",
+      "columnNumber": 9,
+      "id": 30064772263,
+      "label": "CALL",
+      "lineNumber": 187,
+      "name": "<operator>.logicalNot",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "hold",
+      "columnNumber": 15,
+      "id": 68719477917,
+      "label": "IDENTIFIER",
+      "lineNumber": 260,
+      "name": "hold",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "a->account_id",
+      "columnNumber": 36,
+      "id": 30064772446,
+      "label": "CALL",
+      "lineNumber": 268,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "PARTIAL",
+      "columnNumber": 52,
+      "id": 68719477897,
+      "label": "IDENTIFIER",
+      "lineNumber": 251,
+      "name": "PARTIAL",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "l->paid_fee",
+      "columnNumber": 31,
+      "id": 30064771473,
+      "label": "CALL",
+      "lineNumber": 99,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "ledger_pair(e, event, auth->account_id, RECEIVABLE_FEE, FEE_REVENUE, fee)",
+      "columnNumber": 10,
+      "id": 30064772271,
+      "label": "CALL",
+      "lineNumber": 189,
+      "name": "ledger_pair",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "e",
+      "columnNumber": 28,
+      "id": 68719477448,
+      "label": "IDENTIFIER",
+      "lineNumber": 60,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "in->account_id",
+      "columnNumber": 30,
+      "id": 30064771589,
+      "label": "CALL",
+      "lineNumber": 130,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "a",
+      "columnNumber": 39,
+      "id": 68719477505,
+      "label": "IDENTIFIER",
+      "lineNumber": 83,
+      "name": "a",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "Account*"
+    },
+    {
+      "code": "Engine *e",
+      "columnNumber": 21,
+      "id": 111669149747,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 206,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "const char *event",
+      "columnNumber": 36,
+      "id": 111669149756,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 288,
+      "name": "event",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "a->state",
+      "columnNumber": 40,
+      "id": 30064772407,
+      "label": "CALL",
+      "lineNumber": 251,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "order[i]->paid_late",
+      "columnNumber": 9,
+      "id": 30064771406,
+      "label": "CALL",
+      "lineNumber": 79,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "event",
+      "columnNumber": 16,
+      "id": 68719477826,
+      "label": "IDENTIFIER",
+      "lineNumber": 219,
+      "name": "event",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "HOLD_OFFSET",
+      "columnNumber": 50,
+      "id": 68719477831,
+      "label": "IDENTIFIER",
+      "lineNumber": 220,
+      "name": "HOLD_OFFSET",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "HOLD_OFFSET",
+      "columnNumber": 50,
+      "id": 68719477753,
+      "label": "IDENTIFIER",
+      "lineNumber": 187,
+      "name": "HOLD_OFFSET",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "count",
+      "columnNumber": 12,
+      "id": 68719477855,
+      "label": "IDENTIFIER",
+      "lineNumber": 238,
+      "name": "count",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "HOLD_ASSET",
+      "columnNumber": 63,
+      "id": 68719477754,
+      "label": "IDENTIFIER",
+      "lineNumber": 187,
+      "name": "HOLD_ASSET",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "i",
+      "columnNumber": 17,
+      "id": 68719476992,
+      "label": "IDENTIFIER",
+      "lineNumber": 88,
+      "name": "i",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "!ledger_pair(e, event, auth->account_id, RECEIVABLE_FEE, FEE_REVENUE, fee)",
+      "columnNumber": 9,
+      "id": 30064772270,
+      "label": "CALL",
+      "lineNumber": 189,
+      "name": "<operator>.logicalNot",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "event",
+      "columnNumber": 25,
+      "id": 68719477829,
+      "label": "IDENTIFIER",
+      "lineNumber": 220,
+      "name": "event",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "1440",
+      "columnNumber": 41,
+      "id": 90194313262,
+      "label": "LITERAL",
+      "lineNumber": 128,
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "int"
+    },
+    {
+      "code": "e",
+      "columnNumber": 62,
+      "id": 68719477541,
+      "label": "IDENTIFIER",
+      "lineNumber": 97,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "e->now",
+      "columnNumber": 34,
+      "id": 30064771576,
+      "label": "CALL",
+      "lineNumber": 128,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "count",
+      "columnNumber": 13,
+      "id": 68719477873,
+      "label": "IDENTIFIER",
+      "lineNumber": 245,
+      "name": "count",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "<unknown> SIZE_MAX",
+      "columnNumber": 21,
+      "id": 68719477874,
+      "label": "IDENTIFIER",
+      "lineNumber": 245,
+      "name": "SIZE_MAX",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "malloc(count * sizeof *expiring)",
+      "columnNumber": 20,
+      "id": 30064772387,
+      "label": "CALL",
+      "lineNumber": 246,
+      "name": "malloc",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "!ledger_pair(e, event, auth->account_id, HOLD_OFFSET, HOLD_ASSET, total) ||\n        !ledger_pair(e, event, auth->account_id, RECEIVABLE_PRINCIPAL, MERCHANT_CLEARING, c->principal)",
+      "columnNumber": 9,
+      "id": 30064772262,
+      "label": "CALL",
+      "lineNumber": 187,
+      "name": "<operator>.logicalOr",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "<unknown> INT64_MAX",
+      "columnNumber": 42,
+      "id": 68719477921,
+      "label": "IDENTIFIER",
+      "lineNumber": 261,
+      "name": "INT64_MAX",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "c->principal",
+      "columnNumber": 53,
+      "id": 30064772111,
+      "label": "CALL",
+      "lineNumber": 138,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "auth->account_id",
+      "columnNumber": 31,
+      "id": 30064772234,
+      "label": "CALL",
+      "lineNumber": 177,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "0",
+      "columnNumber": 19,
+      "id": 90194313243,
+      "label": "LITERAL",
+      "lineNumber": 71,
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "int"
+    },
+    {
+      "code": "paid",
+      "columnNumber": 30,
+      "id": 68719476981,
+      "label": "IDENTIFIER",
+      "lineNumber": 79,
+      "name": "paid",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "paid",
+      "columnNumber": 48,
+      "id": 68719476983,
+      "label": "IDENTIFIER",
+      "lineNumber": 79,
+      "name": "paid",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "EXPIRED",
+      "columnNumber": 20,
+      "id": 68719477945,
+      "label": "IDENTIFIER",
+      "lineNumber": 272,
+      "name": "EXPIRED",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "0",
+      "columnNumber": 29,
+      "id": 90194313255,
+      "label": "LITERAL",
+      "lineNumber": 93,
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "int"
+    },
+    {
+      "code": "c->principal",
+      "columnNumber": 36,
+      "id": 30064772210,
+      "label": "CALL",
+      "lineNumber": 169,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "const Command *c",
+      "columnNumber": 33,
+      "id": 111669149746,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 134,
+      "name": "c",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Command*"
+    },
+    {
+      "code": "auth",
+      "columnNumber": 20,
+      "id": 68719477800,
+      "label": "IDENTIFIER",
+      "lineNumber": 208,
+      "name": "auth",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "Authorization*"
+    },
+    {
+      "code": "*remaining",
+      "columnNumber": 26,
+      "id": 30064771400,
+      "label": "CALL",
+      "lineNumber": 77,
+      "name": "<operator>.indirection",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "event",
+      "columnNumber": 25,
+      "id": 68719477763,
+      "label": "IDENTIFIER",
+      "lineNumber": 189,
+      "name": "event",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "e",
+      "columnNumber": 22,
+      "id": 68719477756,
+      "label": "IDENTIFIER",
+      "lineNumber": 188,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "e->now/1440 <= in->due_day",
+      "columnNumber": 34,
+      "id": 30064771574,
+      "label": "CALL",
+      "lineNumber": 128,
+      "name": "<operator>.lessEqualsThan",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "event",
+      "columnNumber": 24,
+      "id": 68719477966,
+      "label": "IDENTIFIER",
+      "lineNumber": 294,
+      "name": "event",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "reward",
+      "columnNumber": 12,
+      "id": 68719477728,
+      "label": "IDENTIFIER",
+      "lineNumber": 176,
+      "name": "reward",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Reward"
+    },
+    {
+      "code": "count",
+      "columnNumber": 25,
+      "id": 68719477904,
+      "label": "IDENTIFIER",
+      "lineNumber": 254,
+      "name": "count",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "e->auths_len",
+      "columnNumber": 28,
+      "id": 30064772363,
+      "label": "CALL",
+      "lineNumber": 239,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "i",
+      "columnNumber": 43,
+      "id": 68719476943,
+      "label": "IDENTIFIER",
+      "lineNumber": 71,
+      "name": "i",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "*remaining",
+      "columnNumber": 17,
+      "id": 30064771452,
+      "label": "CALL",
+      "lineNumber": 93,
+      "name": "<operator>.indirection",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "expiring",
+      "columnNumber": 15,
+      "id": 68719477903,
+      "label": "IDENTIFIER",
+      "lineNumber": 254,
+      "name": "expiring",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Authorization**"
+    },
+    {
+      "code": "receivable",
+      "columnNumber": 27,
+      "id": 68719477031,
+      "label": "IDENTIFIER",
+      "lineNumber": 97,
+      "name": "receivable",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "LedgerAccount"
+    },
+    {
+      "code": "a",
+      "columnNumber": 14,
+      "id": 68719477440,
+      "label": "IDENTIFIER",
+      "lineNumber": 58,
+      "name": "a",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "Account*"
+    },
+    {
+      "code": "find_auth(e, c->auth_id)",
+      "columnNumber": 27,
+      "id": 30064772104,
+      "label": "CALL",
+      "lineNumber": 136,
+      "name": "find_auth",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "event",
+      "columnNumber": 28,
+      "id": 68719476972,
+      "label": "IDENTIFIER",
+      "lineNumber": 78,
+      "name": "event",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "malloc((e->lots_len+1)*sizeof *order)",
+      "columnNumber": 17,
+      "id": 30064771412,
+      "label": "CALL",
+      "lineNumber": 85,
+      "name": "malloc",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "&e->lots_len",
+      "columnNumber": 46,
+      "id": 30064772221,
+      "label": "CALL",
+      "lineNumber": 171,
+      "name": "<operator>.addressOf",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "CASH",
+      "columnNumber": 45,
+      "id": 68719476974,
+      "label": "IDENTIFIER",
+      "lineNumber": 78,
+      "name": "CASH",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "ACTIVE",
+      "columnNumber": 24,
+      "id": 68719477812,
+      "label": "IDENTIFIER",
+      "lineNumber": 212,
+      "name": "ACTIVE",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "source",
+      "columnNumber": 43,
+      "id": 68719477968,
+      "label": "IDENTIFIER",
+      "lineNumber": 294,
+      "name": "source",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "LedgerAccount"
+    },
+    {
+      "code": "ledger_pair(e, event, auth->account_id, HOLD_OFFSET, HOLD_ASSET, hold)",
+      "columnNumber": 10,
+      "id": 30064772338,
+      "label": "CALL",
+      "lineNumber": 220,
+      "name": "ledger_pair",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "lot.account_id",
+      "columnNumber": 16,
+      "id": 30064772196,
+      "label": "CALL",
+      "lineNumber": 165,
+      "name": "<operator>.fieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "unpaid",
+      "columnNumber": 63,
+      "id": 68719477970,
+      "label": "IDENTIFIER",
+      "lineNumber": 294,
+      "name": "unpaid",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "&e->auths[i]",
+      "columnNumber": 34,
+      "id": 30064772366,
+      "label": "CALL",
+      "lineNumber": 240,
+      "name": "<operator>.addressOf",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "&e->config",
+      "columnNumber": 20,
+      "id": 30064772167,
+      "label": "CALL",
+      "lineNumber": 157,
+      "name": "<operator>.addressOf",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "const Command *c",
+      "columnNumber": 30,
+      "id": 111669149752,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 235,
+      "name": "c",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Command*"
+    },
+    {
+      "code": "l",
+      "columnNumber": 46,
+      "id": 68719477024,
+      "label": "IDENTIFIER",
+      "lineNumber": 95,
+      "name": "l",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "Lot*"
+    },
+    {
+      "code": "e",
+      "columnNumber": 28,
+      "id": 68719477471,
+      "label": "IDENTIFIER",
+      "lineNumber": 68,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "Engine *e",
+      "columnNumber": 21,
+      "id": 111669149722,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 123,
+      "name": "e",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "count * sizeof *expiring",
+      "columnNumber": 27,
+      "id": 30064772388,
+      "label": "CALL",
+      "lineNumber": 246,
+      "name": "<operator>.multiplication",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "find_account(e, c->account_id)",
+      "columnNumber": 18,
+      "id": 30064771905,
+      "label": "CALL",
+      "lineNumber": 58,
+      "name": "find_account",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "event",
+      "columnNumber": 24,
+      "id": 68719477972,
+      "label": "IDENTIFIER",
+      "lineNumber": 295,
+      "name": "event",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "authorization_hold(auth)",
+      "columnNumber": 18,
+      "id": 30064772330,
+      "label": "CALL",
+      "lineNumber": 216,
+      "name": "authorization_hold",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "order",
+      "columnNumber": 11,
+      "id": 68719476986,
+      "label": "IDENTIFIER",
+      "lineNumber": 85,
+      "name": "order",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "Lot**"
+    },
+    {
+      "code": "e->config.cycle_days",
+      "columnNumber": 39,
+      "id": 30064772159,
+      "label": "CALL",
+      "lineNumber": 155,
+      "name": "<operator>.fieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "expiring",
+      "columnNumber": 9,
+      "id": 68719477879,
+      "label": "IDENTIFIER",
+      "lineNumber": 246,
+      "name": "expiring",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Authorization**"
+    },
+    {
+      "code": "money_sub(component, cash, &unpaid) &&\n        ledger_pair(e, event, account_id, source, receivable, unpaid)",
+      "columnNumber": 12,
+      "id": 30064772478,
+      "label": "CALL",
+      "lineNumber": 293,
+      "name": "<operator>.logicalAnd",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "event",
+      "columnNumber": 29,
+      "id": 68719477935,
+      "label": "IDENTIFIER",
+      "lineNumber": 268,
+      "name": "event",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "const char *account_id",
+      "columnNumber": 55,
+      "id": 111669149757,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 288,
+      "name": "account_id",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "ledger_pair(e, event, auth->account_id, HOLD_OFFSET, HOLD_ASSET, total)",
+      "columnNumber": 10,
+      "id": 30064772264,
+      "label": "CALL",
+      "lineNumber": 187,
+      "name": "ledger_pair",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "\"ASSESS_LATE_FEE:%s\"",
+      "columnNumber": 50,
+      "id": 90194313265,
+      "label": "LITERAL",
+      "lineNumber": 129,
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "c->principal",
+      "columnNumber": 32,
+      "id": 30064772169,
+      "label": "CALL",
+      "lineNumber": 157,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "const char *account_id",
+      "columnNumber": 57,
+      "id": 111669149718,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 84,
+      "name": "account_id",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "a->id",
+      "columnNumber": 65,
+      "id": 30064772007,
+      "label": "CALL",
+      "lineNumber": 97,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "char[128]",
+      "columnNumber": 10,
+      "id": 68719477608,
+      "label": "IDENTIFIER",
+      "lineNumber": 124,
+      "name": "char[128]",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "event",
+      "columnNumber": 16,
+      "id": 68719477748,
+      "label": "IDENTIFIER",
+      "lineNumber": 186,
+      "name": "event",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "fee",
+      "columnNumber": 79,
+      "id": 68719477767,
+      "label": "IDENTIFIER",
+      "lineNumber": 189,
+      "name": "fee",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "hold",
+      "columnNumber": 35,
+      "id": 68719477920,
+      "label": "IDENTIFIER",
+      "lineNumber": 261,
+      "name": "hold",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "a->state",
+      "columnNumber": 18,
+      "id": 30064772405,
+      "label": "CALL",
+      "lineNumber": 251,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "c->principal",
+      "columnNumber": 64,
+      "id": 30064772130,
+      "label": "CALL",
+      "lineNumber": 145,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "{0}",
+      "columnNumber": 19,
+      "id": 30064772194,
+      "label": "CALL",
+      "lineNumber": 164,
+      "name": "<operator>.arrayInitializer",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "HOLD_ASSET",
+      "columnNumber": 64,
+      "id": 68719477938,
+      "label": "IDENTIFIER",
+      "lineNumber": 268,
+      "name": "HOLD_ASSET",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "paid",
+      "columnNumber": 66,
+      "id": 68719476976,
+      "label": "IDENTIFIER",
+      "lineNumber": 78,
+      "name": "paid",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "i",
+      "columnNumber": 22,
+      "id": 68719476993,
+      "label": "IDENTIFIER",
+      "lineNumber": 88,
+      "name": "i",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "ledger_pair(e,event,account_id,CASH,receivable,paid)",
+      "columnNumber": 18,
+      "id": 30064771469,
+      "label": "CALL",
+      "lineNumber": 98,
+      "name": "ledger_pair",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "in->late_fee_assessed",
+      "columnNumber": 9,
+      "id": 30064771573,
+      "label": "CALL",
+      "lineNumber": 128,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "receivable",
+      "columnNumber": 51,
+      "id": 68719477969,
+      "label": "IDENTIFIER",
+      "lineNumber": 294,
+      "name": "receivable",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "LedgerAccount"
+    },
+    {
+      "code": "0",
+      "columnNumber": 9,
+      "id": 90194313288,
+      "label": "LITERAL",
+      "lineNumber": 244,
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "int"
+    },
+    {
+      "code": "expiring[next++]",
+      "columnNumber": 17,
+      "id": 30064772412,
+      "label": "CALL",
+      "lineNumber": 252,
+      "name": "<operator>.indirectIndexAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "r.released",
+      "columnNumber": 54,
+      "id": 30064772433,
+      "label": "CALL",
+      "lineNumber": 261,
+      "name": "<operator>.fieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "hold",
+      "columnNumber": 23,
+      "id": 68719477928,
+      "label": "IDENTIFIER",
+      "lineNumber": 265,
+      "name": "hold",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "e",
+      "columnNumber": 36,
+      "id": 68719477504,
+      "label": "IDENTIFIER",
+      "lineNumber": 83,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "auth->account_id",
+      "columnNumber": 32,
+      "id": 30064772268,
+      "label": "CALL",
+      "lineNumber": 188,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "i",
+      "columnNumber": 24,
+      "id": 68719477857,
+      "label": "IDENTIFIER",
+      "lineNumber": 239,
+      "name": "i",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "CASH",
+      "columnNumber": 49,
+      "id": 68719477038,
+      "label": "IDENTIFIER",
+      "lineNumber": 98,
+      "name": "CASH",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "&e->lots_alloc",
+      "columnNumber": 60,
+      "id": 30064772223,
+      "label": "CALL",
+      "lineNumber": 171,
+      "name": "<operator>.addressOf",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "1440",
+      "columnNumber": 31,
+      "id": 90194313280,
+      "label": "LITERAL",
+      "lineNumber": 155,
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "int"
+    },
+    {
+      "code": "&hold",
+      "columnNumber": 46,
+      "id": 30064772072,
+      "label": "CALL",
+      "lineNumber": 120,
+      "name": "<operator>.addressOf",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "RECEIVABLE_PRINCIPAL",
+      "columnNumber": 50,
+      "id": 68719477759,
+      "label": "IDENTIFIER",
+      "lineNumber": 188,
+      "name": "RECEIVABLE_PRINCIPAL",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "HOLD_OFFSET",
+      "columnNumber": 51,
+      "id": 68719477615,
+      "label": "IDENTIFIER",
+      "lineNumber": 126,
+      "name": "HOLD_OFFSET",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "hold",
+      "columnNumber": 11,
+      "id": 68719477818,
+      "label": "IDENTIFIER",
+      "lineNumber": 216,
+      "name": "hold",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "event[128]",
+      "columnNumber": 10,
+      "id": 30064772259,
+      "label": "CALL",
+      "lineNumber": 185,
+      "name": "<operator>.alloc",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "due < *remaining ? due : *remaining",
+      "columnNumber": 20,
+      "id": 30064771398,
+      "label": "CALL",
+      "lineNumber": 77,
+      "name": "<operator>.conditional",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "authorization_order",
+      "columnNumber": 50,
+      "id": 120259084305,
+      "label": "METHOD_REF",
+      "lineNumber": 254,
+      "name": "authorization_order",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply"
+    },
+    {
+      "code": "RECEIVABLE_FEE",
+      "columnNumber": 50,
+      "id": 68719477765,
+      "label": "IDENTIFIER",
+      "lineNumber": 189,
+      "name": "RECEIVABLE_FEE",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "i",
+      "columnNumber": 48,
+      "id": 68719477890,
+      "label": "IDENTIFIER",
+      "lineNumber": 249,
+      "name": "i",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "0",
+      "columnNumber": 20,
+      "id": 90194313282,
+      "label": "LITERAL",
+      "lineNumber": 164,
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "int"
+    },
+    {
+      "code": "hold",
+      "columnNumber": 76,
+      "id": 68719477939,
+      "label": "IDENTIFIER",
+      "lineNumber": 268,
+      "name": "hold",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "ledger_pair(e, event, a->id, HOLD_ASSET, HOLD_OFFSET, hold)",
+      "columnNumber": 10,
+      "id": 30064772092,
+      "label": "CALL",
+      "lineNumber": 126,
+      "name": "ledger_pair",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "paid",
+      "columnNumber": 15,
+      "id": 68719476966,
+      "label": "IDENTIFIER",
+      "lineNumber": 77,
+      "name": "paid",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "account_id",
+      "columnNumber": 83,
+      "id": 68719476946,
+      "label": "IDENTIFIER",
+      "lineNumber": 71,
+      "name": "account_id",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "c->principal",
+      "columnNumber": 20,
+      "id": 30064772135,
+      "label": "CALL",
+      "lineNumber": 147,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "HOLD_ASSET",
+      "columnNumber": 63,
+      "id": 68719477832,
+      "label": "IDENTIFIER",
+      "lineNumber": 220,
+      "name": "HOLD_ASSET",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "capture.account_id",
+      "columnNumber": 12,
+      "id": 30064772147,
+      "label": "CALL",
+      "lineNumber": 152,
+      "name": "<operator>.fieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "due",
+      "columnNumber": 19,
+      "id": 68719477022,
+      "label": "IDENTIFIER",
+      "lineNumber": 95,
+      "name": "due",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "order",
+      "columnNumber": 11,
+      "id": 68719477005,
+      "label": "IDENTIFIER",
+      "lineNumber": 89,
+      "name": "order",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "Lot**"
+    },
+    {
+      "code": "char[128]",
+      "columnNumber": 14,
+      "id": 68719477930,
+      "label": "IDENTIFIER",
+      "lineNumber": 266,
+      "name": "char[128]",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "i",
+      "columnNumber": 17,
+      "id": 68719477856,
+      "label": "IDENTIFIER",
+      "lineNumber": 239,
+      "name": "i",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "&total",
+      "columnNumber": 39,
+      "id": 30064772136,
+      "label": "CALL",
+      "lineNumber": 147,
+      "name": "<operator>.addressOf",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "Money component",
+      "columnNumber": 25,
+      "id": 111669149760,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 290,
+      "name": "component",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "e",
+      "columnNumber": 22,
+      "id": 68719477828,
+      "label": "IDENTIFIER",
+      "lineNumber": 220,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "e->config.hold_ttl_minutes",
+      "columnNumber": 30,
+      "id": 30064772050,
+      "label": "CALL",
+      "lineNumber": 113,
+      "name": "<operator>.fieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "cash",
+      "columnNumber": 33,
+      "id": 68719477963,
+      "label": "IDENTIFIER",
+      "lineNumber": 293,
+      "name": "cash",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "e->now",
+      "columnNumber": 9,
+      "id": 30064772048,
+      "label": "CALL",
+      "lineNumber": 113,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "c->auth_id",
+      "columnNumber": 40,
+      "id": 30064772314,
+      "label": "CALL",
+      "lineNumber": 208,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "event[128]",
+      "columnNumber": 14,
+      "id": 30064772439,
+      "label": "CALL",
+      "lineNumber": 266,
+      "name": "<operator>.alloc",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "c",
+      "columnNumber": 31,
+      "id": 68719477907,
+      "label": "IDENTIFIER",
+      "lineNumber": 256,
+      "name": "c",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Command*"
+    },
+    {
+      "code": "event",
+      "columnNumber": 10,
+      "id": 68719477746,
+      "label": "IDENTIFIER",
+      "lineNumber": 185,
+      "name": "event",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "c",
+      "columnNumber": 29,
+      "id": 68719477124,
+      "label": "IDENTIFIER",
+      "lineNumber": 124,
+      "name": "c",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "Command*"
+    },
+    {
+      "code": "e->now/1440",
+      "columnNumber": 34,
+      "id": 30064771575,
+      "label": "CALL",
+      "lineNumber": 128,
+      "name": "<operator>.division",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "event",
+      "columnNumber": 10,
+      "id": 68719477824,
+      "label": "IDENTIFIER",
+      "lineNumber": 218,
+      "name": "event",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "RECEIVABLE_LATE",
+      "columnNumber": 50,
+      "id": 68719476975,
+      "label": "IDENTIFIER",
+      "lineNumber": 78,
+      "name": "RECEIVABLE_LATE",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "a",
+      "columnNumber": 41,
+      "id": 68719477918,
+      "label": "IDENTIFIER",
+      "lineNumber": 260,
+      "name": "a",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Authorization*"
+    },
+    {
+      "code": "auth",
+      "columnNumber": 20,
+      "id": 68719477627,
+      "label": "IDENTIFIER",
+      "lineNumber": 136,
+      "name": "auth",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Authorization*"
+    },
+    {
+      "code": "!ledger_pair(e, event, auth->account_id, RECEIVABLE_PRINCIPAL, MERCHANT_CLEARING, c->principal)",
+      "columnNumber": 9,
+      "id": 30064772266,
+      "label": "CALL",
+      "lineNumber": 188,
+      "name": "<operator>.logicalNot",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "lot_order",
+      "columnNumber": 37,
+      "id": 120259084289,
+      "label": "METHOD_REF",
+      "lineNumber": 89,
+      "name": "lot_order",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots"
+    },
+    {
+      "code": "FEE_REVENUE",
+      "columnNumber": 66,
+      "id": 68719477766,
+      "label": "IDENTIFIER",
+      "lineNumber": 189,
+      "name": "FEE_REVENUE",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "0",
+      "columnNumber": 21,
+      "id": 90194313287,
+      "label": "LITERAL",
+      "lineNumber": 239,
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "int"
+    },
+    {
+      "code": "auth",
+      "columnNumber": 39,
+      "id": 68719477635,
+      "label": "IDENTIFIER",
+      "lineNumber": 138,
+      "name": "auth",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Authorization*"
+    },
+    {
+      "code": "e",
+      "columnNumber": 84,
+      "id": 68719477139,
+      "label": "IDENTIFIER",
+      "lineNumber": 128,
+      "name": "e",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "e->auths_len",
+      "columnNumber": 32,
+      "id": 30064772396,
+      "label": "CALL",
+      "lineNumber": 249,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "paid",
+      "columnNumber": 25,
+      "id": 68719477049,
+      "label": "IDENTIFIER",
+      "lineNumber": 101,
+      "name": "paid",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "a->id",
+      "columnNumber": 32,
+      "id": 30064772093,
+      "label": "CALL",
+      "lineNumber": 126,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "e",
+      "columnNumber": 22,
+      "id": 68719477685,
+      "label": "IDENTIFIER",
+      "lineNumber": 158,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "in",
+      "columnNumber": 14,
+      "id": 68719477125,
+      "label": "IDENTIFIER",
+      "lineNumber": 125,
+      "name": "in",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "Invoice*"
+    },
+    {
+      "code": "LedgerAccount source",
+      "columnNumber": 25,
+      "id": 111669149758,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 289,
+      "name": "source",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "LedgerAccount"
+    },
+    {
+      "code": "component==0 ? lot_fee(l) : lot_principal(l)",
+      "columnNumber": 23,
+      "id": 30064771456,
+      "label": "CALL",
+      "lineNumber": 95,
+      "name": "<operator>.conditional",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "count",
+      "columnNumber": 125,
+      "id": 68719477002,
+      "label": "IDENTIFIER",
+      "lineNumber": 88,
+      "name": "count",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "c->invoice_id",
+      "columnNumber": 32,
+      "id": 30064771562,
+      "label": "CALL",
+      "lineNumber": 125,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "order[i]->paid_late",
+      "columnNumber": 34,
+      "id": 30064771395,
+      "label": "CALL",
+      "lineNumber": 76,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "e",
+      "columnNumber": 26,
+      "id": 68719477934,
+      "label": "IDENTIFIER",
+      "lineNumber": 268,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "HOLD_ASSET",
+      "columnNumber": 39,
+      "id": 68719477614,
+      "label": "IDENTIFIER",
+      "lineNumber": 126,
+      "name": "HOLD_ASSET",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "c->now",
+      "columnNumber": 9,
+      "id": 30064772357,
+      "label": "CALL",
+      "lineNumber": 237,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "e->now",
+      "columnNumber": 18,
+      "id": 30064772358,
+      "label": "CALL",
+      "lineNumber": 237,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "count",
+      "columnNumber": 87,
+      "id": 68719477869,
+      "label": "IDENTIFIER",
+      "lineNumber": 241,
+      "name": "count",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "auth->id",
+      "columnNumber": 23,
+      "id": 30064772321,
+      "label": "CALL",
+      "lineNumber": 211,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "Money cash",
+      "columnNumber": 42,
+      "id": 111669149761,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 290,
+      "name": "cash",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "e->config.late_fee",
+      "columnNumber": 74,
+      "id": 30064771590,
+      "label": "CALL",
+      "lineNumber": 130,
+      "name": "<operator>.fieldAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "const Command *c",
+      "columnNumber": 32,
+      "id": 111669149748,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 206,
+      "name": "c",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "Command*"
+    },
+    {
+      "code": "128",
+      "columnNumber": 16,
+      "id": 90194313285,
+      "label": "LITERAL",
+      "lineNumber": 218,
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "int"
+    },
+    {
+      "code": "due < *remaining ? due : *remaining",
+      "columnNumber": 24,
+      "id": 30064771461,
+      "label": "CALL",
+      "lineNumber": 96,
+      "name": "<operator>.conditional",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "char[128]",
+      "columnNumber": 10,
+      "id": 68719477825,
+      "label": "IDENTIFIER",
+      "lineNumber": 218,
+      "name": "char[128]",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "&e->config",
+      "columnNumber": 25,
+      "id": 30064771940,
+      "label": "CALL",
+      "lineNumber": 73,
+      "name": "<operator>.addressOf",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "order[i]->late",
+      "columnNumber": 19,
+      "id": 30064771393,
+      "label": "CALL",
+      "lineNumber": 76,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "event",
+      "columnNumber": 32,
+      "id": 68719477036,
+      "label": "IDENTIFIER",
+      "lineNumber": 98,
+      "name": "event",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "r",
+      "columnNumber": 12,
+      "id": 68719477123,
+      "label": "IDENTIFIER",
+      "lineNumber": 124,
+      "name": "r",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "Result"
+    },
+    {
+      "code": "result_default(c)",
+      "columnNumber": 16,
+      "id": 30064772418,
+      "label": "CALL",
+      "lineNumber": 256,
+      "name": "result_default",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "a",
+      "columnNumber": 24,
+      "id": 68719477914,
+      "label": "IDENTIFIER",
+      "lineNumber": 259,
+      "name": "a",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Authorization*"
+    },
+    {
+      "code": "e",
+      "columnNumber": 30,
+      "id": 68719477035,
+      "label": "IDENTIFIER",
+      "lineNumber": 98,
+      "name": "e",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "r.invoice_id",
+      "columnNumber": 12,
+      "id": 30064771569,
+      "label": "CALL",
+      "lineNumber": 127,
+      "name": "<operator>.fieldAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "e",
+      "columnNumber": 37,
+      "id": 68719477628,
+      "label": "IDENTIFIER",
+      "lineNumber": 136,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "a",
+      "columnNumber": 31,
+      "id": 68719477472,
+      "label": "IDENTIFIER",
+      "lineNumber": 68,
+      "name": "a",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "Account*"
+    },
+    {
+      "code": "expiring",
+      "columnNumber": 14,
+      "id": 68719477882,
+      "label": "IDENTIFIER",
+      "lineNumber": 247,
+      "name": "expiring",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Authorization**"
+    },
+    {
+      "code": "source",
+      "columnNumber": 43,
+      "id": 68719477974,
+      "label": "IDENTIFIER",
+      "lineNumber": 295,
+      "name": "source",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "LedgerAccount"
+    },
+    {
+      "code": "128",
+      "columnNumber": 16,
+      "id": 90194313278,
+      "label": "LITERAL",
+      "lineNumber": 124,
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "int"
+    },
+    {
+      "code": "cash",
+      "columnNumber": 57,
+      "id": 68719477976,
+      "label": "IDENTIFIER",
+      "lineNumber": 295,
+      "name": "cash",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "{0}",
+      "columnNumber": 26,
+      "id": 30064772029,
+      "label": "CALL",
+      "lineNumber": 106,
+      "name": "<operator>.arrayInitializer",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "ledger_pair(e, event, account_id, source, CASH, cash)",
+      "columnNumber": 9,
+      "id": 30064772482,
+      "label": "CALL",
+      "lineNumber": 295,
+      "name": "ledger_pair",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "a",
+      "columnNumber": 36,
+      "id": 68719477902,
+      "label": "IDENTIFIER",
+      "lineNumber": 252,
+      "name": "a",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Authorization*"
+    },
+    {
+      "code": "e",
+      "columnNumber": 21,
+      "id": 68719477971,
+      "label": "IDENTIFIER",
+      "lineNumber": 295,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "account_id",
+      "columnNumber": 31,
+      "id": 68719477967,
+      "label": "IDENTIFIER",
+      "lineNumber": 294,
+      "name": "account_id",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "order[i]",
+      "columnNumber": 20,
+      "id": 30064771454,
+      "label": "CALL",
+      "lineNumber": 94,
+      "name": "<operator>.indirectIndexAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "auth",
+      "columnNumber": 10,
+      "id": 68719477803,
+      "label": "IDENTIFIER",
+      "lineNumber": 209,
+      "name": "auth",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "Authorization*"
+    },
+    {
+      "code": "c->principal",
+      "columnNumber": 50,
+      "id": 30064772122,
+      "label": "CALL",
+      "lineNumber": 141,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "c",
+      "columnNumber": 31,
+      "id": 68719477808,
+      "label": "IDENTIFIER",
+      "lineNumber": 210,
+      "name": "c",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "Command*"
+    },
+    {
+      "code": "e->now",
+      "columnNumber": 22,
+      "id": 30064772158,
+      "label": "CALL",
+      "lineNumber": 155,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "paid",
+      "columnNumber": 65,
+      "id": 68719477040,
+      "label": "IDENTIFIER",
+      "lineNumber": 98,
+      "name": "paid",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "i",
+      "columnNumber": 21,
+      "id": 68719477887,
+      "label": "IDENTIFIER",
+      "lineNumber": 249,
+      "name": "i",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "ledger_pair(e,event,account_id,CASH,RECEIVABLE_LATE,paid)",
+      "columnNumber": 14,
+      "id": 30064771403,
+      "label": "CALL",
+      "lineNumber": 78,
+      "name": "ledger_pair",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "event[128]",
+      "columnNumber": 10,
+      "id": 30064772089,
+      "label": "CALL",
+      "lineNumber": 124,
+      "name": "<operator>.alloc",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "a->state",
+      "columnNumber": 14,
+      "id": 30064772372,
+      "label": "CALL",
+      "lineNumber": 241,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "c->account_id",
+      "columnNumber": 34,
+      "id": 30064771906,
+      "label": "CALL",
+      "lineNumber": 58,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "c->request_id",
+      "columnNumber": 71,
+      "id": 30064771586,
+      "label": "CALL",
+      "lineNumber": 129,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "l",
+      "columnNumber": 65,
+      "id": 68719477025,
+      "label": "IDENTIFIER",
+      "lineNumber": 95,
+      "name": "l",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "Lot*"
+    },
+    {
+      "code": "SIZE_MAX / sizeof *expiring",
+      "columnNumber": 21,
+      "id": 30064772382,
+      "label": "CALL",
+      "lineNumber": 245,
+      "name": "<operator>.division",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "Engine *e",
+      "columnNumber": 27,
+      "id": 111669149712,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 67,
+      "name": "e",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "account_id",
+      "columnNumber": 31,
+      "id": 68719477973,
+      "label": "IDENTIFIER",
+      "lineNumber": 295,
+      "name": "account_id",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "&unpaid",
+      "columnNumber": 39,
+      "id": 30064772480,
+      "label": "CALL",
+      "lineNumber": 293,
+      "name": "<operator>.addressOf",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "due",
+      "columnNumber": 15,
+      "id": 68719476961,
+      "label": "IDENTIFIER",
+      "lineNumber": 76,
+      "name": "due",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "Engine *e",
+      "columnNumber": 27,
+      "id": 111669149716,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 84,
+      "name": "e",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "&e->config",
+      "columnNumber": 36,
+      "id": 30064772164,
+      "label": "CALL",
+      "lineNumber": 156,
+      "name": "<operator>.addressOf",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "PARTIAL",
+      "columnNumber": 49,
+      "id": 68719477814,
+      "label": "IDENTIFIER",
+      "lineNumber": 212,
+      "name": "PARTIAL",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "e->lots[i].account_id",
+      "columnNumber": 53,
+      "id": 30064771427,
+      "label": "CALL",
+      "lineNumber": 88,
+      "name": "<operator>.fieldAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "a->state",
+      "columnNumber": 9,
+      "id": 30064772450,
+      "label": "CALL",
+      "lineNumber": 272,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "reward.account_id",
+      "columnNumber": 12,
+      "id": 30064772233,
+      "label": "CALL",
+      "lineNumber": 177,
+      "name": "<operator>.fieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "c->now",
+      "columnNumber": 77,
+      "id": 30064772377,
+      "label": "CALL",
+      "lineNumber": 241,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "0",
+      "columnNumber": 18,
+      "id": 90194313248,
+      "label": "LITERAL",
+      "lineNumber": 87,
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "int"
+    },
+    {
+      "code": "due",
+      "columnNumber": 20,
+      "id": 68719476967,
+      "label": "IDENTIFIER",
+      "lineNumber": 77,
+      "name": "due",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "order[i]->late-order[i]->paid_late",
+      "columnNumber": 19,
+      "id": 30064771392,
+      "label": "CALL",
+      "lineNumber": 76,
+      "name": "<operator>.subtraction",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "LedgerAccount receivable",
+      "columnNumber": 47,
+      "id": 111669149759,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 289,
+      "name": "receivable",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "LedgerAccount"
+    },
+    {
+      "code": "ACTIVE",
+      "columnNumber": 30,
+      "id": 68719477895,
+      "label": "IDENTIFIER",
+      "lineNumber": 251,
+      "name": "ACTIVE",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "e",
+      "columnNumber": 22,
+      "id": 68719477750,
+      "label": "IDENTIFIER",
+      "lineNumber": 187,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "CASH",
+      "columnNumber": 51,
+      "id": 68719477975,
+      "label": "IDENTIFIER",
+      "lineNumber": 295,
+      "name": "CASH",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "event",
+      "columnNumber": 24,
+      "id": 68719477931,
+      "label": "IDENTIFIER",
+      "lineNumber": 267,
+      "name": "event",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "const char *event",
+      "columnNumber": 38,
+      "id": 111669149713,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 67,
+      "name": "event",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "ledger_pair(e,event,in->account_id,RECEIVABLE_LATE,LATE_REVENUE,e->config.late_fee)",
+      "columnNumber": 10,
+      "id": 30064771588,
+      "label": "CALL",
+      "lineNumber": 130,
+      "name": "ledger_pair",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "result_default(c)",
+      "columnNumber": 14,
+      "id": 30064771559,
+      "label": "CALL",
+      "lineNumber": 124,
+      "name": "result_default",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "l->paid_principal",
+      "columnNumber": 18,
+      "id": 30064771475,
+      "label": "CALL",
+      "lineNumber": 100,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "a",
+      "columnNumber": 30,
+      "id": 68719477860,
+      "label": "IDENTIFIER",
+      "lineNumber": 240,
+      "name": "a",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Authorization*"
+    },
+    {
+      "code": "a->state",
+      "columnNumber": 36,
+      "id": 30064772374,
+      "label": "CALL",
+      "lineNumber": 241,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "event",
+      "columnNumber": 10,
+      "id": 68719477607,
+      "label": "IDENTIFIER",
+      "lineNumber": 124,
+      "name": "event",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "*remaining",
+      "columnNumber": 36,
+      "id": 30064771409,
+      "label": "CALL",
+      "lineNumber": 79,
+      "name": "<operator>.indirection",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "const Command *c",
+      "columnNumber": 32,
+      "id": 111669149723,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 123,
+      "name": "c",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "Command*"
+    },
+    {
+      "code": "{0}",
+      "columnNumber": 21,
+      "id": 30064772231,
+      "label": "CALL",
+      "lineNumber": 176,
+      "name": "<operator>.arrayInitializer",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "lot",
+      "columnNumber": 13,
+      "id": 68719477701,
+      "label": "IDENTIFIER",
+      "lineNumber": 164,
+      "name": "lot",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Lot"
+    },
+    {
+      "code": "ledger_pair(e, event, a->account_id, HOLD_OFFSET, HOLD_ASSET, hold)",
+      "columnNumber": 14,
+      "id": 30064772445,
+      "label": "CALL",
+      "lineNumber": 268,
+      "name": "ledger_pair",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "INT64_MAX - r.released",
+      "columnNumber": 42,
+      "id": 30064772432,
+      "label": "CALL",
+      "lineNumber": 261,
+      "name": "<operator>.subtraction",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "fee",
+      "columnNumber": 30,
+      "id": 68719477716,
+      "label": "IDENTIFIER",
+      "lineNumber": 170,
+      "name": "fee",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "0",
+      "columnNumber": 24,
+      "id": 90194313279,
+      "label": "LITERAL",
+      "lineNumber": 149,
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "int"
+    },
+    {
+      "code": "i",
+      "columnNumber": 44,
+      "id": 68719477859,
+      "label": "IDENTIFIER",
+      "lineNumber": 239,
+      "name": "i",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "0",
+      "columnNumber": 22,
+      "id": 90194313283,
+      "label": "LITERAL",
+      "lineNumber": 176,
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "int"
+    },
+    {
+      "code": "e",
+      "columnNumber": 37,
+      "id": 68719477801,
+      "label": "IDENTIFIER",
+      "lineNumber": 208,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "&e->config",
+      "columnNumber": 38,
+      "id": 30064772120,
+      "label": "CALL",
+      "lineNumber": 141,
+      "name": "<operator>.addressOf",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "fee",
+      "columnNumber": 34,
+      "id": 68719477660,
+      "label": "IDENTIFIER",
+      "lineNumber": 147,
+      "name": "fee",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "count",
+      "columnNumber": 17,
+      "id": 68719477006,
+      "label": "IDENTIFIER",
+      "lineNumber": 89,
+      "name": "count",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "hold",
+      "columnNumber": 75,
+      "id": 68719477833,
+      "label": "IDENTIFIER",
+      "lineNumber": 220,
+      "name": "hold",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "0",
+      "columnNumber": 20,
+      "id": 90194313286,
+      "label": "LITERAL",
+      "lineNumber": 238,
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "int"
+    },
+    {
+      "code": "&fee",
+      "columnNumber": 44,
+      "id": 30064772132,
+      "label": "CALL",
+      "lineNumber": 146,
+      "name": "<operator>.addressOf",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "auth->account_id",
+      "columnNumber": 32,
+      "id": 30064772272,
+      "label": "CALL",
+      "lineNumber": 189,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "i",
+      "columnNumber": 22,
+      "id": 68719476941,
+      "label": "IDENTIFIER",
+      "lineNumber": 71,
+      "name": "i",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "event",
+      "columnNumber": 10,
+      "id": 68719477144,
+      "label": "IDENTIFIER",
+      "lineNumber": 129,
+      "name": "event",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "c",
+      "columnNumber": 23,
+      "id": 68719477749,
+      "label": "IDENTIFIER",
+      "lineNumber": 186,
+      "name": "c",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Command*"
+    },
+    {
+      "code": "Engine *e",
+      "columnNumber": 25,
+      "id": 111669149755,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 288,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "expiring",
+      "columnNumber": 21,
+      "id": 68719477870,
+      "label": "IDENTIFIER",
+      "lineNumber": 243,
+      "name": "expiring",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Authorization**"
+    },
+    {
+      "code": "i",
+      "columnNumber": 28,
+      "id": 68719477888,
+      "label": "IDENTIFIER",
+      "lineNumber": 249,
+      "name": "i",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "event",
+      "columnNumber": 25,
+      "id": 68719477751,
+      "label": "IDENTIFIER",
+      "lineNumber": 187,
+      "name": "event",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "ACTIVE",
+      "columnNumber": 26,
+      "id": 68719477864,
+      "label": "IDENTIFIER",
+      "lineNumber": 241,
+      "name": "ACTIVE",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "e->now",
+      "columnNumber": 45,
+      "id": 30064772110,
+      "label": "CALL",
+      "lineNumber": 138,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "e->lots_len",
+      "columnNumber": 24,
+      "id": 30064771422,
+      "label": "CALL",
+      "lineNumber": 88,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "account_id",
+      "columnNumber": 34,
+      "id": 68719476973,
+      "label": "IDENTIFIER",
+      "lineNumber": 78,
+      "name": "account_id",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "count",
+      "columnNumber": 12,
+      "id": 68719476991,
+      "label": "IDENTIFIER",
+      "lineNumber": 87,
+      "name": "count",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "MERCHANT_CLEARING",
+      "columnNumber": 72,
+      "id": 68719477760,
+      "label": "IDENTIFIER",
+      "lineNumber": 188,
+      "name": "MERCHANT_CLEARING",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "a->expires_at",
+      "columnNumber": 64,
+      "id": 30064772409,
+      "label": "CALL",
+      "lineNumber": 251,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "e",
+      "columnNumber": 22,
+      "id": 68719477611,
+      "label": "IDENTIFIER",
+      "lineNumber": 126,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "c->principal",
+      "columnNumber": 91,
+      "id": 30064772269,
+      "label": "CALL",
+      "lineNumber": 188,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "capture.id",
+      "columnNumber": 12,
+      "id": 30064772141,
+      "label": "CALL",
+      "lineNumber": 150,
+      "name": "<operator>.fieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "const char *event",
+      "columnNumber": 38,
+      "id": 111669149717,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 84,
+      "name": "event",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "0",
+      "columnNumber": 19,
+      "id": 90194313249,
+      "label": "LITERAL",
+      "lineNumber": 88,
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "int"
+    },
+    {
+      "code": "count",
+      "columnNumber": 9,
+      "id": 68719477872,
+      "label": "IDENTIFIER",
+      "lineNumber": 244,
+      "name": "count",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "event[128]",
+      "columnNumber": 10,
+      "id": 30064771583,
+      "label": "CALL",
+      "lineNumber": 129,
+      "name": "<operator>.alloc",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "&e->lots[i]",
+      "columnNumber": 134,
+      "id": 30064771437,
+      "label": "CALL",
+      "lineNumber": 88,
+      "name": "<operator>.addressOf",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "paid",
+      "columnNumber": 19,
+      "id": 68719477026,
+      "label": "IDENTIFIER",
+      "lineNumber": 96,
+      "name": "paid",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "account_id",
+      "columnNumber": 38,
+      "id": 68719477037,
+      "label": "IDENTIFIER",
+      "lineNumber": 98,
+      "name": "account_id",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "128",
+      "columnNumber": 16,
+      "id": 90194313284,
+      "label": "LITERAL",
+      "lineNumber": 185,
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "int"
+    },
+    {
+      "code": "c->request_id",
+      "columnNumber": 24,
+      "id": 30064772142,
+      "label": "CALL",
+      "lineNumber": 150,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "c->now",
+      "columnNumber": 81,
+      "id": 30064772410,
+      "label": "CALL",
+      "lineNumber": 251,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "hold",
+      "columnNumber": 22,
+      "id": 68719477820,
+      "label": "IDENTIFIER",
+      "lineNumber": 217,
+      "name": "hold",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "ledger_pair(e, event, account_id, source, receivable, unpaid)",
+      "columnNumber": 9,
+      "id": 30064772481,
+      "label": "CALL",
+      "lineNumber": 294,
+      "name": "ledger_pair",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "refund_post",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "authorization_hold(a)",
+      "columnNumber": 22,
+      "id": 30064772427,
+      "label": "CALL",
+      "lineNumber": 260,
+      "name": "authorization_hold",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "auth",
+      "columnNumber": 19,
+      "id": 68719477564,
+      "label": "IDENTIFIER",
+      "lineNumber": 106,
+      "name": "auth",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "Authorization"
+    },
+    {
+      "code": "hold",
+      "columnNumber": 64,
+      "id": 68719477616,
+      "label": "IDENTIFIER",
+      "lineNumber": 126,
+      "name": "hold",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "*remaining",
+      "columnNumber": 30,
+      "id": 30064771463,
+      "label": "CALL",
+      "lineNumber": 96,
+      "name": "<operator>.indirection",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "auth->state",
+      "columnNumber": 9,
+      "id": 30064772324,
+      "label": "CALL",
+      "lineNumber": 212,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "auth",
+      "columnNumber": 37,
+      "id": 68719477819,
+      "label": "IDENTIFIER",
+      "lineNumber": 216,
+      "name": "auth",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "Authorization*"
+    },
+    {
+      "code": "0",
+      "columnNumber": 25,
+      "id": 90194313290,
+      "label": "LITERAL",
+      "lineNumber": 249,
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "int"
+    },
+    {
+      "code": "in",
+      "columnNumber": 10,
+      "id": 68719477128,
+      "label": "IDENTIFIER",
+      "lineNumber": 126,
+      "name": "in",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "Invoice*"
+    },
+    {
+      "code": "auth->account_id",
+      "columnNumber": 32,
+      "id": 30064772197,
+      "label": "CALL",
+      "lineNumber": 165,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "e",
+      "columnNumber": 26,
+      "id": 68719477554,
+      "label": "IDENTIFIER",
+      "lineNumber": 102,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "find_auth(e, c->auth_id)",
+      "columnNumber": 27,
+      "id": 30064772313,
+      "label": "CALL",
+      "lineNumber": 208,
+      "name": "find_auth",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "a->id",
+      "columnNumber": 58,
+      "id": 30064772443,
+      "label": "CALL",
+      "lineNumber": 267,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "account_id",
+      "columnNumber": 75,
+      "id": 68719476998,
+      "label": "IDENTIFIER",
+      "lineNumber": 88,
+      "name": "account_id",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "char*"
+    },
+    {
+      "code": "PARTIAL",
+      "columnNumber": 48,
+      "id": 68719477866,
+      "label": "IDENTIFIER",
+      "lineNumber": 241,
+      "name": "PARTIAL",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "i",
+      "columnNumber": 39,
+      "id": 68719476995,
+      "label": "IDENTIFIER",
+      "lineNumber": 88,
+      "name": "i",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "e",
+      "columnNumber": 40,
+      "id": 68719477455,
+      "label": "IDENTIFIER",
+      "lineNumber": 62,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "Engine *e",
+      "columnNumber": 19,
+      "id": 111669149751,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 235,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "i",
+      "columnNumber": 17,
+      "id": 68719476940,
+      "label": "IDENTIFIER",
+      "lineNumber": 71,
+      "name": "i",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "size_t"
+    },
+    {
+      "code": "a->id",
+      "columnNumber": 28,
+      "id": 30064772022,
+      "label": "CALL",
+      "lineNumber": 102,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "capture",
+      "columnNumber": 13,
+      "id": 68719477665,
+      "label": "IDENTIFIER",
+      "lineNumber": 149,
+      "name": "capture",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Capture"
+    },
+    {
+      "code": "0",
+      "columnNumber": 25,
+      "id": 90194313246,
+      "label": "LITERAL",
+      "lineNumber": 75,
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "int"
+    },
+    {
+      "code": "128",
+      "columnNumber": 20,
+      "id": 90194313292,
+      "label": "LITERAL",
+      "lineNumber": 266,
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "int"
+    },
+    {
+      "code": "<unknown> NULL",
+      "columnNumber": 32,
+      "id": 68719477871,
+      "label": "IDENTIFIER",
+      "lineNumber": 243,
+      "name": "NULL",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "INT64_MAX - e->config.hold_ttl_minutes",
+      "columnNumber": 18,
+      "id": 30064772049,
+      "label": "CALL",
+      "lineNumber": 113,
+      "name": "<operator>.subtraction",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "const Command *c",
+      "columnNumber": 35,
+      "id": 111669149744,
+      "label": "METHOD_PARAMETER_IN",
+      "lineNumber": 56,
+      "name": "c",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "Command*"
+    },
+    {
+      "code": "in->due_day",
+      "columnNumber": 49,
+      "id": 30064771577,
+      "label": "CALL",
+      "lineNumber": 128,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "auth->state",
+      "columnNumber": 34,
+      "id": 30064772326,
+      "label": "CALL",
+      "lineNumber": 212,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "component==0 ? RECEIVABLE_FEE : RECEIVABLE_PRINCIPAL",
+      "columnNumber": 38,
+      "id": 30064771466,
+      "label": "CALL",
+      "lineNumber": 97,
+      "name": "<operator>.conditional",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "auth",
+      "columnNumber": 10,
+      "id": 68719477630,
+      "label": "IDENTIFIER",
+      "lineNumber": 137,
+      "name": "auth",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "Authorization*"
+    },
+    {
+      "code": "e->invoices_len",
+      "columnNumber": 24,
+      "id": 30064771369,
+      "label": "CALL",
+      "lineNumber": 71,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "l",
+      "columnNumber": 18,
+      "id": 68719477019,
+      "label": "IDENTIFIER",
+      "lineNumber": 94,
+      "name": "l",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "Lot*"
+    },
+    {
+      "code": "in->id",
+      "columnNumber": 25,
+      "id": 30064771570,
+      "label": "CALL",
+      "lineNumber": 127,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "{0}",
+      "columnNumber": 23,
+      "id": 30064772139,
+      "label": "CALL",
+      "lineNumber": 149,
+      "name": "<operator>.arrayInitializer",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "in",
+      "columnNumber": 86,
+      "id": 68719477140,
+      "label": "IDENTIFIER",
+      "lineNumber": 128,
+      "name": "in",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "Invoice*"
+    },
+    {
+      "code": "event[128]",
+      "columnNumber": 10,
+      "id": 30064772335,
+      "label": "CALL",
+      "lineNumber": 218,
+      "name": "<operator>.alloc",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "cancel_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "e",
+      "columnNumber": 26,
+      "id": 68719476971,
+      "label": "IDENTIFIER",
+      "lineNumber": 78,
+      "name": "e",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_late",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "a",
+      "columnNumber": 10,
+      "id": 68719477443,
+      "label": "IDENTIFIER",
+      "lineNumber": 59,
+      "name": "a",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "Account*"
+    },
+    {
+      "code": "event",
+      "columnNumber": 31,
+      "id": 68719477146,
+      "label": "IDENTIFIER",
+      "lineNumber": 129,
+      "name": "event",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "char[128]"
+    },
+    {
+      "code": "r",
+      "columnNumber": 12,
+      "id": 68719477906,
+      "label": "IDENTIFIER",
+      "lineNumber": 256,
+      "name": "r",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Result"
+    },
+    {
+      "code": "a->expires_at",
+      "columnNumber": 60,
+      "id": 30064772376,
+      "label": "CALL",
+      "lineNumber": 241,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "e",
+      "columnNumber": 30,
+      "id": 68719477126,
+      "label": "IDENTIFIER",
+      "lineNumber": 125,
+      "name": "e",
+      "parentFile": "src/billing.c",
+      "parentMethod": "assess_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "paid",
+      "columnNumber": 37,
+      "id": 68719477047,
+      "label": "IDENTIFIER",
+      "lineNumber": 100,
+      "name": "paid",
+      "parentFile": "src/billing.c",
+      "parentMethod": "allocate_lots",
+      "typeFullName": "Money"
+    },
+    {
+      "code": "e",
+      "columnNumber": 31,
+      "id": 68719477441,
+      "label": "IDENTIFIER",
+      "lineNumber": 58,
+      "name": "e",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "authorize_apply",
+      "typeFullName": "Engine*"
+    },
+    {
+      "code": "c->auth_id",
+      "columnNumber": 40,
+      "id": 30064772105,
+      "label": "CALL",
+      "lineNumber": 136,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "auth->account_id",
+      "columnNumber": 25,
+      "id": 30064772173,
+      "label": "CALL",
+      "lineNumber": 158,
+      "name": "<operator>.indirectFieldAccess",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "capture_apply",
+      "typeFullName": "ANY"
+    },
+    {
+      "code": "a",
+      "columnNumber": 28,
+      "id": 68719477891,
+      "label": "IDENTIFIER",
+      "lineNumber": 250,
+      "name": "a",
+      "parentFile": "src/lifecycle.c",
+      "parentMethod": "tick_apply",
+      "typeFullName": "Authorization*"
+    }
+  ]
+}
