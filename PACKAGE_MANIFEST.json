@@ -1,9 +1,8 @@
 {
   "name": "Aurum",
   "root": "aurum-fixture",
-  "kind": "specification-package",
-  "date": "2026-09-30",
-  "implementation_status": "NOT_IMPLEMENTED",
+  "kind": "implemented-fixture",
+  "implementation_status": "IMPLEMENTED",
   "rule_counts": {
     "BR": 111,
     "FR": 12
@@ -14,10 +13,21 @@
     "total": 296
   },
   "feature_files": 15,
-  "adrs": 8,
+  "adrs": 9,
   "backlog_items": 16,
   "notes": [
-    "No C application or Joern results included.",
+    "C17 application, CLI, official Gherkin harness, bidirectional traceability and isolated export are implemented.",
+    "Qualification covers the fixture acceptance gates; PGC rule extraction and semantic evaluation have not been run.",
+    "The analysis export excludes the oracle and expected results.",
     "All policies and monetary rates are synthetic."
-  ]
+  ],
+  "qualification_status": "PGC_FIXTURE_QUALIFIED",
+  "qualification_scope": "docs/ACCEPTANCE.md",
+  "evidence": {
+    "checks": "PACKAGE_CHECK.md",
+    "progress": "PROGRESS.md",
+    "full": "artifacts/full.json",
+    "joern": "artifacts/joern-smoke/summary.json",
+    "slicing_trials": "artifacts/joern-depth12/REPORT.md"
+  }
 }

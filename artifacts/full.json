@@ -8,7 +8,7 @@
       ],
       "exit": 0,
       "status": "PASS",
-      "seconds": 1.13,
+      "seconds": 1.07,
       "log": "artifacts/full-00.log"
     },
     {
@@ -40,7 +40,7 @@
       ],
       "exit": 0,
       "status": "PASS",
-      "seconds": 2.87,
+      "seconds": 2.82,
       "log": "artifacts/full-03.log"
     },
     {
@@ -50,7 +50,7 @@
       ],
       "exit": 0,
       "status": "PASS",
-      "seconds": 0.07,
+      "seconds": 0.06,
       "log": "artifacts/full-04.log"
     },
     {
@@ -60,7 +60,7 @@
       ],
       "exit": 0,
       "status": "PASS",
-      "seconds": 4.76,
+      "seconds": 4.81,
       "log": "artifacts/full-05.log"
     },
     {
@@ -72,7 +72,7 @@
       ],
       "exit": 0,
       "status": "PASS",
-      "seconds": 8.54,
+      "seconds": 8.77,
       "log": "artifacts/full-06.log"
     },
     {
@@ -84,7 +84,7 @@
       ],
       "exit": 0,
       "status": "PASS",
-      "seconds": 4.2,
+      "seconds": 4.34,
       "log": "artifacts/full-07.log"
     },
     {
@@ -94,7 +94,7 @@
       ],
       "exit": 0,
       "status": "PASS",
-      "seconds": 0.93,
+      "seconds": 0.88,
       "log": "artifacts/full-08.log"
     },
     {
@@ -104,7 +104,7 @@
       ],
       "exit": 0,
       "status": "PASS",
-      "seconds": 21.02,
+      "seconds": 21.78,
       "log": "artifacts/full-09.log"
     }
   ],

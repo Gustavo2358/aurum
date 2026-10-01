@@ -6,7 +6,7 @@ make[1]: Entering directory '/home/gustavo/workspace/aurum-fixture'
   "FR": 12,
   "scenarios": 296,
   "features": 15,
-  "internal_links_checked": 269,
+  "internal_links_checked": 315,
   "gherkin_parser": "PASS",
   "C_execution": "NOT_EVALUATED_BY_EDITORIAL_CHECK",
   "Joern": "NOT_EVALUATED_BY_EDITORIAL_CHECK",

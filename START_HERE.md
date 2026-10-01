@@ -1,15 +1,21 @@
-# Começar a implementação
+# Comece aqui
 
-## Prompt para colar no Astra
+Aurum é uma fixture financeira sintética em C17, com aplicação, CLI, harness Gherkin oficial, testes independentes, rastreabilidade e exportação implementados. O estado atual é **PGC_FIXTURE_QUALIFIED**, no escopo de [ACCEPTANCE](docs/ACCEPTANCE.md). O backlog B00–B15 está concluído.
 
-> Implemente integralmente a fixture Aurum descrita neste diretório. Comece por AGENTS.md e siga o backlog até o fechamento. Crie uma aplicação C17 de verdade, complexa, determinística, com todas as regras Gherkin executáveis e rastreabilidade bidirecional entre regras, código e testes. Preserve a independência do oráculo e exporte um pacote de análise sem respostas esperadas. Use autonomia para decisões de implementação, inicialize Git local e faça commits coerentes; não crie remote. Não reduza o escopo a um protótipo menor. Valide o que executar e registre honestamente o que continuar pendente.
+## Executar e conferir o estado
 
-## O que já existe
+1. Leia [README.md](README.md) para instalar as dependências, compilar e executar a aplicação e os testes.
+2. Consulte [PROGRESS.md](PROGRESS.md) para os gates e limites atuais e [PACKAGE_CHECK.md](PACKAGE_CHECK.md) para as evidências de qualificação. [PACKAGE_MANIFEST.json](PACKAGE_MANIFEST.json) resume o estado e o inventário do pacote.
+3. Para alterações, siga [AGENTS.md](AGENTS.md), [PRODUCT](docs/PRODUCT.md), [DOMAIN](docs/DOMAIN.md), [ARCHITECTURE](docs/ARCHITECTURE.md) e o [backlog concluído](backlog/BACKLOG.md).
 
-A aplicação C17, a CLI, o harness Gherkin oficial, os testes independentes, a rastreabilidade e os scripts de exportação/qualificação estão implementados. Comece pelo README.md para executar e por PROGRESS.md para conferir os gates e limites reais.
+`make test-fast` executa a regressão obrigatória rápida; `make test-full` inclui mutações, sanitizers, cobertura, exportação isolada e Joern. `tools/check_spec.py` é uma verificação editorial; seu sucesso isolado não significa execução financeira nem qualidade de slicing.
 
-`make test-fast` executa a regressão obrigatória rápida; `make test-full` inclui mutações, sanitizers, cobertura, exportação isolada e Joern. `python tools/check_spec.py` continua sendo apenas verificação editorial; seu sucesso isolado não significa execução financeira nem qualidade de slicing.
+## Manutenção
 
-## Continuidade
+Mantenha contratos, catálogo e Gherkin concordantes. Leia os contratos, catálogos e features afetados, preserve a independência do oráculo e regenere os mapas depois de alterar código. A arquitetura e o backlog descrevem o escopo integral entregue, que deve ser preservado nas alterações.
 
-Mantenha contratos, catálogo e Gherkin concordantes. Para mudanças, leia apenas os contratos/catálogos/features afetados, preserve o oráculo e regenere os mapas depois de alterar código. A arquitetura e o backlog descrevem o escopo integral já entregue; não autorizam redução das capacidades em futuras alterações.
+O repositório Git e o remote `origin` já estão configurados. Faça commits coerentes e publique conforme solicitado pelo usuário.
+
+## Limite da qualificação
+
+Os cenários executam a aplicação C real. O gate Joern verifica ingestão, locais de código e dependências selecionadas; os slices nativos têm limites documentados. A extração de regras pelo método do PGC e sua avaliação semântica continuam sendo trabalho separado. O extrator deve receber somente o corpus limpo e os critérios públicos, sem acesso ao oráculo.

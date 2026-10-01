@@ -107,7 +107,7 @@
         "joern"
       ],
       "exit": 0,
-      "seconds": 5.94
+      "seconds": 5.89
     },
     {
       "name": "parse",
@@ -120,7 +120,7 @@
         "/home/gustavo/workspace/aurum-fixture/artifacts/joern-smoke/cpg.bin"
       ],
       "exit": 0,
-      "seconds": 3.97
+      "seconds": 4.2
     },
     {
       "name": "query",
@@ -134,7 +134,7 @@
         "out=/home/gustavo/workspace/aurum-fixture/artifacts/joern-smoke/inventory.json"
       ],
       "exit": 0,
-      "seconds": 6.2
+      "seconds": 6.47
     },
     {
       "name": "slice-depth4",
@@ -154,7 +154,7 @@
         "/home/gustavo/workspace/aurum-fixture/artifacts/joern-smoke/cpg.bin"
       ],
       "exit": 0,
-      "seconds": 4.86
+      "seconds": 5.19
     }
   ],
   "errors": [],

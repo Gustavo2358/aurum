@@ -20,6 +20,6 @@ The bounded depth-4 `capture_apply`/`ledger_pair` argument slice returned 302 no
 
 The frontend emitted CFG order fallback warnings for for/break/continue. Selected dependence checks passed; uninspected CFG edges remain a frontend limitation. Java runtime deprecation/native-access warnings are preserved in stderr logs. No rule extraction was run in this implementation context.
 
-## Experimento posterior solicitado
+## Experimentos de profundidade
 
-Profundidade 8 concluiu em 31,267 segundos (353 nós, 521 arestas); profundidade 12 concluiu em 176,365 segundos (370 nós, 541 arestas), preservando todos os elementos do resultado 8. Profundidade 20 atingiu timeout de 30 minutos sem gerar slice. FAST foi reexecutado com PASS após a tentativa 12. O smoke de profundidade 4 acima permanece como evidência da execução FULL original. [Comparação e limites](../joern-depth12/REPORT.md).
+Os experimentos nativos de profundidades 8, 12 e 20 têm evidência separada do smoke executado pelo FULL. Profundidade 8 concluiu em 31,267 segundos (353 nós, 521 arestas); profundidade 12 em 176,365 segundos (370 nós, 541 arestas). Profundidade 20 atingiu timeout de 30 minutos sem gerar slice. [Comparação e limites](../joern-depth12/REPORT.md).

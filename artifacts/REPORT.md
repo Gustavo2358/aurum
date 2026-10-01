@@ -4,7 +4,7 @@ Estado: **PGC_FIXTURE_QUALIFIED** dentro dos gates da fixture. FAST e FULL execu
 
 ## Produto
 
-C17, biblioteca padrão, API e CLI com todas as capacidades do catálogo. Dinheiro inteiro verificado, relógio explícito, transação por estado privado e commit único, diário balanceado e projeções reconciliadas. Git local, sem remote.
+C17, biblioteca padrão, API e CLI com todas as capacidades do catálogo. Dinheiro inteiro verificado, relógio explícito, transação por estado privado e commit único, diário balanceado e projeções reconciliadas. Repositório publicado em [Gustavo2358/aurum](https://github.com/Gustavo2358/aurum).
 
 ```sh
 make all
@@ -42,10 +42,10 @@ O build normal usa `-std=c17 -O2 -g -Wall -Wextra -Wpedantic -Werror`. ASan e UB
 
 ## Limites
 
-A ingestão CPG, o mapeamento e as sentinelas passaram. O slice real tem 302 nós e 435 arestas, limitado à profundidade 4. A tentativa exploratória com profundidade 20 foi interrompida sem resultado. O frontend registrou fallbacks de CFG; ver `joern-smoke/REPORT.md`. Não há alegação de slicing completo ou de extração correta de todas as regras.
+A ingestão CPG, o mapeamento e as sentinelas passaram. O smoke do FULL produz um slice de profundidade 4 com 302 nós e 435 arestas. Os experimentos de profundidade estão resumidos abaixo. O frontend registrou fallbacks de CFG; ver `joern-smoke/REPORT.md`. Não há alegação de slicing completo ou de extração correta de todas as regras.
 
 As transações copiam o estado e não oferecem garantia de throughput. Componentes históricos preparados são distinguidos de fluxos públicos. Não foi feita extração por LLM no contexto autoral, nem prova formal ou inferência de generalização para software real.
 
-## Experimento posterior solicitado
+## Experimentos de profundidade
 
-Profundidade 8 concluiu em 31,267 segundos (353 nós, 521 arestas); profundidade 12 concluiu em 176,365 segundos (370 nós, 541 arestas), preservando todos os elementos do resultado 8. Profundidade 20 atingiu timeout de 30 minutos sem gerar slice. FAST foi reexecutado com PASS após a tentativa 12. O smoke de profundidade 4 acima permanece como evidência da execução FULL original. [Comparação e limites](joern-depth12/REPORT.md).
+Profundidade 8 concluiu em 31,267 segundos (353 nós, 521 arestas); profundidade 12 concluiu em 176,365 segundos (370 nós, 541 arestas), preservando todos os elementos do resultado 8. Profundidade 20 atingiu timeout de 30 minutos sem gerar slice. FAST e FULL foram reexecutados com PASS após a revisão dos documentos de entrada. O FULL executa o smoke de profundidade 4; os experimentos 8, 12 e 20 têm evidência separada. [Comparação e limites](joern-depth12/REPORT.md).

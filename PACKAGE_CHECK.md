@@ -1,31 +1,36 @@
-# Verificação do pacote de especificação
+# Verificação da fixture Aurum
 
-Data de preparação: 2026-09-30.
+Estado atual: **PGC_FIXTURE_QUALIFIED**, no escopo dos gates de [ACCEPTANCE](docs/ACCEPTANCE.md). A aplicação C17 e o harness estão implementados; B00–B15 estão concluídos. Os resultados abaixo resumem comandos efetivamente executados, com evidências em `artifacts/`.
 
-| Verificação | Resultado real |
-|---|---|
-| Integridade editorial (`python tools/check_spec.py`) | PASS: 111 BR, 12 FR, 296 cenários e 15 arquivos de features reconciliados |
-| IDs e referências | PASS: IDs únicos e referências de regras dos fluxos existentes |
-| Catálogo Markdown × JSON × Gherkin | PASS: enunciados e dados/expectativas dos exemplos concordam textualmente |
-| Links relativos e cercas Markdown | PASS na execução final; nenhuma referência interna quebrada |
-| Vetores numéricos (`python tools/check_oracle_math.py`) | PASS: 84 casos selecionados, 106 comparações, nenhuma divergência |
-| Parser oficial Gherkin (`--gherkin`) | NOT_RUN: pacote indisponível no ambiente; instalação/download bloqueados por conectividade |
-| Aplicação C e bindings | NOT_IMPLEMENTED: são o trabalho solicitado ao agente |
-| Joern / CPG / slicing | NOT_RUN: ainda não há aplicação implementada a importar |
+| Verificação | Resultado real | Evidência |
+|---|---|---|
+| FAST e FULL | PASS | [full.json](artifacts/full.json) e logs dos comandos |
+| Especificação e parser oficial Gherkin | PASS: 111 BR, 12 FR, 296 cenários, 15 features; IDs, catálogo, exemplos e links reconciliados | [FAST](artifacts/full-00.log) |
+| Aplicação C, bindings e CLI | PASS: 296 cenários contra C real, incluindo 12 fluxos públicos; mais 3 testes do próprio harness; zero skip | [Gherkin](artifacts/gherkin-results.json) e [FAST](artifacts/full-00.log) |
+| Protocolo e testes independentes | PASS: 73 verificações de protocolo, 17 grupos adversariais, 16.887 casos numéricos, 9 sequências com 540 comandos e 16 regressões de API/limites | [Adversariais](artifacts/adversarial.json), [numéricos](artifacts/numeric-properties.json), [invariantes](artifacts/invariants.json) e [regressões](artifacts/regression-audit.json) |
+| ASan/UBSan | PASS nos testes executados, com detecção de vazamentos na CLI | [Sanitizers](artifacts/sanitize.json) |
+| Mutações | PASS: 11 mutantes não equivalentes mortos; uma renomeação equivalente passou | [Mutações](artifacts/mutations.json) |
+| Cobertura | 1.194/1.251 linhas (95,44%); 1.289/1.646 desfechos de branches (78,31%) | [Cobertura](artifacts/coverage.json) |
+| Rastreabilidade bidirecional | PASS: 123 funções, 877 decisões e 123 critérios; zero regra, função ou decisão órfã | [Rastreabilidade](evaluation/traceability.json), [inventário AST](evaluation/inventory.json) e [FAST](artifacts/full-00.log) |
+| Corpus isolado | PASS: exportação por allowlist e build sem oráculo | [Exportação](artifacts/full-08.log) e [build isolado](artifacts/export-build.txt) |
+| Joern / CPG | PASS: ingestão, locations das 123 funções e cinco sentinelas de dependência, em gates separados | [Resumo Joern](artifacts/joern-smoke/summary.json) e [relatório](artifacts/joern-smoke/REPORT.md) |
+| Slicing nativo Joern | Profundidades 4, 8 e 12 concluídas; profundidade 20 atingiu timeout de 30 minutos | [Comparação e limites](artifacts/joern-depth12/REPORT.md) |
 
-## Alcance dos checks
+## Alcance e pendências
 
-A reconciliação editorial é comparação de texto/dados e inventário lexical de tags, **não um parser Gherkin alternativo**. A checagem numérica usa cálculos independentes em Python sobre um subconjunto de vetores; não prova todas as regras, alcançabilidade, ausência de UB ou correção do código futuro. Os ciclos completos foram especificados, mas não executados contra C.
+A qualificação cobre a fixture e os gates definidos; não comprova extração completa de regras. A análise pelo método do PGC e a comparação semântica com o oráculo ainda não foram executadas. Geração de CPG, dependências selecionadas e validade estrutural dos slices são evidências distintas.
 
-O verificador aceita `--gherkin` para usar o parser oficial assim que ele estiver disponível. Ausência do parser retorna código2, não PASS. A implementação precisa instalar a ferramenta, executar os cenários e qualificar a fixture conforme os gates. Não tratar a presente documentação como certificado de aplicação pronta.
+O frontend Joern relatou fallbacks de ordem no CFG. A cobertura não é total: falhas reais de alocação e certos erros de I/O não foram todos exercitados. Não há prova formal de equivalência nem garantia de generalização para sistemas reais. [PROGRESS.md](PROGRESS.md) reúne os limites atuais.
+
+O check editorial não executa o C. A checagem aritmética dos exemplos usa um subconjunto independente de 84 casos e 106 comparações; os testes numéricos do FULL têm o alcance maior indicado acima. As expectativas ficam fora da aplicação e do pacote analisável.
 
 ## Reproduzir
 
-```bash
-python tools/check_spec.py
-python tools/check_oracle_math.py
-python -m pip install gherkin-official
-python tools/check_spec.py --gherkin
+Siga os requisitos e a instalação de dependências do [README](README.md), depois execute:
+
+```sh
+make test-fast
+make test-full
 ```
 
-Todos os checks deste arquivo dizem respeito ao pacote autoral. Nenhum ID de nó, localização de código ou resultado de extração foi inventado para preencher uma matriz futura.
+Comandos individuais, versões e exits estão em [full.json](artifacts/full.json). Ferramenta ausente, falha ou teste não executado deve continuar explícito; este resumo só pode manter PASS enquanto a evidência se aplicar ao estado da fixture.
