@@ -6,12 +6,10 @@
 
 ## O que já existe
 
-Especificação, arquitetura, ADRs, catálogo normativo, exemplos concretos Gherkin, contratos de execução/avaliação, backlog e um verificador estrutural do pacote. **Não há aplicação C implementada, bindings de execução, CPG, slices ou resultados de extração.**
+A aplicação C17, a CLI, o harness Gherkin oficial, os testes independentes, a rastreabilidade e os scripts de exportação/qualificação estão implementados. Comece pelo README.md para executar e por PROGRESS.md para conferir os gates e limites reais.
 
-`python tools/check_spec.py` verifica integridade editorial. `python tools/check_spec.py --gherkin` também exige o pacote Python `gherkin-official` e verifica a sintaxe com o parser oficial. Essas verificações não executam a aplicação futura.
+`make test-fast` executa a regressão obrigatória rápida; `make test-full` inclui mutações, sanitizers, cobertura, exportação isolada e Joern. `python tools/check_spec.py` continua sendo apenas verificação editorial; seu sucesso isolado não significa execução financeira nem qualidade de slicing.
 
-## Ordem prática
+## Continuidade
 
-Estabilize dinheiro/tempo/estado e o harness; desenvolva capacidades completas com testes; integre ciclos longos; finalize o corpus e os gates. As etapas são organização interna da construção, não versões menores do escopo. A entrega inaugural inclui todas as capacidades.
-
-Para dúvidas locais, consulte primeiro o contrato correspondente. Registre uma decisão material em ADR, em vez de reabrir todo o projeto. O catálogo é o mínimo contratado; comportamento adicional exige documentação e teste antes de entrar no baseline.
+Mantenha contratos, catálogo e Gherkin concordantes. Para mudanças, leia apenas os contratos/catálogos/features afetados, preserve o oráculo e regenere os mapas depois de alterar código. A arquitetura e o backlog descrevem o escopo integral já entregue; não autorizam redução das capacidades em futuras alterações.

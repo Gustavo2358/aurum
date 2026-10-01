@@ -1,0 +1,1 @@
+{"CPG_INGESTION": "PASS", "LOCATION_MAPPING": "PASS", "SELECTED_DEPENDENCE_CHECKS": "PASS", "joern_version": "4.0.630", "production_methods": 123, "slice": {"status": "PASS", "depth": 4, "nodes": 302, "edges": 435, "scope": "Backward argument slice; partial by construction. No claim of complete memory/state/control support."}, "errors": []}

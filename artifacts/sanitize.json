@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "mode": "sanitize",
+  "runs": [
+    {
+      "command": [
+        "cc",
+        "-std=c17",
+        "-O1",
+        "-g",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-I/home/gustavo/workspace/aurum-fixture/subject/include",
+        "-fsanitize=address,undefined",
+        "-fno-omit-frame-pointer",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/billing.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/engine.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/lifecycle.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/main.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/money.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/output.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/policy.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/protocol.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/state.c",
+        "-o",
+        "/home/gustavo/workspace/aurum-fixture/build/sanitize/aurum"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "cc",
+        "-std=c17",
+        "-O1",
+        "-g",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-I/home/gustavo/workspace/aurum-fixture/subject/include",
+        "-fsanitize=address,undefined",
+        "-fno-omit-frame-pointer",
+        "-fPIC",
+        "-shared",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/billing.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/engine.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/lifecycle.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/money.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/output.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/policy.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/protocol.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/state.c",
+        "-o",
+        "/home/gustavo/workspace/aurum-fixture/build/sanitize/libaurum.so"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "/home/gustavo/workspace/aurum-fixture/harness/run.py",
+        "--self-test",
+        "--report",
+        "artifacts/sanitize-gherkin.json"
+      ],
+      "exit": 0,
+      "stdout": "Gherkin: 299/299 PASS; 0 FAIL; zero skips\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "/home/gustavo/workspace/aurum-fixture/harness/protocol_adversarial.py"
+      ],
+      "exit": 0,
+      "stdout": "{\"checks\": 73, \"protocol_adversarial\": \"PASS\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "/home/gustavo/workspace/aurum-fixture/harness/adversarial.py",
+        "--binary",
+        "/home/gustavo/workspace/aurum-fixture/build/sanitize/aurum",
+        "--report",
+        "artifacts/sanitize-adversarial.json"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"groups\": [\n    {\n      \"group\": \"quote_reference\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"credit_boundaries\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"daily_gross\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"eligibility\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"risk_window\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"capture_fragments\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"refund_fragments\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"future_refund\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"payment_priority\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"reward_cap\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"capture_partition\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"replay\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"declined_replay\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"capacity\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"expiration\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"independent_accounts\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"line_boundary\",\n      \"status\": \"PASS\"\n    }\n  ],\n  \"processes\": 47,\n  \"responses\": 864\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "/home/gustavo/workspace/aurum-fixture/harness/numeric_properties.py"
+      ],
+      "exit": 0,
+      "stdout": "{\"status\": \"PASS\", \"seed\": 20260930, \"numeric_cases\": 16887, \"assertions\": 32502, \"reference\": \"Python arbitrary-precision integers; no expected values from the C implementation\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "/home/gustavo/workspace/aurum-fixture/harness/invariants.py"
+      ],
+      "exit": 0,
+      "stdout": "{\"status\": \"PASS\", \"seed\": 20260930, \"streams\": 9, \"commands\": 540, \"assertions\": 212281, \"oracle\": \"Independent relational sums and arbitrary-precision equations over records produced by real C commands\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "/home/gustavo/workspace/aurum-fixture/harness/regression_audit.py"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"groups\": [\n    {\n      \"group\": \"malformed_c_api\",\n      \"status\": \"PASS\",\n      \"cases\": 11\n    },\n    {\n      \"group\": \"numeric_transaction_edges\",\n      \"status\": \"PASS\",\n      \"cases\": 5\n    }\n  ],\n  \"cli_processes\": 5,\n  \"cli_responses\": 34\n}\n",
+      "stderr": ""
+    }
+  ],
+  "coverage": {},
+  "scope": "ASan+UBSan execute full Gherkin via shared C; CLI leak detection enabled separately. Coverage is execution evidence, not semantic correctness."
+}

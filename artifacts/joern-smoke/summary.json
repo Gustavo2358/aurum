@@ -1,0 +1,167 @@
+{
+  "CPG_INGESTION": "PASS",
+  "LOCATION_MAPPING": "PASS",
+  "SELECTED_DEPENDENCE_CHECKS": "PASS",
+  "joern_version": "4.0.630",
+  "production_methods": 123,
+  "synthetic_initializers": 15,
+  "sentinels": [
+    {
+      "id": "authorization",
+      "method": "authorize_apply",
+      "callee": "credit_admission",
+      "checks": {
+        "cross_file_call": true,
+        "parameter_to_argument_path": true,
+        "control_dependence": true,
+        "observable_write": true,
+        "sink_location": true
+      },
+      "paths": 1,
+      "control_nodes": 20,
+      "sink_lines": [
+        86
+      ]
+    },
+    {
+      "id": "capture",
+      "method": "capture_apply",
+      "callee": "cumulative_delta",
+      "checks": {
+        "cross_file_call": true,
+        "parameter_to_argument_path": true,
+        "control_dependence": true,
+        "observable_write": true,
+        "sink_location": true
+      },
+      "paths": 1,
+      "control_nodes": 15,
+      "sink_lines": [
+        145
+      ]
+    },
+    {
+      "id": "refund",
+      "method": "refund_apply",
+      "callee": "cumulative_delta",
+      "checks": {
+        "cross_file_call": true,
+        "parameter_to_argument_path": true,
+        "control_dependence": true,
+        "observable_write": true,
+        "sink_location": true
+      },
+      "paths": 2,
+      "control_nodes": 26,
+      "sink_lines": [
+        306,
+        308
+      ]
+    },
+    {
+      "id": "billing",
+      "method": "invoice_minimum",
+      "callee": "ceil_rate",
+      "checks": {
+        "cross_file_call": true,
+        "parameter_to_argument_path": true,
+        "control_dependence": true,
+        "observable_write": true,
+        "sink_location": true
+      },
+      "paths": 1,
+      "control_nodes": 2,
+      "sink_lines": [
+        13
+      ]
+    },
+    {
+      "id": "payment",
+      "method": "pay_apply",
+      "callee": "project_account",
+      "checks": {
+        "cross_file_call": true,
+        "parameter_to_argument_path": true,
+        "control_dependence": true,
+        "observable_write": true,
+        "sink_location": true
+      },
+      "paths": 1,
+      "control_nodes": 6,
+      "sink_lines": [
+        111
+      ]
+    }
+  ],
+  "slice": {
+    "status": "PASS",
+    "depth": 4,
+    "nodes": 302,
+    "edges": 435,
+    "scope": "Backward argument slice; partial by construction. No claim of complete memory/state/control support."
+  },
+  "commands": [
+    {
+      "name": "version",
+      "command": [
+        "joern"
+      ],
+      "exit": 0,
+      "seconds": 5.94
+    },
+    {
+      "name": "parse",
+      "command": [
+        "joern-parse",
+        "/home/gustavo/workspace/aurum-fixture/dist/analysis-subject",
+        "--language",
+        "C",
+        "-o",
+        "/home/gustavo/workspace/aurum-fixture/artifacts/joern-smoke/cpg.bin"
+      ],
+      "exit": 0,
+      "seconds": 3.97
+    },
+    {
+      "name": "query",
+      "command": [
+        "joern",
+        "--script",
+        "/home/gustavo/workspace/aurum-fixture/tools/joern_smoke.sc",
+        "--param",
+        "cpgFile=/home/gustavo/workspace/aurum-fixture/artifacts/joern-smoke/cpg.bin",
+        "--param",
+        "out=/home/gustavo/workspace/aurum-fixture/artifacts/joern-smoke/inventory.json"
+      ],
+      "exit": 0,
+      "seconds": 6.2
+    },
+    {
+      "name": "slice-depth4",
+      "command": [
+        "joern-slice",
+        "data-flow",
+        "--method-name-filter",
+        "capture_apply",
+        "--sink-filter",
+        ".*ledger_pair.*",
+        "--slice-depth",
+        "4",
+        "-p",
+        "2",
+        "-o",
+        "/home/gustavo/workspace/aurum-fixture/artifacts/joern-smoke/capture-slice-depth4",
+        "/home/gustavo/workspace/aurum-fixture/artifacts/joern-smoke/cpg.bin"
+      ],
+      "exit": 0,
+      "seconds": 4.86
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Frontend reported CFG order fallbacks for for/break/continue; selected paths and locations were inspected, not every CFG edge.",
+    "The exploratory depth-20 ledger slice was interrupted after minutes without output; reproducible smoke uses depth 4.",
+    "Source location and selected dependencies are not proof of complete slicing or extracted-rule correctness.",
+    "CPG synthetic <clinit> methods are frontend nodes, not additional production functions."
+  ]
+}

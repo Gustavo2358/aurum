@@ -1,0 +1,1 @@
+cc -std=c17 -O2 -Wall -Wextra -Wpedantic -Werror -Iinclude src/billing.c src/engine.c src/lifecycle.c src/main.c src/money.c src/output.c src/policy.c src/protocol.c src/state.c -o aurum

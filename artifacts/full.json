@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "command": [
+        "make",
+        "test-fast"
+      ],
+      "exit": 0,
+      "status": "PASS",
+      "seconds": 1.13,
+      "log": "artifacts/full-00.log"
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "harness/adversarial.py",
+        "--report",
+        "artifacts/adversarial.json"
+      ],
+      "exit": 0,
+      "status": "PASS",
+      "seconds": 0.09,
+      "log": "artifacts/full-01.log"
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "harness/numeric_properties.py"
+      ],
+      "exit": 0,
+      "status": "PASS",
+      "seconds": 0.1,
+      "log": "artifacts/full-02.log"
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "harness/invariants.py"
+      ],
+      "exit": 0,
+      "status": "PASS",
+      "seconds": 2.87,
+      "log": "artifacts/full-03.log"
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "harness/regression_audit.py"
+      ],
+      "exit": 0,
+      "status": "PASS",
+      "seconds": 0.07,
+      "log": "artifacts/full-04.log"
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "tools/mutations.py"
+      ],
+      "exit": 0,
+      "status": "PASS",
+      "seconds": 4.76,
+      "log": "artifacts/full-05.log"
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "tools/instrument.py",
+        "--mode",
+        "sanitize"
+      ],
+      "exit": 0,
+      "status": "PASS",
+      "seconds": 8.54,
+      "log": "artifacts/full-06.log"
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "tools/instrument.py",
+        "--mode",
+        "coverage"
+      ],
+      "exit": 0,
+      "status": "PASS",
+      "seconds": 4.2,
+      "log": "artifacts/full-07.log"
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "tools/export.py"
+      ],
+      "exit": 0,
+      "status": "PASS",
+      "seconds": 0.93,
+      "log": "artifacts/full-08.log"
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "tools/joern_smoke.py"
+      ],
+      "exit": 0,
+      "status": "PASS",
+      "seconds": 21.02,
+      "log": "artifacts/full-09.log"
+    }
+  ],
+  "versions": {
+    "python": "3.14.4",
+    "gherkin-official": "42.0.1",
+    "libclang": "18.1.1",
+    "cc": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0"
+  }
+}

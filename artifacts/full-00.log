@@ -1,0 +1,27 @@
+make[1]: Entering directory '/home/gustavo/workspace/aurum-fixture'
+.venv/bin/python tools/check_spec.py --gherkin
+{
+  "editorial_status": "PASS",
+  "BR": 111,
+  "FR": 12,
+  "scenarios": 296,
+  "features": 15,
+  "internal_links_checked": 269,
+  "gherkin_parser": "PASS",
+  "C_execution": "NOT_EVALUATED_BY_EDITORIAL_CHECK",
+  "Joern": "NOT_EVALUATED_BY_EDITORIAL_CHECK",
+  "errors": []
+}
+.venv/bin/python tools/check_oracle_math.py
+{
+  "arithmetic_cases_checked": 84,
+  "assertions_checked": 106,
+  "errors": []
+}
+.venv/bin/python harness/run.py --self-test
+Gherkin: 299/299 PASS; 0 FAIL; zero skips
+.venv/bin/python harness/protocol_adversarial.py
+{"checks": 73, "protocol_adversarial": "PASS"}
+.venv/bin/python tools/trace.py
+{"rules": 123, "functions": 123, "decisions": 877, "logical_decisions": 285, "public_criteria": 123, "compiled_scenarios": 296, "multifunction_rules": 36, "cross_file_rules": 31, "loop_rules": 33, "reviewed_loop_rules": ["BR-BAT-005", "BR-BAT-006", "BR-BAT-007", "BR-BAT-008", "BR-BIL-003", "BR-BIL-007", "BR-CAP-005", "BR-ELG-009", "BR-IDM-001", "BR-IDM-004", "BR-INS-004", "BR-INS-005", "BR-INS-006", "BR-INS-007", "BR-LIM-001", "BR-LIM-004", "BR-LIM-005", "BR-LIM-006", "BR-LIM-007", "BR-REV-004", "BR-REV-007", "BR-REW-005", "BR-REW-007", "BR-RSK-005", "FR-IO-001", "FR-IO-004", "FR-IO-005", "FR-IO-006", "FR-IO-007", "FR-IO-008", "FR-IO-009", "FR-IO-010", "FR-IO-011"], "support_multifunction_rules": 101, "support_cross_file_rules": 76, "unmapped_rules": 0, "orphan_functions": 0, "orphan_decisions": 0, "errors": [], "limitations": ["Support windows are manually reviewed causal locations, not complete backward slices.", "Criteria select observable return/write AST nodes. $return is a selector for the returned value, not a fabricated source variable. Exact expression sources remain evaluator-private when they contain formulas or constant outcomes."]}
+make[1]: Leaving directory '/home/gustavo/workspace/aurum-fixture'

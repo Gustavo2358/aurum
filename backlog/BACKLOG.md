@@ -4,19 +4,19 @@ Tudo é obrigatório. A ordem abaixo permite estabilizar contratos; não é road
 
 | Item | Resultado | Estado |
 |---|---|---|
-| [B00](B00.md) | Ambiente, build e harness real | PENDING |
-| [B01](B01.md) | Dinheiro, configuração e seed | PENDING |
-| [B02](B02.md) | Modelo financeiro e reconciliação | PENDING |
-| [B03](B03.md) | Cotação e parcelamento puro | PENDING |
-| [B04](B04.md) | Elegibilidade, limites e risco | PENDING |
-| [B05](B05.md) | Idempotência e autorização transacional | PENDING |
-| [B06](B06.md) | Capturas parciais e lotes | PENDING |
-| [B07](B07.md) | Cancelamento, expiração e TICK | PENDING |
-| [B08](B08.md) | Reembolsos proporcionais | PENDING |
-| [B09](B09.md) | Fatura e pagamento | PENDING |
-| [B10](B10.md) | Recompensas e ciclos | PENDING |
-| [B11](B11.md) | CLI, batch e consultas | PENDING |
-| [B12](B12.md) | Ciclos completos e contraprovas | PENDING |
-| [B13](B13.md) | Rastreabilidade e inventário inverso | PENDING |
-| [B14](B14.md) | Exportação limpa e smoke Joern | PENDING |
-| [B15](B15.md) | Fechamento integral | PENDING |
+| [B00](B00.md) | Ambiente, build e harness real | DONE |
+| [B01](B01.md) | Dinheiro, configuração e seed | DONE |
+| [B02](B02.md) | Modelo financeiro e reconciliação | DONE |
+| [B03](B03.md) | Cotação e parcelamento puro | DONE |
+| [B04](B04.md) | Elegibilidade, limites e risco | DONE |
+| [B05](B05.md) | Idempotência e autorização transacional | DONE |
+| [B06](B06.md) | Capturas parciais e lotes | DONE |
+| [B07](B07.md) | Cancelamento, expiração e TICK | DONE |
+| [B08](B08.md) | Reembolsos proporcionais | DONE |
+| [B09](B09.md) | Fatura e pagamento | DONE |
+| [B10](B10.md) | Recompensas e ciclos | DONE |
+| [B11](B11.md) | CLI, batch e consultas | DONE |
+| [B12](B12.md) | Ciclos completos e contraprovas | DONE |
+| [B13](B13.md) | Rastreabilidade e inventário inverso | DONE |
+| [B14](B14.md) | Exportação limpa e smoke Joern | DONE |
+| [B15](B15.md) | Fechamento integral | DONE |

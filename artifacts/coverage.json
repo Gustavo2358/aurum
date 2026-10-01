@@ -1,0 +1,210 @@
+{
+  "status": "PASS",
+  "mode": "coverage",
+  "runs": [
+    {
+      "command": [
+        "cc",
+        "-std=c17",
+        "-O1",
+        "-g",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-I/home/gustavo/workspace/aurum-fixture/subject/include",
+        "--coverage",
+        "-O0",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/billing.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/engine.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/lifecycle.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/main.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/money.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/output.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/policy.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/protocol.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/state.c",
+        "-o",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/aurum"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "cc",
+        "-std=c17",
+        "-O1",
+        "-g",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-I/home/gustavo/workspace/aurum-fixture/subject/include",
+        "--coverage",
+        "-O0",
+        "-fPIC",
+        "-shared",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/billing.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/engine.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/lifecycle.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/money.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/output.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/policy.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/protocol.c",
+        "/home/gustavo/workspace/aurum-fixture/subject/src/state.c",
+        "-o",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/libaurum.so"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "/home/gustavo/workspace/aurum-fixture/harness/run.py",
+        "--self-test",
+        "--report",
+        "artifacts/coverage-gherkin.json"
+      ],
+      "exit": 0,
+      "stdout": "Gherkin: 299/299 PASS; 0 FAIL; zero skips\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "/home/gustavo/workspace/aurum-fixture/harness/protocol_adversarial.py"
+      ],
+      "exit": 0,
+      "stdout": "{\"checks\": 73, \"protocol_adversarial\": \"PASS\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "/home/gustavo/workspace/aurum-fixture/harness/adversarial.py",
+        "--binary",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/aurum",
+        "--report",
+        "artifacts/coverage-adversarial.json"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"groups\": [\n    {\n      \"group\": \"quote_reference\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"credit_boundaries\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"daily_gross\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"eligibility\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"risk_window\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"capture_fragments\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"refund_fragments\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"future_refund\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"payment_priority\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"reward_cap\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"capture_partition\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"replay\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"declined_replay\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"capacity\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"expiration\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"independent_accounts\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"group\": \"line_boundary\",\n      \"status\": \"PASS\"\n    }\n  ],\n  \"processes\": 47,\n  \"responses\": 864\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "/home/gustavo/workspace/aurum-fixture/harness/numeric_properties.py"
+      ],
+      "exit": 0,
+      "stdout": "{\"status\": \"PASS\", \"seed\": 20260930, \"numeric_cases\": 16887, \"assertions\": 32502, \"reference\": \"Python arbitrary-precision integers; no expected values from the C implementation\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "/home/gustavo/workspace/aurum-fixture/harness/invariants.py"
+      ],
+      "exit": 0,
+      "stdout": "{\"status\": \"PASS\", \"seed\": 20260930, \"streams\": 9, \"commands\": 540, \"assertions\": 212281, \"oracle\": \"Independent relational sums and arbitrary-precision equations over records produced by real C commands\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/gustavo/workspace/aurum-fixture/.venv/bin/python",
+        "/home/gustavo/workspace/aurum-fixture/harness/regression_audit.py"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"groups\": [\n    {\n      \"group\": \"malformed_c_api\",\n      \"status\": \"PASS\",\n      \"cases\": 11\n    },\n    {\n      \"group\": \"numeric_transaction_edges\",\n      \"status\": \"PASS\",\n      \"cases\": 5\n    }\n  ],\n  \"cli_processes\": 5,\n  \"cli_responses\": 34\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "gcov",
+        "--json-format",
+        "--branch-probabilities",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/aurum-policy.gcda",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/aurum-main.gcda",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/libaurum.so-engine.gcda",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/aurum-protocol.gcda",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/libaurum.so-lifecycle.gcda",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/libaurum.so-output.gcda",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/aurum-money.gcda",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/libaurum.so-state.gcda",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/libaurum.so-billing.gcda",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/libaurum.so-protocol.gcda",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/libaurum.so-policy.gcda",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/aurum-output.gcda",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/libaurum.so-money.gcda",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/aurum-billing.gcda",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/aurum-lifecycle.gcda",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/aurum-engine.gcda",
+        "/home/gustavo/workspace/aurum-fixture/build/coverage/aurum-state.gcda"
+      ],
+      "exit": 0,
+      "stdout": "File '/home/gustavo/workspace/aurum-fixture/subject/src/policy.c'\nLines executed:100.00% of 98\nBranches executed:99.07% of 214\nTaken at least once:73.83% of 214\nCalls executed:100.00% of 21\n\nCreating 'aurum-policy.gcov.json.gz'\nFile '/home/gustavo/workspace/aurum-fixture/subject/src/main.c'\nLines executed:88.89% of 36\nBranches executed:95.83% of 48\nTaken at least once:64.58% of 48\nCalls executed:56.67% of 30\n\nCreating 'aurum-main.gcov.json.gz'\nFile '/home/gustavo/workspace/aurum-fixture/subject/src/engine.c'\nLines executed:97.96% of 49\nBranches executed:97.65% of 85\nTaken at least once:78.82% of 85\nCalls executed:85.19% of 27\n\nCreating 'libaurum.so-engine.gcov.json.gz'\nFile '/home/gustavo/workspace/aurum-fixture/subject/src/protocol.c'\nLines executed:90.48% of 315\nBranches executed:93.90% of 590\nTaken at least once:72.54% of 590\nCalls executed:93.81% of 97\n\nCreating 'aurum-protocol.gcov.json.gz'\nFile '/home/gustavo/workspace/aurum-fixture/subject/src/lifecycle.c'\nLines executed:93.62% of 282\nBranches executed:96.43% of 224\nTaken at least once:67.86% of 224\nCalls executed:79.34% of 121\n\nCreating 'libaurum.so-lifecycle.gcov.json.gz'\nFile '/home/gustavo/workspace/aurum-fixture/subject/src/output.c'\nLines executed:24.17% of 120\nBranches executed:30.38% of 79\nTaken at least once:17.72% of 79\nCalls executed:16.33% of 98\n\nCreating 'libaurum.so-output.gcov.json.gz'\nFile '/home/gustavo/workspace/aurum-fixture/subject/src/money.c'\nLines executed:100.00% of 44\nBranches executed:100.00% of 80\nTaken at least once:56.25% of 80\nCalls executed:100.00% of 18\n\nCreating 'aurum-money.gcov.json.gz'\nFile '/home/gustavo/workspace/aurum-fixture/subject/src/state.c'\nLines executed:97.97% of 197\nBranches executed:100.00% of 196\nTaken at least once:77.04% of 196\nCalls executed:66.67% of 39\n\nCreating 'libaurum.so-state.gcov.json.gz'\nFile '/home/gustavo/workspace/aurum-fixture/subject/src/billing.c'\nLines executed:97.27% of 110\nBranches executed:96.92% of 130\nTaken at least once:73.85% of 130\nCalls executed:100.00% of 28\n\nCreating 'libaurum.so-billing.gcov.json.gz'\nFile '/home/gustavo/workspace/aurum-fixture/subject/src/protocol.c'\nLines executed:51.75% of 315\nBranches executed:55.42% of 590\nTaken at least once:38.47% of 590\nCalls executed:55.67% of 97\n\nCreating 'libaurum.so-protocol.gcov.json.gz'\nFile '/home/gustavo/workspace/aurum-fixture/subject/src/policy.c'\nLines executed:100.00% of 98\nBranches executed:100.00% of 214\nTaken at least once:90.65% of 214\nCalls executed:100.00% of 21\n\nCreating 'libaurum.so-policy.gcov.json.gz'\nFile '/home/gustavo/workspace/aurum-fixture/subject/src/output.c'\nLines executed:98.33% of 120\nBranches executed:97.47% of 79\nTaken at least once:75.95% of 79\nCalls executed:96.94% of 98\n\nCreating 'aurum-output.gcov.json.gz'\nFile '/home/gustavo/workspace/aurum-fixture/subject/src/money.c'\nLines executed:100.00% of 44\nBranches executed:100.00% of 80\nTaken at least once:90.00% of 80\nCalls executed:100.00% of 18\n\nCreating 'libaurum.so-money.gcov.json.gz'\nFile '/home/gustavo/workspace/aurum-fixture/subject/src/billing.c'\nLines executed:93.64% of 110\nBranches executed:90.77% of 130\nTaken at least once:58.46% of 130\nCalls executed:100.00% of 28\n\nCreating 'aurum-billing.gcov.json.gz'\nFile '/home/gustavo/workspace/aurum-fixture/subject/src/lifecycle.c'\nLines executed:92.91% of 282\nBranches executed:94.64% of 224\nTaken at least once:63.84% of 224\nCalls executed:77.69% of 121\n\nCreating 'aurum-lifecycle.gcov.json.gz'\nFile '/home/gustavo/workspace/aurum-fixture/subject/src/engine.c'\nLines executed:97.96% of 49\nBranches executed:100.00% of 85\nTaken at least once:83.53% of 85\nCalls executed:92.59% of 27\n\nCreating 'aurum-engine.gcov.json.gz'\nFile '/home/gustavo/workspace/aurum-fixture/subject/src/state.c'\nLines executed:98.48% of 197\nBranches executed:97.96% of 196\nTaken at least once:75.00% of 196\nCalls executed:66.67% of 39\n\nCreating 'aurum-state.gcov.json.gz'\nLines executed:86.37% of 2466\n",
+      "stderr": ""
+    }
+  ],
+  "coverage": {
+    "subject/src/output.c": {
+      "lines": 120,
+      "lines_hit": 118,
+      "branches": 79,
+      "branches_hit": 60
+    },
+    "subject/src/lifecycle.c": {
+      "lines": 282,
+      "lines_hit": 266,
+      "branches": 224,
+      "branches_hit": 157
+    },
+    "subject/src/money.c": {
+      "lines": 44,
+      "lines_hit": 44,
+      "branches": 80,
+      "branches_hit": 72
+    },
+    "subject/src/state.c": {
+      "lines": 197,
+      "lines_hit": 196,
+      "branches": 196,
+      "branches_hit": 157
+    },
+    "subject/src/policy.c": {
+      "lines": 98,
+      "lines_hit": 98,
+      "branches": 214,
+      "branches_hit": 197
+    },
+    "subject/src/protocol.c": {
+      "lines": 315,
+      "lines_hit": 285,
+      "branches": 590,
+      "branches_hit": 444
+    },
+    "subject/src/engine.c": {
+      "lines": 49,
+      "lines_hit": 48,
+      "branches": 85,
+      "branches_hit": 74
+    },
+    "subject/src/main.c": {
+      "lines": 36,
+      "lines_hit": 32,
+      "branches": 48,
+      "branches_hit": 31
+    },
+    "subject/src/billing.c": {
+      "lines": 110,
+      "lines_hit": 107,
+      "branches": 130,
+      "branches_hit": 97
+    }
+  },
+  "scope": "ASan+UBSan execute full Gherkin via shared C; CLI leak detection enabled separately. Coverage is execution evidence, not semantic correctness."
+}
